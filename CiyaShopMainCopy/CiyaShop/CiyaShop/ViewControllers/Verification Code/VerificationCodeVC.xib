@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VerificationCodeVC" customModule="CiyaShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.69999998807907104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhI-ta-yur">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F0S-gB-8rU">
+                    <rect key="frame" x="20" y="142" width="280" height="284"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verification Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddo-o5-6nP">
+                            <rect key="frame" x="74.5" y="24" width="131" height="20"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZXl-Ax-mBz">
+                            <rect key="frame" x="16" y="120" width="248" height="46"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Verification Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DfQ-as-4vc" customClass="FloatingTextField" customModule="CiyaShop" customModuleProvider="target">
+                                    <rect key="frame" x="6" y="6" width="236" height="34"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="DfQ-as-4vc" secondAttribute="bottom" constant="6" id="OlX-WF-Lll"/>
+                                <constraint firstItem="DfQ-as-4vc" firstAttribute="leading" secondItem="ZXl-Ax-mBz" secondAttribute="leading" constant="6" id="Oso-nP-XuK"/>
+                                <constraint firstAttribute="trailing" secondItem="DfQ-as-4vc" secondAttribute="trailing" constant="6" id="cyi-Bu-qQa"/>
+                                <constraint firstItem="DfQ-as-4vc" firstAttribute="top" secondItem="ZXl-Ax-mBz" secondAttribute="top" constant="6" id="wME-nK-0mQ"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWR-Be-pZ8">
+                            <rect key="frame" x="16" y="227" width="248" height="37"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                            <state key="normal" title="Resend OTP">
+                                <color key="titleColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnResendOTPClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="MDw-c9-vx5"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verification Code is sent ot the mobile number. Please enter Verification Code." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xms-Nt-heN">
+                            <rect key="frame" x="16" y="68" width="248" height="28"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQ6-4T-C2v">
+                            <rect key="frame" x="16" y="182" width="248" height="37"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                            <state key="normal" title="Validate OTP">
+                                <color key="titleColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnVerifyOTPClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="sLi-0j-HXu"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="cQ6-4T-C2v" secondAttribute="trailing" constant="16" id="0Dh-UD-zTd"/>
+                        <constraint firstItem="Xms-Nt-heN" firstAttribute="top" secondItem="Ddo-o5-6nP" secondAttribute="bottom" constant="24" id="3h6-aX-C7P"/>
+                        <constraint firstItem="qWR-Be-pZ8" firstAttribute="leading" secondItem="ZXl-Ax-mBz" secondAttribute="leading" id="Bta-AK-a81"/>
+                        <constraint firstAttribute="trailing" secondItem="Xms-Nt-heN" secondAttribute="trailing" constant="16" id="CYe-bt-YN0"/>
+                        <constraint firstAttribute="trailing" secondItem="ZXl-Ax-mBz" secondAttribute="trailing" constant="16" id="Gow-4Y-3r8"/>
+                        <constraint firstAttribute="bottom" secondItem="qWR-Be-pZ8" secondAttribute="bottom" constant="20" id="JrQ-t7-8gG"/>
+                        <constraint firstItem="cQ6-4T-C2v" firstAttribute="leading" secondItem="F0S-gB-8rU" secondAttribute="leading" constant="16" id="NM4-bq-t28"/>
+                        <constraint firstAttribute="trailing" secondItem="qWR-Be-pZ8" secondAttribute="trailing" constant="16" id="ai3-Dx-ZbN"/>
+                        <constraint firstItem="qWR-Be-pZ8" firstAttribute="trailing" secondItem="ZXl-Ax-mBz" secondAttribute="trailing" id="atp-Z5-Fi8"/>
+                        <constraint firstItem="Ddo-o5-6nP" firstAttribute="centerX" secondItem="F0S-gB-8rU" secondAttribute="centerX" id="d7d-oB-6Uw"/>
+                        <constraint firstItem="Ddo-o5-6nP" firstAttribute="top" secondItem="F0S-gB-8rU" secondAttribute="top" constant="24" id="gZh-F6-ArB"/>
+                        <constraint firstItem="ZXl-Ax-mBz" firstAttribute="top" secondItem="Xms-Nt-heN" secondAttribute="bottom" constant="24" id="mjd-Rh-4NC"/>
+                        <constraint firstItem="qWR-Be-pZ8" firstAttribute="leading" secondItem="F0S-gB-8rU" secondAttribute="leading" constant="16" id="nHr-Oa-A5P"/>
+                        <constraint firstItem="ZXl-Ax-mBz" firstAttribute="leading" secondItem="F0S-gB-8rU" secondAttribute="leading" constant="16" id="tG9-0e-JMR"/>
+                        <constraint firstItem="Xms-Nt-heN" firstAttribute="leading" secondItem="F0S-gB-8rU" secondAttribute="leading" constant="16" id="uka-hu-oL0"/>
+                        <constraint firstItem="qWR-Be-pZ8" firstAttribute="top" secondItem="cQ6-4T-C2v" secondAttribute="bottom" constant="8" id="vUy-Wc-LEw"/>
+                        <constraint firstItem="cQ6-4T-C2v" firstAttribute="top" secondItem="ZXl-Ax-mBz" secondAttribute="bottom" constant="16" id="yUs-oE-kvh"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIA-9F-Ojp">
+                    <rect key="frame" x="0.0" y="0.0" width="60" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="HrP-S9-jgs"/>
+                        <constraint firstAttribute="width" constant="60" id="kuX-8x-185"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" image="back-arrow-icon"/>
+                    <connections>
+                        <action selector="btnBackClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="2AB-NJ-Yfv"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="F0S-gB-8rU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="3No-d0-uHa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="AhI-ta-yur" secondAttribute="trailing" id="3TV-GC-2fv"/>
+                <constraint firstItem="gIA-9F-Ojp" firstAttribute="top" secondItem="AhI-ta-yur" secondAttribute="top" id="PxQ-Cr-F5s"/>
+                <constraint firstItem="AhI-ta-yur" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="RFk-3S-qSn"/>
+                <constraint firstItem="AhI-ta-yur" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="S95-zu-tfk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="F0S-gB-8rU" secondAttribute="trailing" constant="20" id="amn-1M-id0"/>
+                <constraint firstAttribute="bottom" secondItem="AhI-ta-yur" secondAttribute="bottom" id="jeB-K0-syy"/>
+                <constraint firstItem="gIA-9F-Ojp" firstAttribute="leading" secondItem="AhI-ta-yur" secondAttribute="leading" id="jgj-eC-bkE"/>
+                <constraint firstItem="F0S-gB-8rU" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="k2m-gU-8yP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="blurView" destination="AhI-ta-yur" id="YZe-pY-Iho"/>
+                <outlet property="btnResendOTP" destination="qWR-Be-pZ8" id="9QL-ym-G8U"/>
+                <outlet property="btnValidateOTP" destination="cQ6-4T-C2v" id="R5J-Ch-D0G"/>
+                <outlet property="lblDescription" destination="Xms-Nt-heN" id="PKY-Kz-ZUL"/>
+                <outlet property="lblTitle" destination="Ddo-o5-6nP" id="i4G-c5-a8E"/>
+                <outlet property="txtVerificationCode" destination="DfQ-as-4vc" id="CfW-q5-Nuf"/>
+                <outlet property="vwVerificationCode" destination="ZXl-Ax-mBz" id="XAV-8H-CkM"/>
+            </connections>
+            <point key="canvasLocation" x="-390" y="102"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-arrow-icon" width="22" height="22"/>
+    </resources>
+</document>

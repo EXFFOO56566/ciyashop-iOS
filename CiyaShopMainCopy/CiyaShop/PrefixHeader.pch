@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  CiyaShop
+//
+//  Created by Apple on 09/09/20.
+//  Copyright © 2020 Apple. All rights reserved.
+//
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#pragma mark - API key and Links
+
+//#define OAUTH_CUSTOMER_KEY "ck_4c6a2dc0826b3c1b16786555e9c5b909aff1e073"
+//#define OAUTH_CUSTOMER_SERCET "cs_5ae8fa6ef7af3372edcef738ba3fbb9fbf7b561e"
+//
+//#define OAUTH_CONSUMER_KEY_PLUGIN "UVuD8v9MLgnf"
+//#define OAUTH_CONSUMER_SECRET_PLUGIN "ndw365PtVPFrmkZVBAPZyQlQcZWoTIKu2nkDCUbuom1z3DBC"
+//#define OAUTH_TOKEN_PLUGIN "aWH82bL7dcqbcjziTEp9lXYA";
+//#define OAUTH_TOKEN_SECRET_PLUGIN "voG5KuodZW6Kj2y0y5Ltz4sPuqBhhThSDp17kSxPl71NfsbE"
+//
+//#define appURL "http://test-bh.potenzaglobalsolutions.com/ciyashop-multisteps-checkout/"
+//#define PATH "wp-json/wc/v2/"
+//#define OTHER_API_PATH "wp-json/pgs-woo-api/v1/"
+//#define PLUGIN_VERSION "3.2.4"
+
+
+#endif /* PrefixHeader_pch */

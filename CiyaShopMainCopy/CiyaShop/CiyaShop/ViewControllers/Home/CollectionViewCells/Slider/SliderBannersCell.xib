@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SliderBannersCell" rowHeight="183" id="tDg-ma-FMw" customClass="SliderBannersCell" customModule="CiyaShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tDg-ma-FMw" id="BSW-BF-44M">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ndA-J6-zHZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="3SO-Md-5N4"/>
+                            <constraint firstAttribute="width" constant="375" id="pMp-p1-GgR"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="ZnM-mq-z9n">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="YT9-IE-gsC">
+                        <rect key="frame" x="237.5" y="152.5" width="121.5" height="27.5"/>
+                        <color key="pageIndicatorTintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="currentPageIndicatorTintColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </pageControl>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ndA-J6-zHZ" secondAttribute="bottom" id="5Lc-Vo-P9i"/>
+                    <constraint firstItem="ndA-J6-zHZ" firstAttribute="top" secondItem="BSW-BF-44M" secondAttribute="top" id="8El-37-Ztd"/>
+                    <constraint firstItem="ndA-J6-zHZ" firstAttribute="leading" secondItem="BSW-BF-44M" secondAttribute="leading" id="Fc1-qQ-8Ht"/>
+                    <constraint firstAttribute="trailing" secondItem="ndA-J6-zHZ" secondAttribute="trailing" id="S1Q-0o-56T"/>
+                    <constraint firstAttribute="bottom" secondItem="YT9-IE-gsC" secondAttribute="bottom" id="llQ-p4-wUY"/>
+                    <constraint firstAttribute="trailing" secondItem="YT9-IE-gsC" secondAttribute="trailing" constant="16" id="vSc-0V-HFD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cvHeightConstraint" destination="3SO-Md-5N4" id="gbM-2m-WQa"/>
+                <outlet property="cvSliderBanner" destination="ndA-J6-zHZ" id="x83-jA-zfq"/>
+                <outlet property="cvWidthConstraint" destination="pMp-p1-GgR" id="7n6-Gt-Poe"/>
+                <outlet property="pageControl" destination="YT9-IE-gsC" id="phj-aB-WKO"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="-196.55172413793105"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,1531 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PGS Woo Api 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-10-26 14:03+0530\n"
+"PO-Revision-Date: 2021-10-26 14:03+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cc/inc/classes/class-pgs-woo-api-support.php:77
+#: cc/inc/classes/class-pgs-woo-api-support.php:80
+msgid "There was an error processing your request, please try again later!"
+msgstr ""
+
+#: cc/inc/classes/class-pgs-wp-autoupdate.php:92
+#, php-format
+msgid "Or goto %s CiyaShop application support %s"
+msgstr ""
+
+#: cc/inc/classes/class-pgs-wp-autoupdate.php:97
+#, php-format
+msgid ""
+"To receive automatic updates license activation is required. Please visit "
+"%sSettings%s to activate your CiyaShop PGS Woo API."
+msgstr ""
+
+#: cc/inc/classes/class-pgs-wp-autoupdate.php:105
+msgid "Getting download link..."
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:57
+msgid ""
+"Current WPML Language URL format settings not compatible with PGS Woo API."
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:59
+#, fuzzy
+#| msgid "Click for check test API."
+msgid "Click here for change settings."
+msgstr "Нажмите, чтобы проверить API проверки."
+
+#: cc/inc/options-pages/option_page.php:69
+#, fuzzy
+#| msgid "Settings"
+msgid "App Settings"
+msgstr "Hастройки"
+
+#: cc/inc/options-pages/option_page.php:82
+#: cc/inc/options-pages/option_page.php:90
+msgid "WelCome"
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:91
+#, fuzzy
+#| msgid "Please enter your name"
+msgid "Please verify your purches key"
+msgstr "Пожалуйста, введите Ваше имя"
+
+#: cc/inc/options-pages/option_page.php:109
+msgid "Filters"
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:116
+msgid "Price"
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:117
+#: cc/inc/options-pages/option_page.php:130
+#: cc/inc/options-pages/option_page.php:139
+msgid "Enable"
+msgstr "включить"
+
+#: cc/inc/options-pages/option_page.php:118
+#: cc/inc/options-pages/option_page.php:131
+#: cc/inc/options-pages/option_page.php:140
+msgid "Disable"
+msgstr "запрещать"
+
+#: cc/inc/options-pages/option_page.php:138
+msgid "Average Rating"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:33
+#, fuzzy
+#| msgid "Please enter your password"
+msgid "Please Enter Item Purchase Code"
+msgstr "Пожалуйста введите ваш пароль"
+
+#: cc/inc/support/templates/support-content.php:35
+#, php-format
+msgid ""
+"Thank you for installing %s plugin! Please enter the item purchase code of "
+"%1$s plugin to be able to install demos and get updates of the plugin."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:77
+msgid "Please enter product purchase key to activate plugin."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:84
+#, php-format
+msgid "<p>Click here for Goto <a href=\"%1$s\">API Settings</a>."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:111
+#: cc/inc/support/templates/support-content.php:123
+msgid "Check"
+msgstr "Проверьте"
+
+#: cc/inc/support/templates/support-content.php:128
+msgid "Instructions For Find Purchase Code"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:131
+msgid "01"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:132
+msgid "Log into your Envato Market account."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:135
+msgid "02"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:136
+msgid "Hover the mouse over your username at the top of the screen."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:139
+msgid "03"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:140
+msgid "Click 'Downloads' from the drop down menu."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:143
+msgid "04"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:147
+#, php-format
+msgid ""
+"Click 'License certificate & purchase code' (available as PDF or text file). "
+"For more information <a href=\"%1$s\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: cc/inc/support/templates/support-header.php:8
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: cc/inc/support/templates/support-header.php:17
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: cc/inc/support/templates/support-header.php:21
+msgid ""
+"<strong>CiyaShop Application API</strong> is now ready to activate! "
+"<strong>CiyaShop Application</strong> is the perfect solution for your "
+"shopping business or your client shopping store as an agency or freelancer. "
+"It Engages consumers to constitute Loyalty with sharp design and features "
+"which make sense for the online shop. It is well-suited for retail stores, "
+"marketplaces, fashion shops, cosmetics and household appliances of any size. "
+"The CiyaShop application is the new way of building robust WooCommerce-based "
+"online shops and businesses."
+msgstr ""
+
+#: cc/inc/support/templates/support.php:57
+msgid "License"
+msgstr ""
+
+#: cc/inc/support/templates/support.php:59
+#: cc/template/warning-alert/pgs-woo-api-warning-alert.php:25
+msgid "Support"
+msgstr ""
+
+#: cc/inc/support/templates/support.php:67
+msgid "Please Follow the installation process"
+msgstr ""
+
+#: cc/inc/support/templates/support.php:86
+msgid ""
+"Click on the below button and follow the installation process, the "
+"installation process will update the plugin necessary plugin files and help "
+"to install the required plugins etc."
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:15
+msgid "Are you sure you want to delete this element?"
+msgstr "Вы действительно хотите удалить этот элемент?"
+
+#: cc/inc/woo-api-functions.php:16
+msgid "Choose Image"
+msgstr "Выберите изображение"
+
+#: cc/inc/woo-api-functions.php:17
+#, fuzzy
+#| msgid "App Image"
+msgid "Add Image"
+msgstr "Изображение приложения"
+
+#: cc/inc/woo-api-functions.php:39 cc/inc/woo-api-functions.php:55
+msgid "Warning"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:40 cc/inc/woo-api-functions.php:57
+msgid "Cancel"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:56
+msgid "Proceed"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:58
+msgid "Install Plugins"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:59
+msgid ""
+"Importing demo content will import contents, widgets and theme options. "
+"Importing sample data will override current widgets and theme options. It "
+"can take some time to complete the import process."
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:241 cc/inc/woo-api-functions.php:247
+#, fuzzy
+#| msgid "Please enter your name"
+msgid "Please verify your purchase key!"
+msgstr "Пожалуйста, введите Ваше имя"
+
+#: cc/template/warning-alert/pgs-woo-api-warning-alert.php:24
+msgid "Documentation"
+msgstr ""
+
+#: cc/template/warning-alert/pgs-woo-api-warning-alert.php:26
+msgid "Try again"
+msgstr ""
+
+#: pgs-woo-api.php:31
+msgid "PGS Woo API"
+msgstr "PGS Woo API"
+
+#: pgs-woo-api.php:34
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\">App Settings</a> For setup the PGS Woo API plugin."
+msgstr ""
+
+#~ msgid "PGS Woo Api"
+#~ msgstr "PGS Woo Api"
+
+#~ msgid "No product found"
+#~ msgstr "Не найдено ни одного продукта"
+
+#~ msgid "Sorry, that is not valid input. You missed cart_items parameters"
+#~ msgstr "Извините, это неверный ввод. Вы пропустили параметры cart_items"
+
+#~ msgid "Cart is empty"
+#~ msgstr "Ваша корзина пуста"
+
+#~ msgid "Please enter subject"
+#~ msgstr "Пожалуйста, введите тему"
+
+#~ msgid "Please enter your email"
+#~ msgstr "Введите адрес электронной почты"
+
+#~ msgid "Please enter valid email address"
+#~ msgstr "Пожалуйста, введите действующий адрес электронной почты"
+
+#~ msgid "Message can't be blank"
+#~ msgstr "Сообщение не может быть пустым"
+
+#, fuzzy
+#~| msgid "Username: %s"
+#~ msgid "Name : %s"
+#~ msgstr "Имя пользователя: %s"
+
+#~ msgid "The e-mail could not be sent.Please try after some time."
+#~ msgstr ""
+#~ "Электронная почта не может быть отправлена. Пожалуйста, попробуйте через "
+#~ "некоторое время."
+
+#~ msgid ""
+#~ "Your email was successfully sent. We will contact you as soon as possible"
+#~ msgstr ""
+#~ "Ваше письмо было успешно отправлено. Мы свяжемся с вами как можно скорее"
+
+#, fuzzy
+#~| msgid "Record deleted successfully"
+#~ msgid "Result successfully fetched"
+#~ msgstr "Запись успешно удалена"
+
+#, fuzzy
+#~| msgid "No orders found"
+#~ msgid "No Coupons found"
+#~ msgstr "Не найдено ни одного заказа"
+
+#, fuzzy
+#~| msgid "User updated successfully"
+#~ msgid "Coupon scratched successfully."
+#~ msgstr "Пользователь обновлен успешно"
+
+#~ msgid "Please enter your email and password"
+#~ msgstr "Введите адрес электронной почты и пароль"
+
+#~ msgid "Please enter your password"
+#~ msgstr "Пожалуйста введите ваш пароль"
+
+#~ msgid "Please enter valid email or password"
+#~ msgstr "Введите действительный адрес электронной почты или пароль"
+
+#~ msgid "You are not allowed to do that"
+#~ msgstr "Вам не разрешено делать это"
+
+#~ msgid "Your account successfully deactivated"
+#~ msgstr "Ваш аккаунт успешно деактивирован"
+
+#~ msgid "Account disabled"
+#~ msgstr "Учетная запись отключена"
+
+#~ msgid "Something went wrong!"
+#~ msgstr "Что-то пошло не так!"
+
+#~ msgid "Result not found!"
+#~ msgstr "Результат не найден!"
+
+#~ msgid "No data found!"
+#~ msgstr "Данные не найдены!"
+
+#~ msgid "email does not exist"
+#~ msgstr "электронной почты не существует"
+
+#~ msgid ""
+#~ "You are currently deactivated. Please contact to admin for active account"
+#~ msgstr ""
+#~ "Вы в настоящее время деактивированы. Пожалуйста, свяжитесь с "
+#~ "администратором для активной учетной записи"
+
+#~ msgid "Something went wrong. Please try later"
+#~ msgstr "Что-то пошло не так. Пожалуйста, попробуйте позднее"
+
+#~ msgid "Something went wrong. Please try later."
+#~ msgstr "Что-то пошло не так. Пожалуйста, попробуйте позднее."
+
+#~ msgid "Email already exists"
+#~ msgstr "Эл. адрес уже существует"
+
+#~ msgid "Password required"
+#~ msgstr "Требуется пароль"
+
+#~ msgid "User logged out successfully"
+#~ msgstr "Пользователь успешно вышел из системы"
+
+#~ msgid "No orders found"
+#~ msgstr "Не найдено ни одного заказа"
+
+#~ msgid "User not logged in"
+#~ msgstr "Пользователь не вошел в систему"
+
+#~ msgid "Your order was shipped via"
+#~ msgstr "Ваш заказ был отправлен через"
+
+#~ msgid "Tracking number is"
+#~ msgstr "Номер отслеживания"
+
+#~ msgid "Order status changed to Cancelled"
+#~ msgstr "Статус заказа изменен на Отменено"
+
+#~ msgid "fail"
+#~ msgstr "потерпеть неудачу"
+
+#~ msgid "This Order status not is On-Hold or Pending"
+#~ msgstr "Этот статус заказа не включен или не ожидается"
+
+#~ msgid "Please enter password."
+#~ msgstr "Пожалуйста введите пароль."
+
+#~ msgid "password reset not allowed!"
+#~ msgstr "сброс пароля не разрешен!"
+
+#~ msgid "An error occurred!"
+#~ msgstr "Произошла ошибка!"
+
+#~ msgid "Your password has been reset."
+#~ msgstr "Ваш пароль был сброшен."
+
+#, fuzzy
+#~| msgid "Please enter valid email address"
+#~ msgid "Please enter valid email."
+#~ msgstr "Пожалуйста, введите действующий адрес электронной почты"
+
+#, fuzzy
+#~| msgid "Please enter valid email address"
+#~ msgid "Please enter valid registered email."
+#~ msgstr "Пожалуйста, введите действующий адрес электронной почты"
+
+#~ msgid ""
+#~ "Someone requested that the password be reset for the following account:"
+#~ msgstr "Кто-то попросил сбросить пароль для следующей учетной записи:"
+
+#~ msgid "Username: %s"
+#~ msgstr "Имя пользователя: %s"
+
+#~ msgid ""
+#~ "If this was a mistake, just ignore this email and nothing will happen."
+#~ msgstr ""
+#~ "Если это была ошибка, просто игнорируйте это письмо, и ничего не "
+#~ "произойдет."
+
+#~ msgid ""
+#~ "Key for password reset has been emailed to you. Please check your email."
+#~ msgstr ""
+#~ "Ключ для сброса пароля был отправлен вам по электронной почте. Проверьте "
+#~ "свою электронную почту."
+
+#~ msgid "Placeholder"
+#~ msgstr "Заполнитель"
+
+#, fuzzy
+#~| msgid "Dimension: "
+#~ msgid "Dimensions"
+#~ msgstr "Размеры:"
+
+#~ msgid "Notification added successfully"
+#~ msgstr "Успешно добавлено уведомление"
+
+#~ msgid "Something went wrong"
+#~ msgstr "Что-то пошло не так"
+
+#~ msgid "No data found"
+#~ msgstr "Данные не найдены"
+
+#~ msgid "Record deleted successfully"
+#~ msgstr "Запись успешно удалена"
+
+#~ msgid "Record cannot be deleted. Please try after sometime!"
+#~ msgstr ""
+#~ "Запись не может быть удалена. Пожалуйста, попробуйте через некоторое "
+#~ "время!"
+
+#, fuzzy
+#~| msgid "Notification added successfully"
+#~ msgid "Notification status updated successfully"
+#~ msgstr "Успешно добавлено уведомление"
+
+#, fuzzy
+#~| msgid "Please input 1 to 5 in ratestar."
+#~ msgid "Please input 1 to 5 in rate star."
+#~ msgstr "Пожалуйста, введите от 1 до 5 в ratestar."
+
+#~ msgid "Please type a comment."
+#~ msgstr "Пожалуйста, введите комментарий."
+
+#~ msgid "Sorry, you must be logged in to comment."
+#~ msgstr "Извините, вы должны авторизоваться для комментариев."
+
+#~ msgid "Creating a comment requires valid author name and email values."
+#~ msgstr ""
+#~ "Создание комментария требует действительного имени автора и значений "
+#~ "электронной почты."
+
+#, fuzzy
+#~| msgid "Product added successfully"
+#~ msgid "Comment added successfully."
+#~ msgstr "Продукт успешно добавлен"
+
+#, fuzzy
+#~| msgid "You are not allowed to do that"
+#~ msgid "Products are not allowed to comment."
+#~ msgstr "Вам не разрешено делать это"
+
+#~ msgid "External Store URL"
+#~ msgstr "URL внешнего магазина"
+
+#~ msgid "Your comment is awaiting approval"
+#~ msgstr "Ваш комментарий ожидает одобрения"
+
+#~ msgid "Please provide your name."
+#~ msgstr "Укажите свое имя."
+
+#~ msgid "Email sent successfully!"
+#~ msgstr "Письмо успешно отправлено!"
+
+#~ msgid "Something went wrong. Please try after some time."
+#~ msgstr "Что-то пошло не так. Пожалуйста, попробуйте через некоторое время."
+
+#~ msgid "page not set"
+#~ msgstr "страница не задана"
+
+#~ msgid "invalid page name"
+#~ msgstr "неверное имя страницы"
+
+#~ msgid "Please pass static page name"
+#~ msgstr "Пожалуйста, отправьте статическое имя страницы"
+
+#~ msgid "Profile image updated successfully"
+#~ msgstr "Изображение профиля успешно обновлено"
+
+#~ msgid "Invalid image type"
+#~ msgstr "Недопустимый тип изображения"
+
+#~ msgid "Please upload image"
+#~ msgstr "Загрузите изображение"
+
+#~ msgid "Username already exists"
+#~ msgstr "Имя пользователя уже занято"
+
+#~ msgid "User updated successfully"
+#~ msgstr "Пользователь обновлен успешно"
+
+#~ msgid "Sorry, that is not valid input. You missed user_id parameters"
+#~ msgstr "Извините, это неверный ввод. Вы пропустили параметры user_id"
+
+#~ msgid "No data for sync."
+#~ msgstr "Нет данных для синхронизации."
+
+#~ msgid "No record found."
+#~ msgstr "Запись не найдена."
+
+#~ msgid "An error occurred while adding products to the wishlist."
+#~ msgstr "При добавлении продуктов в список пожеланий произошла ошибка."
+
+#~ msgid "Product added!"
+#~ msgstr "Товар добавлен!"
+
+#~ msgid "An error occurred while adding products to wishlist."
+#~ msgstr "Произошла ошибка при добавлении продуктов в список пожеланий."
+
+#~ msgid "exists"
+#~ msgstr "существует"
+
+#~ msgid "Product added successfully"
+#~ msgstr "Продукт успешно добавлен"
+
+#~ msgid "You need to login before creating a new wishlist"
+#~ msgstr "Перед созданием нового списка желаний вам нужно зайти"
+
+#~ msgid "Product deleted successfully"
+#~ msgstr "Продукт удален успешно"
+
+#~ msgid "An error occurred while removing products from the wishlist"
+#~ msgstr "Произошла ошибка при удалении продуктов из списка желаний"
+
+#~ msgid "Sorry, that is not valid input. You missed "
+#~ msgstr "Извините, это неверный ввод. Ты пропустил "
+
+#~ msgid "Cancellation/Return/Exchange Policy"
+#~ msgstr "Отмена / возврат / политика обмена"
+
+#~ msgid "Refund Policy"
+#~ msgstr "Политика возврата"
+
+#~ msgid "Shipping Policy"
+#~ msgstr "Политика доставки"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "required"
+#~ msgstr "Требуется пароль"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "Update country"
+#~ msgstr "Требуется пароль"
+
+#~ msgid "Let's go!"
+#~ msgstr "Поехали!"
+
+#~ msgid "Verification token"
+#~ msgstr "Ток подтверждения"
+
+#~ msgid ""
+#~ "Try to re submit. if still not get final token and token secret then "
+#~ "refresh this page and do it again."
+#~ msgstr ""
+#~ "Попробуйте подать. если еще не получить окончательный токен и токен, а "
+#~ "затем обновить эту страницу и сделать это снова."
+
+#~ msgid "Click on below link to get authorization token."
+#~ msgstr "Нажмите на ссылку ниже, чтобы получить токен авторизации."
+
+#~ msgid "Get verification token"
+#~ msgstr "Получить токен проверки"
+
+#~ msgid ""
+#~ "Onces you click above link, it will redirect you to new tab which will "
+#~ "prompt to authorize API, On clicking \"Authorize\" button, you will get "
+#~ "verification token. Copy that token and paste it to below \"Verification "
+#~ "Token\" input box."
+#~ msgstr ""
+#~ "Onces вы щелкаете над ссылкой, он перенаправляет вас на новую вкладку, "
+#~ "которая будет запрашивать авторизацию API. При нажатии кнопки "
+#~ "«Авторизовать» вы получите контрольный токен. Скопируйте этот токен и "
+#~ "вставьте его ниже в поле ввода «Подтверждение маркера»."
+
+#~ msgid "Verification Token"
+#~ msgstr "Ток подтверждения"
+
+#, fuzzy
+#~| msgid "Content"
+#~ msgid "Continue"
+#~ msgstr "содержание"
+
+#~ msgid "You're ready to call API."
+#~ msgstr "Вы готовы вызвать API."
+
+#~ msgid "Token"
+#~ msgstr "знак"
+
+#~ msgid "Token Secret"
+#~ msgstr "Секретный токен"
+
+#, fuzzy
+#~| msgid "Please enter subject"
+#~ msgid "Please enter verification token."
+#~ msgstr "Пожалуйста, введите тему"
+
+#~ msgid "Push notification"
+#~ msgstr "Отправить уведомление"
+
+#~ msgid "Send push notification to all users"
+#~ msgstr "Отправить push-уведомление всем пользователям"
+
+#~ msgid "Mobile"
+#~ msgstr "Mобильный"
+
+#~ msgid "Gender"
+#~ msgstr "Пол"
+
+#~ msgid "Male"
+#~ msgstr "mужчина"
+
+#~ msgid "Female"
+#~ msgstr "женский"
+
+#~ msgid "DOB"
+#~ msgstr "DOB"
+
+#~ msgid "Deactivate User"
+#~ msgstr "Деактивировать пользователя"
+
+#~ msgid "User can't login if deactivate"
+#~ msgstr "Пользователь не может войти в систему, если отключен"
+
+#~ msgid "Custom User Profile Image"
+#~ msgstr "Пользовательское изображение профиля пользователя"
+
+#~ msgid "Profile Image"
+#~ msgstr "Изображение профиля"
+
+#~ msgid "Upload"
+#~ msgstr "Загрузить"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "Upload a custom image for your user profile"
+#~ msgstr ""
+#~ "Загрузите пользовательское изображение для своего профиля пользователя"
+
+#~ msgid "App Category Thumbnail"
+#~ msgstr "Категория приложения Thumbnail"
+
+#~ msgid "Upload/Add App cat image"
+#~ msgstr "Загрузить / Добавить изображение приложения cat"
+
+#~ msgid "Remove image"
+#~ msgstr "Удалить изображение"
+
+#, fuzzy
+#~| msgid "Add mobile application category image"
+#~ msgid "Add mobile application category icon image"
+#~ msgstr "Добавить категорию приложения для мобильных устройств"
+
+#~ msgid "Add mobile application category image"
+#~ msgstr "Добавить категорию приложения для мобильных устройств"
+
+#~ msgid "App Image"
+#~ msgstr "Изображение приложения"
+
+#~ msgid "Color Code"
+#~ msgstr "Цветовой код"
+
+#~ msgid "Color"
+#~ msgstr "цвет"
+
+#, fuzzy
+#~| msgid "No record found."
+#~ msgid "New Geofencing"
+#~ msgstr "Запись не найдена."
+
+#, fuzzy
+#~| msgid "No record found."
+#~ msgid "No geofencing found."
+#~ msgstr "Запись не найдена."
+
+#, fuzzy
+#~| msgid "No geo fencing found in Trash."
+#~ msgid "No geofencing found in Trash."
+#~ msgstr "В корзине нет геообработки."
+
+#~ msgid "Description."
+#~ msgstr "Описание."
+
+#~ msgid "Settings saved."
+#~ msgstr "Настройки сохранены."
+
+#~ msgid "The file "
+#~ msgstr "Файл"
+
+#~ msgid " has been uploaded."
+#~ msgstr "был загружен."
+
+#~ msgid "Sorry, there was an error uploading your file."
+#~ msgstr "Извините, произошла ошибка при загрузке файла."
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "Primary Logo"
+#~ msgstr "Основной логотип"
+
+#~ msgid "Secondary Logo"
+#~ msgstr "Вторичный логотип"
+
+#, fuzzy
+#~| msgid "Color"
+#~ msgid "App Color"
+#~ msgstr "цвет"
+
+#~ msgid "Main Category Menu"
+#~ msgstr "Главное меню"
+
+#, fuzzy
+#~| msgid "Main Slider"
+#~ msgid "Home Slider Banner"
+#~ msgstr "Основной слайдер"
+
+#~ msgid "Category Banners"
+#~ msgstr "Категория Баннеры"
+
+#, fuzzy
+#~| msgid "Product added!"
+#~ msgid "Products View"
+#~ msgstr "Товар добавлен!"
+
+#~ msgid "Banner Ads"
+#~ msgstr "Баннерная рекламa"
+
+#~ msgid "Feature Box"
+#~ msgstr "Блок возможностей"
+
+#, fuzzy
+#~| msgid "App Image"
+#~ msgid "App Pages"
+#~ msgstr "Изображение приложения"
+
+#~ msgid "Checkout Page"
+#~ msgstr "Оформить заказ"
+
+#~ msgid "Social Links"
+#~ msgstr "Социальные ссылки"
+
+#~ msgid "Contact Info"
+#~ msgstr "Контактная информация"
+
+#~ msgid "Logo display on the header of the app."
+#~ msgstr "Отображение логотипа в заголовке приложения."
+
+#~ msgid "IMPORTANT"
+#~ msgstr "ВАЖНЫЙ"
+
+#~ msgid ""
+#~ "For best performance and image quality in the mobile application, "
+#~ "strictly follow the below standards for logo images:"
+#~ msgstr ""
+#~ "Для обеспечения наилучшей производительности и качества изображения в "
+#~ "мобильном приложении строго следуйте приведенным ниже стандартам для "
+#~ "изображений логотипов:"
+
+#~ msgid "Dimension: "
+#~ msgstr "Размеры:"
+
+#~ msgid "File Type: "
+#~ msgstr "Тип файла:"
+
+#~ msgid "Edit"
+#~ msgstr "редактировать"
+
+#~ msgid "Logo display on other app pages like About Us and Contact Us."
+#~ msgstr ""
+#~ "Отображение логотипа на других страницах приложений, таких как «О нас» и "
+#~ "«Свяжитесь с нами»."
+
+#~ msgid "You can change app default color and set as per your app design."
+#~ msgstr ""
+#~ "Вы можете изменить цвет по умолчанию для приложения и настроить в "
+#~ "соответствии с вашим дизайном приложения."
+
+#~ msgid "Header Color"
+#~ msgstr "Цвет заголовка"
+
+#~ msgid "Primary Color"
+#~ msgstr "Основной цвет"
+
+#~ msgid "Secondary Color"
+#~ msgstr "Вторичный цвет"
+
+#~ msgid "Categories menu items display on the home screen."
+#~ msgstr "На главном экране отображается список элементов меню."
+
+#, fuzzy
+#~| msgid "Select Product Category"
+#~ msgid "Select category menu item"
+#~ msgstr "Выберите категорию продукта"
+
+#~ msgid "Select"
+#~ msgstr "Выбрать"
+
+#, fuzzy
+#~| msgid "Category Banners"
+#~ msgid "Category Icon Image"
+#~ msgstr "Категория Баннеры"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "These banners display as a slider on the home screen."
+#~ msgstr "Эти баннеры отображаются как слайдер на главном экране."
+
+#~ msgid ""
+#~ "For best performance and image quality of slider banners in the mobile "
+#~ "application, strictly use <strong>1125 x 633</strong> (WidthxHeight in "
+#~ "px) image for slider banners."
+#~ msgstr ""
+#~ "Для обеспечения наилучшей производительности и качества изображения "
+#~ "баннеров слайдера в мобильном приложении строго используйте <strong> 1125 "
+#~ "x 633 </ strong> (ширина x высота в пикселях) для слайдеров."
+
+#, fuzzy
+#~| msgid "Banner Title"
+#~ msgid "Slider Image"
+#~ msgstr "Название баннера"
+
+#~ msgid "Select Product Category"
+#~ msgstr "Выберите категорию продукта"
+
+#~ msgid "Banners displayed on the home screen."
+#~ msgstr "Баннеры отображаются на главном экране."
+
+#~ msgid ""
+#~ "For best performance and image quality of category banners in the mobile "
+#~ "application, strictly use <strong>420 x 305</strong> (WidthxHeight in px) "
+#~ "image for category banners."
+#~ msgstr ""
+#~ "Для лучшей производительности и качества изображения баннеров категории в "
+#~ "мобильном приложении строго используйте <strong> 420 x 305 </ strong> "
+#~ "(ширина x высота в пикселях) для баннеров категории."
+
+#, fuzzy
+#~| msgid "Banner Title"
+#~ msgid "Banner Image"
+#~ msgstr "Название баннера"
+
+#~ msgid "Banner Title"
+#~ msgstr "Название баннера"
+
+#~ msgid "Status"
+#~ msgstr "Положение дел"
+
+#~ msgid "Title"
+#~ msgstr "заглавие"
+
+#~ msgid "Used for advertisement or special offers, displayed on Home screen."
+#~ msgstr ""
+#~ "Используется для рекламы или специальных предложений, отображаемых на "
+#~ "главном экране."
+
+#~ msgid ""
+#~ "For best performance and image quality of Ad banners in the mobile "
+#~ "application, strictly use <strong>1080 x 353</strong> (WidthxHeight in "
+#~ "px) image for banners."
+#~ msgstr ""
+#~ "Для лучшей производительности и качества изображения баннеров объявлений "
+#~ "в мобильном приложении строго используйте <strong> 1080 x 353 </ strong> "
+#~ "(ширина x высота в пикселях) для баннеров."
+
+#, fuzzy
+#~| msgid "Category Banners"
+#~ msgid "Category for Banner Ad"
+#~ msgstr "Категория Баннеры"
+
+#~ msgid "Feature Box Title"
+#~ msgstr "Заголовок Feature Feature"
+
+#, fuzzy
+#~| msgid "Feature Box Title"
+#~ msgid "Feature Box Icon Image"
+#~ msgstr "Заголовок Feature Feature"
+
+#~ msgid ""
+#~ "For best performance and image quality, strictly use <strong>150 x 150</"
+#~ "strong> (WidthxHeight in px) image for feature box."
+#~ msgstr ""
+#~ "Для обеспечения максимальной производительности и качества изображения "
+#~ "строго используйте <strong> 150 x 150 </ strong> (WidthxHeight in px) для "
+#~ "полнофункционального изображения."
+
+#~ msgid "Content"
+#~ msgstr "содержание"
+
+#, fuzzy
+#~| msgid "App Image"
+#~ msgid "App custom pages."
+#~ msgstr "Изображение приложения"
+
+#~ msgid "About Us"
+#~ msgstr "О нас"
+
+#~ msgid "Select page"
+#~ msgstr "Выберите страницу"
+
+#~ msgid "Terms & Conditions"
+#~ msgstr "Условия и положения"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "политика конфиденциальности"
+
+#~ msgid "Add info Pages"
+#~ msgstr "Добавить страницу"
+
+#, fuzzy
+#~| msgid "Checkout Page Settings"
+#~ msgid "Checkout Page Setting"
+#~ msgstr "Настройки страницы оплаты"
+
+#~ msgid ""
+#~ "Checkout page in any e-commerce website plays the most crucial part as it "
+#~ "is the online equivalent of a physical checkout counter shown to the "
+#~ "customer during the step by step checkout process. Hence, it needs to be "
+#~ "appealing enough. Ciya shop comes with a feature that you can personalize "
+#~ "this page as well. Although the user is having the default page to use "
+#~ "they can enhance their checkout page according to their choice anytime "
+#~ "they want by going to 'Checkout Page' option in 'App settings' and "
+#~ "selecting the page they have created."
+#~ msgstr ""
+#~ "Страница Checkout на любом веб-сайте электронной коммерции играет самую "
+#~ "важную роль, так как это онлайн-эквивалент счетчика физического контроля, "
+#~ "показанного клиенту во время пошагового процесса проверки. Следовательно, "
+#~ "он должен быть достаточно привлекательным. Магазин Ciya поставляется с "
+#~ "функцией, которую вы можете персонализировать и на этой странице. "
+#~ "Несмотря на то, что пользователь использует страницу по умолчанию, они "
+#~ "могут улучшить свою страницу проверки в соответствии с их выбором в любое "
+#~ "время, выбрав «Checkout Page» в «Настройки приложения» и выбрав страницу, "
+#~ "которую они создали."
+
+#, fuzzy
+#~| msgid "Select Checkout Page"
+#~ msgid "Select Checkout Page"
+#~ msgstr "Выберите страницу проверки"
+
+#, fuzzy
+#~| msgid "Social Page Settings"
+#~ msgid "Social Media Settings"
+#~ msgstr "Настройки социальной страницы"
+
+#~ msgid ""
+#~ "Specify social media URLs, where the user redirected once he/she clicks "
+#~ "on social media icons."
+#~ msgstr ""
+#~ "Укажите URL-адреса социальных сетей, в которых пользователь "
+#~ "перенаправляется после нажатия на значки социальных сетей."
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#, fuzzy
+#~| msgid "linkedin"
+#~ msgid "LinkedIn"
+#~ msgstr "linkedin"
+
+#~ msgid "Google Plus"
+#~ msgstr "Google Plus"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Address Line 1"
+#~ msgstr "Адресная строка 1"
+
+#~ msgid "Address Line 2"
+#~ msgstr "Адресная строка 2"
+
+#~ msgid "Email"
+#~ msgstr "Эл. адрес"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "API Settings"
+#~ msgstr "Hастройки"
+
+#~ msgid "Publish"
+#~ msgstr "Публиковать"
+
+#~ msgid "Update"
+#~ msgstr "Обновить"
+
+#~ msgid "API Keys"
+#~ msgstr "Ключи API"
+
+#~ msgid "WooCommerce API"
+#~ msgstr "WooCommerce API"
+
+#, fuzzy
+#~| msgid "Google Plus"
+#~ msgid "Google Maps API"
+#~ msgstr "Google Plus"
+
+#~ msgid "Push Notification"
+#~ msgstr "Отправить уведомление"
+
+#~ msgid "App URL"
+#~ msgstr "URL-адрес приложения"
+
+#~ msgid "Vendor Settings"
+#~ msgstr "Настройки поставщика"
+
+#~ msgid "Test API"
+#~ msgstr "Тест-API"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgid "Emails"
+#~ msgstr "Эл. адрес"
+
+#, fuzzy
+#~| msgid "OAuth Credentials"
+#~ msgid "Credentials Code"
+#~ msgstr "OAuth Credentials"
+
+#~ msgid "OAuth Credentials"
+#~ msgstr "OAuth Credentials"
+
+#, fuzzy
+#~| msgid "This credentials just for backup purpose"
+#~ msgid "These credentials are just for the backup purpose."
+#~ msgstr "Эти учетные данные только для целей резервного копирования"
+
+#~ msgid "Client Key"
+#~ msgstr "Ключ клиента"
+
+#~ msgid "Client Secret"
+#~ msgstr "Секрет клиента"
+
+#~ msgid "Consumer Key"
+#~ msgstr "Потребительский ключ"
+
+#, fuzzy
+#~| msgid "Token Secret"
+#~ msgid "Consumer Secret"
+#~ msgstr "Секретный токен"
+
+#~ msgid "Enable / Disable Push notification"
+#~ msgstr "Включение / отключение Push-уведомления"
+
+#~ msgid "Mode"
+#~ msgstr "Режим"
+
+#~ msgid "Sandbox"
+#~ msgstr "Sandbox"
+
+#~ msgid "Live"
+#~ msgstr "Live"
+
+#~ msgid "IOS Push notification mode"
+#~ msgstr "Режим уведомления IOS Push"
+
+#, fuzzy
+#~| msgid "Upload Dev Pem File"
+#~ msgid "Upload Development Pem File"
+#~ msgstr "Загрузить файл Dev Pem"
+
+#~ msgid "File Upload"
+#~ msgstr "Загрузка изображения"
+
+#~ msgid "Upload IOS Push notification Pem File for development"
+#~ msgstr "Загрузите файл Pem для уведомлений IOS Push для разработки"
+
+#~ msgid "Password for Development Pem File"
+#~ msgstr "Пароль для разработки Pem File"
+
+#, fuzzy
+#~| msgid "Upload Dist Pem File"
+#~ msgid "Upload Distribution Pem File"
+#~ msgstr "Загрузите файл Dist Pem"
+
+#~ msgid "Upload IOS Push notification Pem File for production"
+#~ msgstr "Загрузите файл Pem IOS Push для производства"
+
+#~ msgid "Password for Distribution Pem File"
+#~ msgstr "Пароль к файлу Pem для распространения"
+
+#~ msgid "Coupon code notification title"
+#~ msgstr "Название уведомления о купоне"
+
+#~ msgid "Coupon code notification message"
+#~ msgstr "Уведомление о купоне"
+
+#~ msgid "{{coupon}} add this code for show in notification"
+#~ msgstr "{{coupon}} добавить этот код для показа в уведомлении"
+
+#~ msgid "Order status notification title"
+#~ msgstr "Заголовок уведомления о статусе заказа"
+
+#~ msgid "Order status notification message"
+#~ msgstr "Уведомление о статусе заказа"
+
+#~ msgid "{{status}}, {{order_id}} add this code for show in notification"
+#~ msgstr "{{status}}, {{order_id}} добавить этот код для показа в уведомлении"
+
+#~ msgid "IOS App URL"
+#~ msgstr "IOS App URL"
+
+#~ msgid "Dokan"
+#~ msgstr "Dokan"
+
+#~ msgid "WC Marketplace"
+#~ msgstr "WC Marketplace"
+
+#~ msgid "Please select vendor plugin"
+#~ msgstr "Пожалуйста, выберите плагин поставщика"
+
+#~ msgid "Click for check test API."
+#~ msgstr "Нажмите, чтобы проверить API проверки."
+
+#, fuzzy
+#~| msgid "Contact Info"
+#~ msgid "Contact Us"
+#~ msgstr "Контактная информация"
+
+#, fuzzy
+#~| msgid "Google Plus"
+#~ msgid "Google Map API"
+#~ msgstr "Google Plus"
+
+#~ msgid ""
+#~ "You can get a Google Maps API from <a href=\"%1$s\" target=\"_blank"
+#~ "\">here.</a>"
+#~ msgstr ""
+#~ "Вы можете получить API Карт Google из <a href=\"%1$s\" target=\"_blank\"> "
+#~ "здесь. </a>"
+
+#~ msgid "Note"
+#~ msgstr "Заметка"
+
+#~ msgid ""
+#~ "This key used for the geofencing functionality, for initializing google "
+#~ "map using google map API."
+#~ msgstr ""
+#~ "Этот ключ используется для функции геообработки, для инициализации карты "
+#~ "google с использованием API-интерфейсов google."
+
+#, fuzzy
+#~| msgid ""
+#~| "Click on respected icon for generate the code of OAuth key and url for "
+#~| "Android and iOS application."
+#~ msgid ""
+#~ "Click on respected icons for generate the code of OAuth key and url for "
+#~ "Android and iOS application."
+#~ msgstr ""
+#~ "Нажмите на уважаемый значок для генерации кода ключа OAuth и URL для "
+#~ "приложения Android и iOS."
+
+#~ msgid "is missing"
+#~ msgstr "пропал, отсутствует"
+
+#, fuzzy
+#~| msgid "Something went wrong. Please try later."
+#~ msgid "Something went wrong or invalid sample selected."
+#~ msgstr "Что-то пошло не так. Пожалуйста, попробуйте позднее."
+
+#, fuzzy
+#~| msgid "You are not allowed to do that"
+#~ msgid "You are not allowed to perform this action."
+#~ msgstr "Вам не разрешено делать это"
+
+#, fuzzy
+#~| msgid "Record deleted successfully"
+#~ msgid "Sample data successfully imported."
+#~ msgstr "Запись успешно удалена"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "Activate"
+#~ msgstr "Деактивировать пользователя"
+
+#, fuzzy
+#~| msgid "plugin"
+#~ msgid "Plugins"
+#~ msgstr "плагин"
+
+#, fuzzy
+#~| msgid "Result not found!"
+#~ msgid "Post type %s not found."
+#~ msgstr "Результат не найден!"
+
+#, fuzzy
+#~| msgid "Let's go!"
+#~ msgid "Let's Go!"
+#~ msgstr "Поехали!"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "Activate Plugin"
+#~ msgstr "Деактивировать пользователя"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "Activation required"
+#~ msgstr "Требуется пароль"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "Update required"
+#~ msgstr "Требуется пароль"
+
+#, fuzzy
+#~| msgid "No product found"
+#~ msgid "No Slug Found"
+#~ msgstr "Не найдено ни одного продукта"
+
+#, fuzzy
+#~| msgid "Content"
+#~ msgid "Default Content"
+#~ msgstr "содержание"
+
+#, fuzzy
+#~| msgid "Settings saved."
+#~ msgid "Your Settings are Ready!"
+#~ msgstr "Настройки сохранены."
+
+#, fuzzy
+#~| msgid "OAuth Credentials"
+#~ msgid "Please configure your OAuth Credentials"
+#~ msgstr "OAuth Credentials"
+
+#, fuzzy
+#~| msgid "Something went wrong"
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "Что-то пошло не так"
+
+#, fuzzy
+#~| msgid "Requires the following plugins to be activated"
+#~ msgid "Please check requires the following plugin: %1$s."
+#~ msgstr "Требуется активировать следующие плагины"
+
+#, fuzzy
+#~| msgid "User updated successfully"
+#~ msgid "Plugin activated successfully."
+#~ msgstr "Пользователь обновлен успешно"
+
+#, fuzzy
+#~| msgid "Requires the following plugins to be activated"
+#~ msgid "The following plugin was activated successfully:"
+#~ msgstr "Требуется активировать следующие плагины"
+
+#, fuzzy
+#~| msgid "Sandbox"
+#~ msgid "and"
+#~ msgstr "Sandbox"
+
+#, fuzzy
+#~| msgid "External Store URL"
+#~ msgid "External Source"
+#~ msgstr "URL внешнего магазина"
+
+#, fuzzy
+#~| msgid "install / activate"
+#~ msgid "Installed But Not Activated"
+#~ msgstr "установить / активировать"
+
+#, fuzzy
+#~| msgid "plugin"
+#~ msgid "Plugin"
+#~ msgstr "плагин"
+
+#, fuzzy
+#~| msgid "Update"
+#~ msgid "Update %2$s"
+#~ msgstr "Обновить"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "Activate %2$s"
+#~ msgstr "Деактивировать пользователя"
+
+#, fuzzy
+#~| msgid "An error occurred while adding products to wishlist."
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr "Произошла ошибка при добавлении продуктов в список пожеланий."
+
+#, fuzzy
+#~| msgid "User updated successfully"
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "Пользователь обновлен успешно"
+
+#, fuzzy
+#~| msgid "Product added successfully"
+#~ msgid "%1$s installed successfully."
+#~ msgstr "Продукт успешно добавлен"
+
+#~ msgid "[%s] Password Reset"
+#~ msgstr "[%s] Восстановление пароля"
+
+#, fuzzy
+#~| msgid ""
+#~| "You can get a Google Maps API from <a href=\"%1$s\" target=\"_blank"
+#~| "\">here.</a>"
+#~ msgid ""
+#~ "How to create featured product <a href=\"%s\" target=\"_blank\">click "
+#~ "here</a>."
+#~ msgstr ""
+#~ "Вы можете получить API Карт Google из <a href=\"%1$s\" target=\"_blank\"> "
+#~ "здесь. </a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "You can get a Google Maps API from <a href=\"%1$s\" target=\"_blank"
+#~| "\">here.</a>"
+#~ msgid ""
+#~ "How to create special deal products <a href=\"%s\" target=\"_blank"
+#~ "\">click here</a>."
+#~ msgstr ""
+#~ "Вы можете получить API Карт Google из <a href=\"%1$s\" target=\"_blank\"> "
+#~ "здесь. </a>"
+
+#, fuzzy
+#~| msgid "Feature Box"
+#~ msgid "Feature Products"
+#~ msgstr "Блок возможностей"
+
+#, fuzzy
+#~| msgid "Categories menu items display on the home screen."
+#~ msgid "Feature products view display on the home screen."
+#~ msgstr "На главном экране отображается список элементов меню."
+
+#, fuzzy
+#~| msgid "Banners displayed on the home screen."
+#~ msgid "Recent products view display on the home screen."
+#~ msgstr "Баннеры отображаются на главном экране."
+
+#, fuzzy
+#~| msgid "Categories menu items display on the home screen."
+#~ msgid "Special deal products view display on the home screen."
+#~ msgstr "На главном экране отображается список элементов меню."
+
+#, fuzzy
+#~| msgid "Banners displayed on the home screen."
+#~ msgid "Popular products view display on the home screen."
+#~ msgstr "Баннеры отображаются на главном экране."
+
+#, fuzzy
+#~| msgid "Feature Box"
+#~ msgid "Top Rated Products"
+#~ msgstr "Блок возможностей"
+
+#, fuzzy
+#~| msgid "Categories menu items display on the home screen."
+#~ msgid "Top Rated products view display on the home screen."
+#~ msgstr "На главном экране отображается список элементов меню."
+
+#~ msgid "Requires the following plugins to be activated"
+#~ msgstr "Требуется активировать следующие плагины"
+
+#~ msgid "Please"
+#~ msgstr "пожалуйста"
+
+#~ msgid "install / activate"
+#~ msgstr "установить / активировать"
+
+#~ msgid "plugin"
+#~ msgstr "плагин"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "activate"
+#~ msgstr "Деактивировать пользователя"
+
+#~ msgid "Your cart is empty."
+#~ msgstr "Ваша корзина пуста."
+
+#, fuzzy
+#~| msgid "Sorry, you must be logged in to comment."
+#~ msgid "You must be logged in to checkout."
+#~ msgstr "Извините, вы должны авторизоваться для комментариев."
+
+#~ msgid "Your order"
+#~ msgstr "Твоя очередь"
+
+#~ msgid "billing"
+#~ msgstr "биллинг"
+
+#~ msgid "shipping"
+#~ msgstr "Перевозка"
+
+#~ msgid "order"
+#~ msgstr "порядок"
+
+#~ msgid "payment"
+#~ msgstr "оплата"
+
+#, fuzzy
+#~| msgid "Please enter your name"
+#~ msgid "Click here to enter your code"
+#~ msgstr "Пожалуйста, введите Ваше имя"
+
+#, fuzzy
+#~| msgid "No orders found"
+#~ msgid "Coupon code"
+#~ msgstr "Не найдено ни одного заказа"
+
+#, fuzzy
+#~| msgid "Product added!"
+#~ msgid "Product"
+#~ msgstr "Товар добавлен!"
+
+#, fuzzy
+#~| msgid "Checkout Page"
+#~ msgid "Checkout Multi-Step"
+#~ msgstr "Оформить заказ"
+
+#, fuzzy
+#~| msgid "Product added!"
+#~ msgid "Products Carousel"
+#~ msgstr "Товар добавлен!"
+
+#~ msgid "Enter a value for this field"
+#~ msgstr "Введите значение для этого поля"
+
+#~ msgid "Abandoned From"
+#~ msgstr "Отказано от"
+
+#~ msgid "Abandon cart alert!"
+#~ msgstr "Предупреждение о брошенной корзине!"
+
+#, fuzzy
+#~| msgid "Something went wrong!"
+#~ msgid "Somthing went wrong!"
+#~ msgstr "Что-то пошло не так!"
+
+#~ msgid "PGS Woo Api working fine"
+#~ msgstr "PGS Woo Api работает отлично"
+
+#~ msgid "Click on icon for generate credentials code."
+#~ msgstr "Нажмите на значок для создания кода учетных данных."
+
+#, fuzzy
+#~| msgid "App URL"
+#~ msgid "App Logo"
+#~ msgstr "URL-адрес приложения"
+
+#, fuzzy
+#~| msgid "Upload a custom image for your user profile"
+#~ msgid "Upload Logo image for app only"
+#~ msgstr ""
+#~ "Загрузите пользовательское изображение для своего профиля пользователя"
+
+#~ msgid ""
+#~ "Upload Light Logo image for app only. if want to use dark and light logo "
+#~ "image."
+#~ msgstr ""
+#~ "Загрузите изображение логотипа только для приложения. если хотите "
+#~ "использовать темный и легкий логотип."
+
+#~ msgid "Main Category"
+#~ msgstr "Главная категория"
+
+#~ msgid "Select main app menu category"
+#~ msgstr "Выберите категорию меню главного приложения"
+
+#~ msgid "Select banner ad category"
+#~ msgstr "Выберите категорию рекламных баннеров"
+
+#~ msgid "Terms of Use"
+#~ msgstr "Условия эксплуатации"
+
+#~ msgid "Enable / Disable Feature Box"
+#~ msgstr "Включить / отключить панель возможностей"
+
+#~ msgid "Submit"
+#~ msgstr "Отправить"
+
+#~ msgid ""
+#~ "This is App Checkout page used in Application checkout process. This page "
+#~ "created by PGS Woo Api plugin. Please do not delete this page"
+#~ msgstr ""
+#~ "Это страница проверки приложений, используемая в процессе проверки "
+#~ "приложений. Эта страница создана плагином PGS Woo Api. Не удаляйте эту "
+#~ "страницу"
+
+#~ msgid "Please enter auth details in setting page"
+#~ msgstr "Пожалуйста, введите данные авторизации на странице настроек"
+
+#~ msgid "Info Pages"
+#~ msgstr "Информационные страницы"
+
+#~ msgid "Add Info Pages"
+#~ msgstr "Добавить информационные страницы"

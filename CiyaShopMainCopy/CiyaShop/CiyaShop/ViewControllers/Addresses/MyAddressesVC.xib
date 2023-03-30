@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyAddressesVC" customModule="CiyaShop" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="37k-cR-wBj" id="C7f-Ll-KXr"/>
+                <outlet property="lblTitle" destination="pGW-Pc-g26" id="8rS-N0-Rfh"/>
+                <outlet property="tblMyAddresses" destination="0ka-wT-ceV" id="IQs-bj-WZp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9t-wJ-fLe">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37k-cR-wBj">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="guY-x8-owj"/>
+                            </constraints>
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <state key="normal" image="back-arrow-icon"/>
+                            <connections>
+                                <action selector="backButtonClicked:" destination="-1" eventType="touchUpInside" id="b2G-Yt-zt7"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="My Addresses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGW-Pc-g26">
+                            <rect key="frame" x="66" y="12" width="188" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="37k-cR-wBj" firstAttribute="leading" secondItem="g9t-wJ-fLe" secondAttribute="leading" id="1P1-Nv-wzj"/>
+                        <constraint firstAttribute="height" constant="44" id="3GJ-io-hYh"/>
+                        <constraint firstItem="37k-cR-wBj" firstAttribute="top" secondItem="g9t-wJ-fLe" secondAttribute="top" id="4VL-W8-kMA"/>
+                        <constraint firstAttribute="bottom" secondItem="37k-cR-wBj" secondAttribute="bottom" id="WCN-fx-PhP"/>
+                        <constraint firstItem="pGW-Pc-g26" firstAttribute="centerX" secondItem="g9t-wJ-fLe" secondAttribute="centerX" id="Zjk-Km-8gj"/>
+                        <constraint firstItem="pGW-Pc-g26" firstAttribute="leading" secondItem="37k-cR-wBj" secondAttribute="trailing" priority="750" constant="6" id="jbL-VM-Ofu"/>
+                        <constraint firstItem="pGW-Pc-g26" firstAttribute="centerY" secondItem="g9t-wJ-fLe" secondAttribute="centerY" id="xbn-ls-d14"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0ka-wT-ceV">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="g9t-wJ-fLe" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="2Ag-n1-vTc"/>
+                <constraint firstItem="0ka-wT-ceV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="9Af-nL-wtV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="0ka-wT-ceV" secondAttribute="bottom" id="Wxa-H1-64E"/>
+                <constraint firstItem="g9t-wJ-fLe" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ei9-nN-20r"/>
+                <constraint firstItem="0ka-wT-ceV" firstAttribute="top" secondItem="g9t-wJ-fLe" secondAttribute="bottom" id="rPU-77-ZkA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0ka-wT-ceV" secondAttribute="trailing" id="vam-Zf-Kes"/>
+                <constraint firstItem="g9t-wJ-fLe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="xej-nj-X05"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-arrow-icon" width="22" height="22"/>
+    </resources>
+</document>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RobotoCondensed-Regular.ttf">
+            <string>RobotoCondensed-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SubCategoryItemCell" rowHeight="59" id="KGk-i7-Jjw" customClass="SubCategoryItemCell" customModule="CiyaShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="444" height="59"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="444" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jsd-Ig-NrR">
+                        <rect key="frame" x="16" y="8" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="u2p-cK-aqz"/>
+                            <constraint firstAttribute="height" constant="40" id="ze5-kl-mge"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="-" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgW-ym-GnZ">
+                        <rect key="frame" x="72" y="20.5" width="3.5" height="15.5"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Regular" family="Roboto Condensed" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightarrow-icon" translatesAutoresizingMaskIntoConstraints="NO" id="T8S-4x-Yck">
+                        <rect key="frame" x="426" y="23" width="10" height="10"/>
+                        <color key="tintColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ha-Vp-wAN">
+                        <rect key="frame" x="0.0" y="56" width="444" height="0.5"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="pdz-S1-p1v"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="T8S-4x-Yck" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WgW-ym-GnZ" secondAttribute="trailing" constant="12" id="0ZS-mf-caH"/>
+                    <constraint firstItem="Jsd-Ig-NrR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="N2q-rf-SgH"/>
+                    <constraint firstItem="WgW-ym-GnZ" firstAttribute="centerY" secondItem="Jsd-Ig-NrR" secondAttribute="centerY" id="Pz0-L5-wnY"/>
+                    <constraint firstItem="2ha-Vp-wAN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Z2G-Ha-FJa"/>
+                    <constraint firstItem="2ha-Vp-wAN" firstAttribute="top" secondItem="Jsd-Ig-NrR" secondAttribute="bottom" constant="8" id="dP8-9Z-keO"/>
+                    <constraint firstAttribute="bottom" secondItem="2ha-Vp-wAN" secondAttribute="bottom" id="eZI-p0-Gdt"/>
+                    <constraint firstItem="T8S-4x-Yck" firstAttribute="centerY" secondItem="WgW-ym-GnZ" secondAttribute="centerY" id="kJv-rx-S0D"/>
+                    <constraint firstAttribute="trailing" secondItem="T8S-4x-Yck" secondAttribute="trailing" constant="8" id="kXr-qB-gor"/>
+                    <constraint firstItem="WgW-ym-GnZ" firstAttribute="leading" secondItem="Jsd-Ig-NrR" secondAttribute="trailing" constant="16" id="mIC-Z3-qn5"/>
+                    <constraint firstItem="Jsd-Ig-NrR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="qER-Ef-8lf"/>
+                    <constraint firstAttribute="trailing" secondItem="2ha-Vp-wAN" secondAttribute="trailing" id="uCY-sd-oW2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgRightArrow" destination="T8S-4x-Yck" id="EFn-3f-Jzj"/>
+                <outlet property="imgSubcategory" destination="Jsd-Ig-NrR" id="vmz-ca-6en"/>
+                <outlet property="lblSubcategory" destination="WgW-ym-GnZ" id="4D2-ep-4lw"/>
+                <outlet property="vwSeparatorLine" destination="2ha-Vp-wAN" id="pmd-jP-pc0"/>
+            </connections>
+            <point key="canvasLocation" x="-62.318840579710148" y="76.674107142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="rightarrow-icon" width="10" height="10"/>
+    </resources>
+</document>

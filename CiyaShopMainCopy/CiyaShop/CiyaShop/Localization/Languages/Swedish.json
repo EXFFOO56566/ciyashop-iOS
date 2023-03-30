@@ -1,0 +1,387 @@
+{
+    "sv-SE":  {        
+        "SKIP":"HOPPA",
+        "NEXT":"NÄSTA",
+        "DONE":"GJORT",
+        "AllRigtsReserved" :"© Ciyashop 2022 | Alla rättigheter förbehållna",
+        
+        
+        "Search":"Sök",
+        "Cart":"Vagn",
+        "Account":"konto",
+        "Wishlist":"Önskelista",
+        
+        
+        "shopNow":"Shoppa nu",
+        "viewAll":"Visa alla",
+        "OFF":"AV",
+        "Items":"Objekt",
+        "Remove":"Ta bort",
+        "Edit":"Redigera",
+        "Add":"Lägg till",
+        "MovetoBag":"Gå till väska",
+        "OK":"OK",
+        "Yes":"Ja",
+        "No":"Nej",
+        "AllCategory":"Alla kategorier",
+        
+        
+        "Login":"Logga in",
+        "SignOut":"Logga ut",
+        "MyOrders":"Mina beställningar",
+        "MyAddresses":"Mina adresser",
+        "ChooseCurrency":"Välj valuta",
+        "ChooseLanguage":"Välj språk",
+        "Download":"Ladda ner",
+        "MyCoupons":"Mina kuponger",
+        "Coupons":"Kuponger",
+        "MyPoints":"Mina poäng",
+        "AboutUs":"Om oss",
+        "Accountsettings":"Kontoinställningar",
+        "Notification":"Underrättelse",
+        "Notifications":"Meddelanden",
+        
+        "ProductPrice":"Produktpris",
+        "OtherProductsVendor":"Andra produkter från denna säljare",
+        
+        "NoNotificationYet":"Ingen avisering ännu",
+        "RemoveAll":"Ta bort alla",
+        "RemoveAllMessage":"Vill du ta bort alla meddelanden?",
+        
+        "ContactUs":"Kontakta oss",
+        "RatetheApp":"Betygsätt appen",
+        "ClearHistory":"Rensa historik",
+        
+        "Clear":"Klar",
+        
+        "Expire":"Upphöra : ",
+        "Remaining":"Återstående : ",
+        
+        "RecentlyViewedProduct":"SENAST VISAD PRODUKT",
+        
+        "ClearHistoryAlert":"Detta raderar permanent din sökning, sökhistorik från den här enheten.",
+        
+        
+        "Setting":"Miljö",
+        "NotificationPermission":"Tillstånd för avisering nekas. Tillåt från Inställningar.",
+        
+        
+        "signoutAlert":"Vill du verkligen logga ut från ditt konto?",
+        
+        "Camera":"Kamera",
+        "Gallery":"Galleri",
+        
+        "NoPointsEarned":"Inga poäng intjänade",
+        "PurchaseProductEarnPoints":"Köp produkt och tjäna poäng.",
+        
+        "Event":"Händelse",
+        "Date":"Datum",
+        "Points":"Poäng",
+        
+        "BrowseSomeOtherItem":"Bläddra bland annat objekt",
+        "NoAnyProductAvailable":"Ingen tillgänglig produkt",
+        
+        
+        
+        "Email":"E-post",
+        "Password":"Lösenord",
+        "OldPassword":"Gammalt lösenord",
+        "NewPassword":"nytt lösenord",
+        "RetypePassword":"Skriv lösenordet om",
+        "ForgotPassword":"Glömt ditt lösenord??",
+        "SignUp":"Bli Medlem",
+        "OR":"ELLER",
+        "SelectCountry":"Välj ett land",
+        "Close":"Stänga",
+        
+        "EndOfTheSale":"Slut på försäljningen",
+        
+        "DontHaveAccount":"Har du inget konto? Anmäl dig nu",
+        "SignUpNow":"Anmäl dig nu",
+        
+        "AlreadyHaveAccount":"Har du redan ett konto? Logga in nu",
+        "SignInNow":"Logga in nu",
+        
+        "EnterEmail":"Skriv in epostadress",
+        "EnterValidEmail":"Ange giltig e-postadress",
+        "EnterPassword":"Skriv in lösenord",
+        "EnterConfirmPassword":"Ange Bekräfta lösenord",
+        "EnterContactNo":"Ange kontaktnummer",
+        
+        "ConfirmPasswordMatch":"Lösenord och Bekräfta lösenord matchar inte",
+        
+        "EnterCurrentPassword":"Skriv in ditt nuvarande lösenord",
+        "PasswordNotCorrect":"Din e-postadress eller lösenord är inte korrekt",
+        "EnterNewPassword":"Ange ditt nya lösenord",
+        
+        "PasswordChangedSuccessfully":"Lösenordet har ändrats",
+        
+        "ProvideEmailToFacebook":"Ange e-post-id till ditt Facebook-konto",
+        
+        "EnterUserName":"Skriv in ditt användarnamn",
+        
+        "NoCurrencyFound": "Ingen valuta hittades",
+        "NoLanguageFound": "Inga språk hittades",
+        
+        
+        "EmailID":"E-post ID",
+        "UserName":"Användarnamn",
+        "ConfirmPassword":"Bekräfta lösenord",
+        
+        "AddAddress":"Lägg till ny adress",
+        "PleaseAddAddress":"Lägg till adress",
+        
+        
+        "BillingAddress":"Fakturaadress",
+        "ShippingAddress":"leveransadress",
+        
+        "AddBillingAddress":"Lägg till faktureringsadress",
+        "AddShippingAddress":"Lägg till leveransadress",
+        
+        "removeAddresss":"Vill du ta bort adressen?",
+        
+        "Name":"namn",
+        "FirstName":"Förnamn",
+        "LastName":"Efternamn",
+        "Pincode":"Pinkod",
+        "Address1":"Adress 1",
+        "Address2":"Adress 2",
+        "CityTown":"Stad / stad",
+        "State":"stat",
+        "Company":"Företag",
+        "PhoneNumber":"Telefonnummer",
+        
+        "Save":"Spara",
+        "Cancel":"Annullera",
+        
+        "ScratchHereCode":"Skrapa här för att få kod",
+        "ScratchHereCouponCode":"Skrapa här för att få kupongkod.",
+        "CouponCode":"kupongskod",
+        
+        "CouponCodeCopied":"Kupongkoden kopieras till ditt urklipp",
+        
+        "NoRewardsYet":"Inga belöningar ännu..!!",
+        
+        
+        "Version":"Version",
+        "TermsCondition":"Villkor & villkor",
+        "PrivacyPolicy":"Integritetspolicy",
+        "FollowUs":"Följ oss",
+        "MoreAboutUs":"Mer om oss",
+        
+        
+        "AccountSetting":"Kontoinställning",
+        "DateofBirth":"Födelsedatum",
+        "Gender":"Kön",
+        "MobileNumber":"Mobilnummer",
+        "ChangePassword":"Ändra lösenord",
+        "DeactivateAccount":"Inaktivera konto",
+        "ConfirmDeactivation":"Bekräfta avaktivering",
+        
+        
+        "InformationUpdatedSuccess":"Informationen har uppdaterats",
+        
+        "DeactivatedSuccess":"Ditt konto har inaktiverats",
+        "ConfirmDeactivate":"Är du säker på att inaktivera din profil? \n Om ja, för att återaktivera din profil måste du kontakta administratör.",
+        
+        
+        "ContactNumber":"Kontaktnummer",
+        "Subject":"Ämne",
+        "Message":"Meddelande",
+        "Send":"Skicka",
+        
+        "EnterName":"Ange ditt namn",
+        "EnterSubject":"Ange ämne",
+        "EnterMessage":"Vänligen ange meddelande",
+        "MessageSent":"Meddelande skickat",
+        
+        "OrderId":"Beställnings-ID:",
+        "TotalAmount":"Totala summan:",
+        "Quantity":"Kvantitet:",
+        "Details":"Detaljer",
+        "Retry":"Försök igen",
+        
+        "OrderDetails":"Orderdetaljer",
+        "CancelOrder":"Orderdetaljer",
+        
+        
+        "NoOrderYet":"Ingen order än",
+        "NoOrderDescription":"Bläddra bara, skapa en önskelista eller gör ett köp.",
+        "TrackingNumberIs":"Spårningsnummer är",
+        
+        "DeliveredSoon":"Levereras snart",
+        "OrderPendingState":"Beställningen är i väntande tillstånd",
+        "OrderUnderProcessing":"Beställningen är under bearbetning",
+        "OrderOnHold":"Beställningen är i väntan",
+        "Delivered":"Levereras",
+        "DeliveredOn":"Levererad på",
+        "OrderCancelled":"Beställningen annulleras",
+        "RefundedOrder":"Du återbetalas för denna beställning",
+        "OrderFailed":"Order is Failed",
+        "DeliverSoon":"Din beställning levereras snart",
+        
+        
+        "Order":"Ordning",
+        "WasPlaced":"placerades på",
+        "AndCurrently":"och för närvarande",
+        
+        "OrderCancelledSuccess":"Beställningen avbröts framgångsrikt.",
+        
+        "THANKYOU":"TACK",
+        "OrderPlacedSuccess":"Din beställning har lyckats.",
+        "NotifyInFewMoments":"Du kommer att meddela om några ögonblick.",
+        
+        
+        "ShoppingBag":"Shoppingkasse",
+        "ContinueShopping":"FORTSÄTT HANDLA",
+        
+        "addToCartMessage":"Bläddra helt enkelt och lägg till artikel i kundvagnen.",
+        "addToWishlistMessage":"Bläddra helt enkelt och lägg till objekt i önskelistan.",
+        
+        "ItemAlreadyInCart":"Varan finns redan i kundvagnen",
+        "CartIsEmpty":"Kundvagnen är tom",
+        "NoproductFound":"Ingen produkt hittades",
+        "Delete":"Radera",
+        "ContinueToCheckout":"Fortsätt till kassan",
+        
+        
+        "SearchListEmpty":"Söklistan är tom",
+        "BrowseOurStore":"Bläddra i vår butik och ta en titt på andra föremål att köpa.",
+        
+        "SearchHere":"Sök här...",
+        
+        "ResetYourWorld":"Återställ din värld",
+        "ResetPasswordDescription":"Det är ofta glömt att lösenord saker. Ange din e-postadress nedan och klicka på knappen 'Begär lösenordsåterställning'. Vi kontaktar dig snällt!",
+        "RequestPasswordReset":"BEGÄRAN ÅTERSTÄLL LÖSENORD",
+        
+        "ResetYourPassword":"Återställ ditt lösenord",
+        "EnterPIN":"Ange PIN-kod som vi har skickat till dig i din registrerade e-postadress.",
+        "SetNewPassword":"STÄLL IN NYTT LÖSENORD",
+        
+        "PINIncorrect":"Den angivna PIN-koden är inte korrekt",
+        "EntereNewPassword":"Ange ditt nya lösenord",
+        "PasswordNotMatch":"Lösenord och bekräfta lösenord matchar inte",
+        
+        "Pin":"Stift",
+        
+        
+        "VerificationCode":"Verifierings kod",
+        "VerificationCodeDescription":"Verifieringskod skickas till mobilnumret. Ange verifieringskod.",
+        "ValidateOTP":"Validera OTP",
+        "ResendOTP":"Skicka OTP igen",
+        "EnterVerificationCode":"Ange verifieringskod",
+        
+        "OTPSentAgain":"OTP skickas igen den",
+        
+        
+        "PasswordUpdateSuccess":"Ditt lösenord har uppdaterats",
+        
+        "YouHavePoints":"Du har poäng",
+        
+        "SubTotal":"Sub totalt",
+        "Shipping":"Frakt",
+        "AmountPayable":"Belopp som ska betalas",
+        
+        "PaymentMethod":"Betalningsmetod:",
+        "PaymentDetails":"Betalningsinformation",
+        "SortBy":"Sortera efter",
+        "Filter":"Filtrera",
+        "Color" : "Färg",
+        "Size":"Storlek",
+        "PriceRange":"Prisklass",
+        "SelectAll":"Välj alla",
+        "Category":"Kategori",
+        "Brand":"varumärke",
+        "Rating":"Betyg",
+        "ClearFilter":"Rensa filtret",
+        "Availability":"Tillgänglighet",
+        "OutOfStock":"Ej i lager",
+        "InStock":"I lager",
+        
+        "NewestFirst":"Nyaste först",
+        "Popularity":"Popularitet",
+        "PriceLowToHigh":"Pris - Lågt till högt",
+        "PriceHighToLow":"Pris - högt till lågt",
+        
+        "BuyNow":"Köp nu",
+        "AddToCart":"Lägg till i kundvagn",
+        "Info":"Info",
+        "DeliveryOptions":"Leveransalternativ",
+        "EnterYourPinCode":"Ange din PIN-kod",
+        "Check":"Kolla upp",
+        "SoldBy":"Såld av",
+        "SellerInformation":"Säljarinformation",
+        "ContactSeller":"Kontakta säljaren",
+        "ViewStore":"Visa butik",
+        "QuickOverview":"snabb överblick",
+        "ProductDetails":"Produktinformation",
+        "More":"Mer...",
+        "RatingsNReviews":"Betyg och recensioner",
+        "Ratings":"Betyg",
+        "Reviews":"Recensioner",
+        "Review":"Recension",
+        "RateNWriteReview":"Betygsätt och skriv recension",
+        "ViewAllReviews":"Visa alla recensioner",
+        
+        "RateProduct":"Betygsätt produkt",
+        "Comment":"Kommentar",
+        "Submit":"Skicka in",
+        "Image":"Bild",
+        "Quick":"Snabbt",
+        
+        "RemoveFromCart":"Vill du ta bort från kundvagnen?",
+        "RemoveFromWishlist":"Vill du ta bort från önskelistan?",
+        
+        "ItemAddedWishList":"Artikel tillagd i din önskelista.",
+        "ItemRemovedWishList":"Objekt har tagits bort från din önskelista.",
+        
+        "ItemAddedCart":"Varan har lagts till i din kundvagn",
+        "CombinationNotExists":"Denna kombination finns inte. Välj en annan variant.",
+        
+        
+        "GoToCart":"Gå till kundvagnen",
+        
+        
+        "RelatedProducts":"Relaterade produkter",
+        
+        "GiveRating":"Vänligen ange dina betyg",
+        
+        
+        "AvailableAt":"Tillgänglig på",
+        "Available":"Tillgängliga",
+        "CashOnDelivery":"Postförskott",
+        "NotAvailable":"Inte tillgänglig",
+        "DeliveryDataHelpText":"Hjälptext för leveransdatum",
+        "PincodeNotBlank":"Pincode ska inte vara tom.",
+        "EnterValidPincode":"Ange giltig PIN-kod",
+        "EnterYourPincode":"Ange din PIN-kod",
+        
+        "InvalidContactNo":"Ogiltigt kontaktnummer",
+        "WhatsappNotInstalled":"WhatsApp är inte installerat på din enhet.",
+        
+        "RatingURLNotAvailable":"Betygslänk inte inställd",
+        "GeoFenceMessage":"Du har gått in i vår butiksregion",
+        "WebSiteNotValid":"Webbplatsen är inte giltig",
+
+        
+        "WalletBalance":"Plånbokssaldo",
+        "Wallet":"Plånbok",
+        "Wallet Transaction History":"Plånbokstransaktionshistorik",
+        
+        "OrderPlacedFailure" : "BESTÄLLNING AVBRYT",
+        "OrderPlacedFailureSubMessage" : "Tyvärr kan din beställning inte behandlas eftersom den ursprungliga banken/säljaren har tackat nej till din transaktion.",
+        
+        "technicalIssue":"Det finns tekniskt problem. Försök efter en tid.",
+        "NoRatingURL" : "Ingen betygsadress är inställd",
+        
+        "EnterFirstName":"Vänligen ange förnamn",
+        "EnterLastName":"Vänligen ange efternamn",
+        "EnterPinCode":"Vänligen ange pinkod",
+        "EnterAddress1":"Vänligen ange adress1",
+        "EnterAddress2":"Vänligen ange adress2",
+        "EnterPhoneNumber":"Vänligen ange telefonnummer",
+        "EnterCompany":"Ange företag"
+        
+        
+    }
+}

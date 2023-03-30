@@ -1,0 +1,244 @@
+/**
+* App Custom Api Support CSS
+* @param-upic:
+*/
+.pgs-woo-api-api-admin-page .nav-tab-wrapper, .pgs-woo-api-api-admin-page.wrap h2.nav-tab-wrapper, .pgs-woo-api-api-admin-page h1.nav-tab-wrapper {
+    padding-top: 0;
+}
+.pgs-woo-api-api-admin-page .nav-tab-wrapper, .pgs-woo-api-api-admin-page .wrap h2.nav-tab-wrapper, .pgs-woo-api-api-admin-page h1.nav-tab-wrapper {
+    border-bottom: none;
+    background: #323232;
+    padding-top: 0;
+    margin-top: 20px;
+}
+.pgs-woo-api-api-admin-page .nav-tab-active, 
+.pgs-woo-api-api-admin-page .nav-tab-active:focus, 
+.pgs-woo-api-api-admin-page .nav-tab-active:focus:active, 
+.pgs-woo-api-api-admin-page .nav-tab-active:hover {
+    background: #04d39f !important;
+    color: #ffffff;
+    border: none;
+}
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper {
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding-top: 9px;
+    padding-bottom: 0;
+    line-height: inherit;
+}
+.pgs-woo-api-api-admin-page .nav-tab-wrapper, .pgs-woo-api-api-admin-page .wrap h2.nav-tab-wrapper, .pgs-woo-api-api-admin-page h1.nav-tab-wrapper {
+    border-bottom: none;
+    background: #323232;
+    padding-top: 0;
+    margin-top: 20px;
+}
+.pgs-woo-api-api-admin-page .nav-tab {
+    border: none;
+    background: #323232;
+    color: #ffffff;
+    margin-left: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    line-height: 26px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.pgs-woo-api-api-admin-page .support-bg {
+    background: #ffffff;
+    padding: 30px;
+}
+
+.pgs-woo-api-api-admin-page label {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+
+.pgs-woo-api-api-admin-page .support-bg .dashicons.dashicons-yes {
+    height: 46px;
+    line-height: 46px;
+    position: relative;
+    right: 3px;
+    background: green;
+    color: #ffff;
+    width: 46px;
+}
+.pgs-woo-api-api-admin-page .support-bg .dashicons {
+    height: 46px;
+    line-height: 46px;
+    position: relative;
+    right: 3px;
+    background: #db2e2d;
+    color: #ffff;
+    width: 46px;
+}
+
+.pgs-woo-api-api-admin-page .pgs-woo-api-box-row{
+    width: 100%;
+    display: inline-block;
+}
+
+.pgs-woo-api-api-admin-page .pgs-woo-api-box{    
+    display: block;
+    margin-right: 30px;
+    float: left;
+}
+
+.pgs-woo-api-api-admin-page .support-bg .pgs_woo_api_verify_plugin input {
+    width: 400px;
+    padding-left: 10px;
+    background: #f1f1f1;
+    border-color: #f1f1f1;
+    box-shadow: none;
+    height: 46px;
+    transition: all 0.5s ease-in-out;
+}
+.pgs-woo-api-api-admin-page .support-bg .submit {
+    padding-top: 0;
+}
+.pgs-woo-api-api-admin-page .support-bg .pgs_woo_api_verify_plugin .submit input {
+    background: #323232;
+    border-color: #323232;
+    color: #ffffff;
+    text-shadow: none;
+    box-shadow: none;
+    width: inherit;
+    height: inherit;
+    border-radius: 0px;
+    padding: 10px 40px;
+    transition: all 0.5s ease-in-out;
+}
+.pgs-woo-api-api-admin-page .support-bg h3 {
+    font-size: 28px;
+    line-height: 30px;
+    margin: 0;
+}
+.pgs-woo-api-api-admin-page .support-bg ul {
+    position: relative;
+    margin-top: 25px;
+}
+.pgs-woo-api-api-admin-page .support-bg ul li span {
+    border: 2px solid #f1f1f1;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    left: 0;
+}
+.pgs-woo-api-api-admin-page .support-bg ul li {
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 24px;
+    color: #656565;
+    padding-left: 50px;
+}    
+.pgs-woo-api-api-admin-page .support-bg .pgs_woo_api_verify_plugin {
+    position: relative;
+    display: inline-block;
+}
+.pgs-woo-api-api-admin-page .pgs-woo-api-admin-row {
+    display: flex;
+}
+.pgs-woo-api-api-admin-page .pgs-woo-api-admin-one-half.ticket {
+    background: #eeff41;
+}
+.pgs-woo-api-api-admin-page .pgs-woo-api-admin-one-half-inner {
+    padding: 30px 50px;
+}
+.pgs-woo-api-api-admin-page .pgs-woo-api-admin-one-half.documentation {
+    background: #a0f8bc;
+}
+.pgs-woo-api-api-admin-page .pgs-woo-api-admin-one-half {
+    width: 33.33%;
+    float: left;
+}
+.pgs-woo-api-api-admin-page .pgs-woo-api-admin-one-half.video {
+    background: #19ffff;
+}
+.pgs-woo-api-api-admin-page .support-bg .pgs-woo-api-admin-important-notice {
+    color: #DB2E2D;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.pgs-woo-api-api-admin-page .pgs-woo-api-admin-important-success-notice {
+    color: green;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.pgs-woo-api-api-admin-page .pgs-woo-api-about-text.about-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.pgs-woo-api-api-admin-page .pgs-woo-api-welcome .pgs-woo-api-welcome-badge .wp-badge {
+    height: 90px;
+    width: 100px;
+    top: -42px;
+}
+.pgs-woo-api-welcome {
+    font-size: 15px;
+    margin: 25px 40px 0 20px;
+    /* max-width: 1050px; */
+    position: relative;
+    padding-right: 155px;
+}
+.pgs-woo-api-api-admin-page .pgs-woo-api-welcome {
+    margin-right: 0 !important;
+}
+.pgs-woo-api-welcome .wp-badge {
+    /* background-image: url(../images/admin/welcome-logo.png); */
+    color: #32373c;
+    height: 120px;
+    line-height: 120px;
+    overflow: hidden;
+    padding-top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.pgs-woo-api-api-admin-page .pgs-woo-api-welcome .pgs-woo-api-welcome-badge .pgs-woo-api-welcome-badge-version {
+    top: 53px;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    background: #04d39f;
+}
+.pgs-woo-api-welcome-badge .pgs-woo-api-welcome-badge-version {
+    background-color: #0073aa;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 125px;
+    width: 140px;
+}
+.pgs-woo-api-api-admin-page .pgs-woo-api-welcome-badge-version {
+    background: #04d39f !important;
+}
+
+.install-pro-letsgo .spinner{
+    float:none !important;
+}

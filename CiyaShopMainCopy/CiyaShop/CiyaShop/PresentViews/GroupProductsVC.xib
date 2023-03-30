@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="GroupProductsVC" customModule="CiyaShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KDo-i8-Pnj">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXG-ps-d0b">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.60415774828767121" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fX3-cN-lpZ">
+                            <rect key="frame" x="30" y="259" width="260" height="50"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="QFM-mW-VQv">
+                                    <rect key="frame" x="0.0" y="0.0" width="260" height="50"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="goR-HI-far"/>
+                                    </constraints>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="QFM-mW-VQv" firstAttribute="leading" secondItem="fX3-cN-lpZ" secondAttribute="leading" id="VuO-DJ-x0W"/>
+                                <constraint firstAttribute="trailing" secondItem="QFM-mW-VQv" secondAttribute="trailing" id="c7D-Go-FZW"/>
+                                <constraint firstItem="QFM-mW-VQv" firstAttribute="top" secondItem="fX3-cN-lpZ" secondAttribute="top" id="g0x-PZ-FN0"/>
+                                <constraint firstAttribute="bottom" secondItem="QFM-mW-VQv" secondAttribute="bottom" id="lao-NF-ZfY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="hXG-ps-d0b" secondAttribute="bottom" id="3MK-3Z-S8G"/>
+                        <constraint firstItem="fX3-cN-lpZ" firstAttribute="centerY" secondItem="KDo-i8-Pnj" secondAttribute="centerY" id="S7B-7d-bth"/>
+                        <constraint firstItem="fX3-cN-lpZ" firstAttribute="leading" secondItem="KDo-i8-Pnj" secondAttribute="leading" constant="30" id="WHm-lb-lhS"/>
+                        <constraint firstItem="hXG-ps-d0b" firstAttribute="leading" secondItem="KDo-i8-Pnj" secondAttribute="leading" id="XED-VG-Jjq"/>
+                        <constraint firstAttribute="trailing" secondItem="fX3-cN-lpZ" secondAttribute="trailing" constant="30" id="e3i-sK-joc"/>
+                        <constraint firstAttribute="trailing" secondItem="hXG-ps-d0b" secondAttribute="trailing" id="lr8-CA-kbD"/>
+                        <constraint firstItem="hXG-ps-d0b" firstAttribute="top" secondItem="KDo-i8-Pnj" secondAttribute="top" id="oEY-Ue-ple"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KDo-i8-Pnj" secondAttribute="trailing" id="7TP-Df-f0D"/>
+                <constraint firstItem="KDo-i8-Pnj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mXq-n2-N8g"/>
+                <constraint firstItem="KDo-i8-Pnj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="uan-6T-Bwa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="KDo-i8-Pnj" secondAttribute="bottom" id="vwJ-mv-0RU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <outlet property="blurView" destination="hXG-ps-d0b" id="EMP-s3-0Xd"/>
+                <outlet property="constraintVariationTableHeight" destination="goR-HI-far" id="dgU-Fi-wu0"/>
+                <outlet property="tblGroupProducts" destination="QFM-mW-VQv" id="zPj-0W-vJx"/>
+                <outlet property="vwContent" destination="fX3-cN-lpZ" id="Gce-o0-ibT"/>
+            </connections>
+            <point key="canvasLocation" x="-473" y="51"/>
+        </view>
+    </objects>
+</document>

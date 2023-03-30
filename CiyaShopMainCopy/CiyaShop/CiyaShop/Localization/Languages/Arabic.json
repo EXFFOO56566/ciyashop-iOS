@@ -1,0 +1,373 @@
+{
+    "ar":  {
+        "SKIP":"تخطى",
+        "NEXT":"التالى",
+        "DONE":"فهمتك",
+        "AllRigtsReserved" :"© Ciyashop 2022 | كل الحقوق محفوظة",
+        "Search":"بحث",
+        "Cart":"عربة التسوق",
+        "Account":"الحساب",
+        "Wishlist":"الأماني",
+        "shopNow":"الأماني",
+
+        "viewAll":"مشاهدة الكل",
+        "OFF":"إيقاف",
+        "Items":"إيقاف",
+        "Remove":"إزالة",
+        "Edit":"تعديل",
+        "Add":"أضف",
+        "MovetoBag":"انتقل إلى الحقيبة",
+        "OK":"حسنا",
+        "Yes":"نعم",
+        "No":"لا",
+        "AllCategory":"كل الفئات",
+        "Login":"تسجيل الدخول",
+        "SignOut":"خروج",
+        "MyOrders":"طلباتي",
+        "MyAddresses":"عناويني",
+        "ChooseCurrency":"اختر العملة",
+        "ChooseLanguage":"اختر اللغة",
+        "Download":"تحميل",
+        "MyCoupons":"القسائم الخاصة بي",
+        "Coupons":"كوبونات",
+        "MyPoints":"نقاطي",
+        "Accountsettings":"إعدادت الحساب",
+        "Notification":"تنبيه",
+        "Notifications":"إشعارات",
+        "ProductPrice":"سعر المنتج",
+        "OtherProductsVendor":"منتجات أخرى من هذا البائع",
+        
+        "NoNotificationYet":"لا يوجد إشعار حتى الآن",
+        "RemoveAll":"حذف الكل",
+        "RemoveAllMessage":"هل أنت متأكد من أنك تريد إزالة جميع الإشعارات؟",
+        
+        "RatetheApp":"قيم التطبيق",
+        "ClearHistory":"تاريخ واضح",
+        
+        "Clear":"واضح",
+        
+        "Expire":"تنقضي : ",
+        "Remaining":"المتبقي : ",
+        
+        "RecentlyViewedProduct":"منتج تم عرضه مؤخرًا",
+
+        "ClearHistoryAlert":"يؤدي هذا إلى حذف سجل التصفح والبحث بشكل دائم من هذا الجهاز.",
+        
+        "Setting":"ضبط",
+        "NotificationPermission":"تم رفض إذن الإعلام. الرجاء السماح من الإعدادات.",
+
+        
+        "signoutAlert":"هل تريد حقًا تسجيل الخروج من حسابك؟",
+        
+        "Camera":"الة تصوير",
+        "Gallery":"صالة عرض",
+        
+        "NoPointsEarned":"لا نقاط مكتسبة",
+        "PurchaseProductEarnPoints":"قم بشراء المنتج واكسب النقاط.",
+        
+        "Event":"حدث",
+        "Date":"تاريخ",
+        "Points":"نقاط",
+        
+        "BrowseSomeOtherItem":"تصفح بعض العناصر الأخرى",
+        "NoAnyProductAvailable":"لا يوجد أي منتج متاح",
+        
+       
+        "Email":"البريد الإلكتروني",
+        "Password":"كلمه السر",
+        "OldPassword":"كلمة المرور القديمة",
+        "NewPassword":"كلمة مرور جديدة",
+        "RetypePassword":"أعد إدخال كلمة السر",
+        "ForgotPassword":"هل نسيت كلمة المرور؟",
+        "SignUp":"سجل",
+        "OR":"أو",
+        "SelectCountry":"اختر دولة",
+        "Close":"قريب",
+        "EndOfTheSale":"نهاية البيع",
+        
+        "DontHaveAccount":"ليس لديك حساب؟ أفتح حساب الأن",
+        "SignUpNow":"أفتح حساب الأن",
+        
+        "AlreadyHaveAccount":"هل لديك حساب؟ قم بتسجيل دخولك الآن",
+        "SignInNow":"قم بتسجيل دخولك الآن",
+        
+        "EnterEmail":"أدخل عنوان البريد الالكتروني",
+        "EnterValidEmail":"أدخل عنوان بريد إلكتروني صالح",
+        "EnterPassword":"أدخل كلمة المرور",
+        "EnterContactNo":"أدخل رقم الاتصال",
+        
+        "ConfirmPasswordMatch":"كلمة المرور وتأكيد كلمة المرور غير متطابقين",
+        
+        "EnterCurrentPassword":"أدخل كلمة المرور الحالية",
+        "PasswordNotCorrect":"عنوان بريدك الإلكتروني أو كلمة المرور غير صحيحة",
+        "EnterNewPassword":"أدخل كلمة المرور الجديدة",
+        
+        "PasswordChangedSuccessfully":"تم تغيير الرقم السري بنجاح",
+        
+        "ProvideEmailToFacebook":"تقديم معرف البريد الإلكتروني إلى حساب الفيسبوك الخاص بك",
+                
+        "EnterUserName":"ادخل اسم المستخدم",
+        
+        
+        "NoCurrencyFound": "لم يتم العثور على عملة",
+        "NoLanguageFound": "لا توجد لغات",
+        
+        "EmailID":"عنوان الايميل",
+        "UserName":"اسم المستخدم",
+        "ConfirmPassword":"تأكيد كلمة المرور",
+        
+        "AddAddress":"أضف عنوان جديد",
+        "PleaseAddAddress":"الرجاء إضافة العنوان",
+        
+        
+        "BillingAddress":"عنوان وصول الفواتير",
+        "ShippingAddress":"عنوان الشحن",
+        
+        "AddBillingAddress":"أضف عنوان الفواتير",
+        "AddShippingAddress":"أضف عنوان الشحن",
+        
+        "removeAddresss":"هل أنت متأكد من أنك تريد إزالة العنوان؟",
+        
+        "Name":"اسم",
+        "FirstName":"الاسم الاول",
+        "LastName":"الكنية",
+        "Pincode":"الرمز السري",
+        "Address1":"العنوان 1",
+        "Address2":"العنوان 2",
+        "CityTown":"المدينة / البلدة",
+        "State":"حالة",
+        
+        "Company":"شركة",
+        "PhoneNumber":"رقم الهاتف",
+         
+        "Save":"حفظ",
+        "Cancel":"إلغاء",
+        "ScratchHereCode":"اخدش هنا لتحصل على كود",
+        "ScratchHereCouponCode":"امسح هنا للحصول على رمز القسيمة.",
+        
+        "CouponCode":"رمز الكوبون",
+        "CouponCodeCopied":"تم نسخ رمز القسيمة إلى الحافظة الخاصة بك",
+        "NoRewardsYet":"لا مكافآت بعد .. !!",
+        
+        "AboutUs":"معلومات عنا",
+        "Version":"الإصدار",
+        "TermsCondition":"الشروط والأحكام",
+        "PrivacyPolicy":"سياسة خاصة",
+        "FollowUs":"تابعنا",
+        "MoreAboutUs":"المزيد عنا",
+        
+        
+        "AccountSetting":"إعدادات الحساب",
+        "DateofBirth":"تاريخ الولادة",
+        "Gender":"جنس",
+        "MobileNumber":"رقم الهاتف المحمول",
+        "ChangePassword":"تغيير كلمة المرور",
+        "DeactivateAccount":"تعطيل الحساب",
+        "ConfirmDeactivation":"تأكيد التعطيل",
+        
+        "InformationUpdatedSuccess":"تم تحديث المعلومات بنجاح",
+        
+        "DeactivatedSuccess":"تم إلغاء تنشيط حسابك بنجاح",
+        "ConfirmDeactivate":"هل أنت متأكد من إلغاء تنشيط ملف التعريف الخاص بك؟ \n إذا كانت الإجابة بنعم ، فعندئذٍ لإعادة تنشيط ملف التعريف الخاص بك ، يجب عليك الاتصال بالمسؤول.",
+        
+        "ContactUs":"اتصل بنا",
+        "ContactNumber":"رقم الاتصال",
+        "Subject":"موضوع",
+        "Message":"رسالة",
+        "Send":"إرسال",
+        
+        "EnterName":"أدخل أسمك",
+        "EnterSubject":"أدخل الموضوع",
+        "EnterMessage":"الرجاء إدخال الرسالة",
+        "MessageSent":"تم الارسال",
+        
+        "OrderId":"رقم التعريف الخاص بالطلب:",
+        "TotalAmount":"المبلغ الإجمالي:",
+        "Quantity":"كمية:",
+        "Details":"تفاصيل",
+        "Retry":"أعد المحاولة",
+        
+        "OrderDetails":"تفاصيل الطلب",
+        "CancelOrder":"الغاء الطلب",
+        
+        "NoOrderYet":"لا يوجد طلب حتى الان",
+        "NoOrderDescription":"ببساطة تصفح ، أنشئ قائمة أمنيات أو قم بالشراء",
+        "TrackingNumberIs":"رقم التتبع هو",
+        
+        "DeliveredSoon":"Delivered Soon",
+        "OrderPendingState":"الطلب في حالة انتظار",
+        "OrderUnderProcessing":"الطلب قيد المعالجة",
+        "OrderOnHold":"الطلب معلق",
+        "Delivered":"تم التوصيل",
+        "DeliveredOn":"تم التسليم",
+        "OrderCancelled":"تم إلغاء الطلب",
+        
+        "THANKYOU":"شكرا",
+        "OrderPlacedSuccess":"تم وضع طلبك بنجاح.",
+        "NotifyInFewMoments":"سوف يخطر في لحظات قليلة.",
+        
+        
+        "RefundedOrder":"تم رد المبلغ المدفوع لهذا الطلب",
+        "OrderFailed":"الطلب فاشل",
+        "DeliverSoon":"سيتم توصيل طلبك قريبًا",
+        
+        "ShoppingBag":"كيس التسوق",
+        "ContinueShopping":"مواصلة التسوق",
+        
+        "addToCartMessage":"ببساطة تصفح وإضافة عنصر إلى عربة التسوق",
+        "addToWishlistMessage":"ببساطة تصفح وإضافة عنصر إلى قائمة الرغبات.",
+        
+        "ItemAlreadyInCart":"العنصر موجود بالفعل في سلة التسوق",
+        "CartIsEmpty":"البطاقه خاليه",
+        "NoproductFound":"لم يتم العثور على منتج",
+        "Delete":"حذف",
+        "ContinueToCheckout":"الاستمرار في الخروج",
+        
+        
+        
+        "Order":"طلب",
+        "WasPlaced":"تم وضعه على",
+        "AndCurrently":"وحاليا",
+        
+        "OrderCancelledSuccess":"تم إلغاء الطلب بنجاح.",
+        
+        "SearchListEmpty":"قائمة البحث فارغة",
+        "BrowseOurStore":"تصفح متجرنا وألق نظرة على العناصر الأخرى للشراء.",
+        
+        "SearchHere":"ابحث هنا...",
+        
+        "ResetYourWorld":"أعد ضبط عالمك",
+        "ResetPasswordDescription":"غالبًا ما يتم نسيان أشياء كلمة المرور هذه. أدخل عنوان بريدك الإلكتروني أدناه وانقر على زر 'طلب إعادة تعيين كلمة المرور'. سوف نتصل بك بطريقة لطيفة!",
+        "RequestPasswordReset":"اعادة تعيين كلمة المرور طلب",
+        
+        
+        "ResetYourPassword":"اعد ضبط كلمه السر",
+        "EnterPIN":"أدخل رقم التعريف الشخصي الذي أرسلناه لك في عنوان بريدك الإلكتروني المسجل.",
+        "SetNewPassword":"تعيين كلمة مرور جديدة",
+        
+        "PINIncorrect":"رقم التعريف الشخصي الذي تم إدخاله غير صحيح",
+        "EnterConfirmPassword":"أدخل تأكيد كلمة المرور الخاصة بك",
+        "EntereNewPassword":"أدخل كلمة المرور الجديدة",
+        "PasswordNotMatch":"كلمة المرور وتأكيد كلمة المرور غير متطابقين",
+        "OTPSentAgain":"يتم إرسال OTP مرة أخرى على",
+        
+        "Pin":"دبوس",
+        
+        "VerificationCode":"شيفرة التأكيد",
+        "VerificationCodeDescription":"يتم إرسال رمز التحقق إلى رقم الهاتف المحمول. الرجاء إدخال رمز التحقق.",
+        "ValidateOTP":"التحقق من صحة OTP",
+        "ResendOTP":"إعادة إرسال OTP",
+        "EnterVerificationCode":"أدخل رمز التحقق",
+        
+        
+        
+        "PasswordUpdateSuccess":"تم تحديث كلمة المرور الخاصة بك بنجاح",
+        
+        
+           
+        "YouHavePoints":"لديك نقاط",
+        
+        
+        "SubTotal":"المجموع الفرعي",
+        "Shipping":"الشحن",
+        "AmountPayable":"المبلغ المستحق",
+        "PaymentMethod":"طريقة الدفع او السداد:",
+        "PaymentDetails":"بيانات الدفع",
+        "SortBy":"صنف حسب",
+        "Filter":"منقي",
+        "Color" : "اللون",
+        "Size":"بحجم",
+        "PriceRange":"نطاق السعر",
+        "SelectAll":"اختر الكل",
+        "Category":"الفئة",
+        "Brand":"الماركة",
+        "Rating":"تقييم",
+        "ClearFilter":"مرشح واضح",
+        "Availability":"التوفر",
+        "OutOfStock":"إنتهى من المخزن",
+        "InStock":"في المخزن",
+        
+        "NewestFirst":"الأحدث أولاً",
+        "Popularity":"شعبية",
+        "PriceLowToHigh":"السعر من الارخص للاعلى",
+        "PriceHighToLow":"السعر الاعلى الى الادنى",
+        
+        "BuyNow":"اشتري الآن",
+        "AddToCart":"أضف إلى السلة",
+        "Info":"معلومات",
+        "DeliveryOptions":"خيارات التوصيل",
+        "EnterYourPinCode":"أدخل رمز PIN الخاص بك",
+        "Check":"التحقق من",
+        "SoldBy":"تم بيعها من قبل",
+        "SellerInformation":"معلومات البائع",
+        "ContactSeller":"تواصل مع البائع",
+        "ViewStore":"عرض المتجر",
+        "QuickOverview":"لمحة سريعة",
+        "ProductDetails":"تفاصيل المنتج",
+        "More":"أكثر...",
+        "RatingsNReviews":"التقييمات والمراجعات",
+        "Ratings":"التقييمات",
+        "Reviews":"المراجعات",
+        "Review":"مراجعة",
+        "RateNWriteReview":"تقييم وكتابة مراجعة",
+        "ViewAllReviews":"عرض جميع المراجعات",
+        
+        "RateProduct":"قيم المنتج",
+        "Comment":"تعليق",
+        "Submit":"إرسال",
+        "Image":"صورة",
+        "Quick":"بسرعة",
+
+        "RemoveFromCart":"هل أنت متأكد أنك تريد إزالة من سلة التسوق؟",
+        "RemoveFromWishlist":"هل أنت متأكد أنك تريد إزالة من قائمة الرغبات؟",
+        
+        "ItemAddedWishList":"تم إضافة العنصر إلى قائمة الامنيات الخاصة بك.",
+        "ItemRemovedWishList":"تمت إزالة العنصر من قائمة الأمنيات.",
+        
+        "ItemAddedCart":"تمت إضافة العنصر لسلة التسوق بنجاح",
+        "CombinationNotExists":"هذه المجموعة غير موجودة. اختر متغيرًا آخر.",
+
+        
+        "GoToCart":"اذهب إلى السلة",
+        "RelatedProducts":"منتجات ذات صله",
+
+        "GiveRating":"يرجى إعطاء تقييماتك",
+
+        "AvailableAt":"متواجد في",
+        "Available":"متاح",
+        "CashOnDelivery":"Cash On Delivery",
+        "NotAvailable":"Not Available",
+        "DeliveryDataHelpText":"غير متوفر",
+        "PincodeNotBlank":"يجب ألا يكون الرمز السري فارغًا.",
+        "EnterValidPincode":"الرجاء إدخال رمز سري صالح",
+        "EnterYourPincode":"أدخل الرمز السري الخاص بك",
+        
+        "InvalidContactNo":"رقم الاتصال غير صحيح",
+        "WhatsappNotInstalled":"WhatsApp غير مثبت على جهازك.",
+        
+        "RatingURLNotAvailable":"لم يتم تعيين رابط التصنيف",
+        "GeoFenceMessage":"لقد دخلت في منطقة متجرنا",
+        "WebSiteNotValid":"الموقع غير صالح",
+
+        
+        "WalletBalance":"رصيد المحفظة",
+        "Wallet":"محفظة",
+        "Wallet Transaction History":"سجل معاملات المحفظة",
+        
+        "OrderPlacedFailure" : "تم إلغاء الطلب",
+        "OrderPlacedFailureSubMessage" : "للأسف ، لا يمكن معالجة طلبك لأن البنك / التاجر الأصلي قد رفض معاملتك.",
+        
+        "technicalIssue":"هناك بعض المشاكل الفنية. يرجى المحاولة بعد مرور بعض الوقت.",
+        "NoRatingURL" : "لم يتم تعيين عنوان url الخاص بالتقييم",
+        
+        "EnterFirstName":"الرجاء إدخال الاسم الأول",
+        "EnterLastName":"الرجاء إدخال الاسم الأخير",
+        "EnterPinCode":"الرجاء إدخال الرمز السري",
+        "EnterAddress1":"الرجاء إدخال العنوان 1",
+        "EnterAddress2":"الرجاء إدخال العنوان 2",
+        "EnterPhoneNumber":"الرجاء إدخال رقم الهاتف",
+        "EnterCompany":"الرجاء إدخال اسم الشركة"
+        
+    }
+}
+

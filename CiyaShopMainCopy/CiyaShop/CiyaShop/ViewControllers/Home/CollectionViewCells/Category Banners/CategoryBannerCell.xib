@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryBannerCell" id="gTV-IL-0wX" customClass="CategoryBannerCell" customModule="CiyaShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="485" height="155"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="485" height="155"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="VXj-Xe-zdh">
+                        <rect key="frame" x="0.0" y="0.0" width="485" height="155"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="485" id="JT3-lV-sEm"/>
+                            <constraint firstAttribute="height" constant="155" id="Ndb-0P-EYW"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="8" minimumInteritemSpacing="8" id="r6p-Rj-cic">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="VXj-Xe-zdh" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="Tcl-91-ON0"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="VXj-Xe-zdh" secondAttribute="trailing" id="UJP-Cr-q5P"/>
+                <constraint firstItem="VXj-Xe-zdh" firstAttribute="top" secondItem="ZTg-uK-7eu" secondAttribute="top" id="eIi-V7-ZJT"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="VXj-Xe-zdh" secondAttribute="bottom" id="ebI-JF-CeV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="473" height="152"/>
+            <connections>
+                <outlet property="cvHeightConstraint" destination="Ndb-0P-EYW" id="iEz-uA-VE6"/>
+                <outlet property="cvTopCategories" destination="VXj-Xe-zdh" id="QuV-SS-Dn9"/>
+                <outlet property="cvWidthConstraint" destination="JT3-lV-sEm" id="OHi-8o-FlK"/>
+            </connections>
+            <point key="canvasLocation" x="40.799999999999997" y="7.6461769115442282"/>
+        </collectionViewCell>
+    </objects>
+</document>

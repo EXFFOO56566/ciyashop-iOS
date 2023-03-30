@@ -1,0 +1,6 @@
+framework module CiyaShopSecurityFramework {
+  umbrella header "CiyaShopSecurityFramework.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DeactivateAccountVC" customModule="CiyaShop" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="BDt-eq-IGK" id="63L-nK-Kmi"/>
+                <outlet property="btnDeactivate" destination="mYO-Qp-bbC" id="mSG-3h-19b"/>
+                <outlet property="imgLoginIcon" destination="K0B-38-C03" id="Nah-dI-Es2"/>
+                <outlet property="imgPasswordIcon" destination="DHw-IQ-dL0" id="0np-Ul-dYE"/>
+                <outlet property="lblDeactivateAccount" destination="usn-Mr-6iu" id="8dS-cF-pdK"/>
+                <outlet property="lblTitle" destination="3Yz-uU-UPl" id="6BJ-qc-p1b"/>
+                <outlet property="txtLogin" destination="KKV-yZ-dsi" id="4Or-HJ-P4y"/>
+                <outlet property="txtPassword" destination="CZt-ch-YR3" id="Doz-tO-4se"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="vwLogin" destination="qOy-nj-BqK" id="52l-WM-C49"/>
+                <outlet property="vwPassword" destination="vqr-mH-WUn" id="HYI-Es-gp3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99y-NB-Y3k">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BDt-eq-IGK">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="X3O-8Y-m6K"/>
+                            </constraints>
+                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <state key="normal" image="back-arrow-icon"/>
+                            <connections>
+                                <action selector="btnBackClicked:" destination="-1" eventType="touchUpInside" id="6WI-ab-c3J"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Account Setting" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Yz-uU-UPl">
+                            <rect key="frame" x="66" y="12" width="188" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="3Yz-uU-UPl" firstAttribute="leading" secondItem="BDt-eq-IGK" secondAttribute="trailing" priority="750" constant="6" id="2qy-RO-ZoZ"/>
+                        <constraint firstItem="3Yz-uU-UPl" firstAttribute="centerX" secondItem="99y-NB-Y3k" secondAttribute="centerX" id="6NR-gb-wfh"/>
+                        <constraint firstItem="BDt-eq-IGK" firstAttribute="top" secondItem="99y-NB-Y3k" secondAttribute="top" id="FRK-xA-BNz"/>
+                        <constraint firstItem="BDt-eq-IGK" firstAttribute="leading" secondItem="99y-NB-Y3k" secondAttribute="leading" id="SEo-63-pnR"/>
+                        <constraint firstAttribute="bottom" secondItem="BDt-eq-IGK" secondAttribute="bottom" id="YRh-MU-ZUa"/>
+                        <constraint firstItem="3Yz-uU-UPl" firstAttribute="centerY" secondItem="99y-NB-Y3k" secondAttribute="centerY" id="gLk-KA-Glg"/>
+                        <constraint firstAttribute="height" constant="44" id="kBv-hY-PK0"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nuH-TH-m8G">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deactivate Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usn-Mr-6iu">
+                            <rect key="frame" x="16" y="16" width="118.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOy-nj-BqK">
+                            <rect key="frame" x="16" y="48" width="288" height="46"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email-icon" translatesAutoresizingMaskIntoConstraints="NO" id="K0B-38-C03">
+                                    <rect key="frame" x="15" y="13" width="20" height="20"/>
+                                    <color key="tintColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="Xas-J9-c4N"/>
+                                        <constraint firstAttribute="height" constant="20" id="pq0-ty-ldj"/>
+                                    </constraints>
+                                </imageView>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KKV-yZ-dsi" customClass="FloatingTextField" customModule="CiyaShop" customModuleProvider="target">
+                                    <rect key="frame" x="50" y="6" width="232" height="34"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="K0B-38-C03" firstAttribute="centerY" secondItem="KKV-yZ-dsi" secondAttribute="centerY" id="5PC-9W-eF7"/>
+                                <constraint firstAttribute="bottom" secondItem="KKV-yZ-dsi" secondAttribute="bottom" constant="6" id="Ghy-tu-6U4"/>
+                                <constraint firstItem="K0B-38-C03" firstAttribute="leading" secondItem="qOy-nj-BqK" secondAttribute="leading" constant="15" id="IKN-P3-IFW"/>
+                                <constraint firstAttribute="trailing" secondItem="KKV-yZ-dsi" secondAttribute="trailing" constant="6" id="cJN-Xr-KlA"/>
+                                <constraint firstItem="KKV-yZ-dsi" firstAttribute="leading" secondItem="K0B-38-C03" secondAttribute="trailing" constant="15" id="sEY-88-uTe"/>
+                                <constraint firstItem="KKV-yZ-dsi" firstAttribute="top" secondItem="qOy-nj-BqK" secondAttribute="top" constant="6" id="wfx-27-S1y"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqr-mH-WUn">
+                            <rect key="frame" x="16" y="110" width="288" height="46"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="password-icon" translatesAutoresizingMaskIntoConstraints="NO" id="DHw-IQ-dL0">
+                                    <rect key="frame" x="15" y="13" width="20" height="20"/>
+                                    <color key="tintColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="8sz-IK-uD1"/>
+                                        <constraint firstAttribute="height" constant="20" id="dOe-9Y-fNl"/>
+                                    </constraints>
+                                </imageView>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CZt-ch-YR3" customClass="FloatingTextField" customModule="CiyaShop" customModuleProvider="target">
+                                    <rect key="frame" x="50" y="6" width="232" height="34"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="DHw-IQ-dL0" firstAttribute="centerY" secondItem="CZt-ch-YR3" secondAttribute="centerY" id="1Lu-GR-Izz"/>
+                                <constraint firstItem="DHw-IQ-dL0" firstAttribute="leading" secondItem="vqr-mH-WUn" secondAttribute="leading" constant="15" id="8ld-6l-Mkh"/>
+                                <constraint firstItem="CZt-ch-YR3" firstAttribute="leading" secondItem="DHw-IQ-dL0" secondAttribute="trailing" constant="15" id="eAA-j8-G7P"/>
+                                <constraint firstAttribute="trailing" secondItem="CZt-ch-YR3" secondAttribute="trailing" constant="6" id="mLW-ye-HKu"/>
+                                <constraint firstAttribute="bottom" secondItem="CZt-ch-YR3" secondAttribute="bottom" constant="6" id="oTy-FB-K1j"/>
+                                <constraint firstItem="CZt-ch-YR3" firstAttribute="top" secondItem="vqr-mH-WUn" secondAttribute="top" constant="6" id="pfN-ED-e62"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYO-Qp-bbC">
+                            <rect key="frame" x="16" y="467" width="288" height="37"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                            <state key="normal" title="Deactivate Account">
+                                <color key="titleColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnDeActivateAccountClicked:" destination="-1" eventType="touchUpInside" id="nzu-Ot-Wv0"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="mYO-Qp-bbC" firstAttribute="trailing" secondItem="vqr-mH-WUn" secondAttribute="trailing" id="8K9-HH-ww3"/>
+                        <constraint firstItem="usn-Mr-6iu" firstAttribute="top" secondItem="nuH-TH-m8G" secondAttribute="top" constant="16" id="9mQ-RJ-3bm"/>
+                        <constraint firstItem="vqr-mH-WUn" firstAttribute="top" secondItem="qOy-nj-BqK" secondAttribute="bottom" constant="16" id="EfS-Bi-Zgn"/>
+                        <constraint firstItem="vqr-mH-WUn" firstAttribute="trailing" secondItem="qOy-nj-BqK" secondAttribute="trailing" id="KeX-92-cbi"/>
+                        <constraint firstItem="qOy-nj-BqK" firstAttribute="top" secondItem="usn-Mr-6iu" secondAttribute="bottom" constant="16" id="T5g-xm-chS"/>
+                        <constraint firstItem="mYO-Qp-bbC" firstAttribute="leading" secondItem="vqr-mH-WUn" secondAttribute="leading" id="TMG-7p-5k8"/>
+                        <constraint firstItem="qOy-nj-BqK" firstAttribute="leading" secondItem="nuH-TH-m8G" secondAttribute="leading" constant="16" id="Xyn-Oc-fvt"/>
+                        <constraint firstItem="vqr-mH-WUn" firstAttribute="leading" secondItem="qOy-nj-BqK" secondAttribute="leading" id="ZaN-ng-ueE"/>
+                        <constraint firstAttribute="trailing" secondItem="qOy-nj-BqK" secondAttribute="trailing" constant="16" id="ely-Hq-k9Z"/>
+                        <constraint firstAttribute="bottom" secondItem="mYO-Qp-bbC" secondAttribute="bottom" constant="20" id="oLy-Sa-n5k"/>
+                        <constraint firstItem="usn-Mr-6iu" firstAttribute="leading" secondItem="nuH-TH-m8G" secondAttribute="leading" constant="16" id="vV5-uk-GGE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="nuH-TH-m8G" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="4Yi-lQ-lK1"/>
+                <constraint firstItem="nuH-TH-m8G" firstAttribute="top" secondItem="99y-NB-Y3k" secondAttribute="bottom" id="JNN-nA-tYf"/>
+                <constraint firstItem="nuH-TH-m8G" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="Mwi-vA-o4h"/>
+                <constraint firstItem="nuH-TH-m8G" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="del-Tj-H64"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="99y-NB-Y3k" secondAttribute="trailing" id="oO0-V9-hV7"/>
+                <constraint firstItem="99y-NB-Y3k" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="qJc-DS-n78"/>
+                <constraint firstItem="99y-NB-Y3k" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qyX-F5-WSa"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="142.5" y="-86.619718309859152"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-arrow-icon" width="22" height="22"/>
+        <image name="email-icon" width="20" height="15"/>
+        <image name="password-icon" width="20" height="20"/>
+    </resources>
+</document>

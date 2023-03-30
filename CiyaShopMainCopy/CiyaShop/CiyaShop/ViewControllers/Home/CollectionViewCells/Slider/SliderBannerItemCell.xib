@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SliderBannerItemCell" id="gTV-IL-0wX" customClass="SliderBannerItemCell" customModule="CiyaShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="609" height="266"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="609" height="266"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cQM-0Y-wTI">
+                        <rect key="frame" x="0.0" y="0.0" width="609" height="266"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cQM-0Y-wTI" secondAttribute="trailing" id="9Bp-Nw-bJg"/>
+                <constraint firstItem="cQM-0Y-wTI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Bzh-Er-AbG"/>
+                <constraint firstAttribute="bottom" secondItem="cQM-0Y-wTI" secondAttribute="bottom" id="dSg-tp-rcT"/>
+                <constraint firstItem="cQM-0Y-wTI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ose-dz-Efc"/>
+            </constraints>
+            <size key="customSize" width="642" height="279"/>
+            <connections>
+                <outlet property="imgBanner" destination="cQM-0Y-wTI" id="jwi-4M-dqU"/>
+            </connections>
+            <point key="canvasLocation" x="76" y="36.881559220389811"/>
+        </collectionViewCell>
+    </objects>
+</document>

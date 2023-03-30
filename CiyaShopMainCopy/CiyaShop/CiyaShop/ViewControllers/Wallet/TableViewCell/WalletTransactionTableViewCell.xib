@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="76" id="KGk-i7-Jjw" customClass="WalletTransactionTableViewCell" customModule="CiyaShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sew-bg-E97">
+                        <rect key="frame" x="5" y="5" width="310" height="66"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUW-3x-02Z">
+                                <rect key="frame" x="8" y="8" width="186" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="T4Y-Sj-aii"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s54-7Y-Y35">
+                                <rect key="frame" x="202" y="8" width="100" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpQ-uG-QmD">
+                                <rect key="frame" x="8" y="39" width="294" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="RBs-78-JyI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wUW-3x-02Z" firstAttribute="top" secondItem="Sew-bg-E97" secondAttribute="top" constant="8" id="1Kf-7v-LFc"/>
+                            <constraint firstItem="wUW-3x-02Z" firstAttribute="leading" secondItem="Sew-bg-E97" secondAttribute="leading" constant="8" id="CNa-pH-GP7"/>
+                            <constraint firstAttribute="trailing" secondItem="s54-7Y-Y35" secondAttribute="trailing" constant="8" id="IDx-7R-JH4"/>
+                            <constraint firstItem="fpQ-uG-QmD" firstAttribute="top" secondItem="wUW-3x-02Z" secondAttribute="bottom" constant="10" id="PeH-L0-XDf"/>
+                            <constraint firstItem="s54-7Y-Y35" firstAttribute="leading" secondItem="wUW-3x-02Z" secondAttribute="trailing" constant="8" id="QVo-fl-Tic"/>
+                            <constraint firstItem="fpQ-uG-QmD" firstAttribute="trailing" secondItem="s54-7Y-Y35" secondAttribute="trailing" id="Qjh-Et-5b5"/>
+                            <constraint firstItem="s54-7Y-Y35" firstAttribute="top" secondItem="wUW-3x-02Z" secondAttribute="top" id="gpQ-Ak-172"/>
+                            <constraint firstAttribute="bottom" secondItem="fpQ-uG-QmD" secondAttribute="bottom" constant="6" id="oqq-Cy-BCO"/>
+                            <constraint firstItem="fpQ-uG-QmD" firstAttribute="leading" secondItem="wUW-3x-02Z" secondAttribute="leading" id="rRN-c1-1bn"/>
+                            <constraint firstItem="wUW-3x-02Z" firstAttribute="width" secondItem="Sew-bg-E97" secondAttribute="width" multiplier="0.6" id="sjR-7P-iXD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Sew-bg-E97" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="4qy-bY-Agz"/>
+                    <constraint firstAttribute="bottom" secondItem="Sew-bg-E97" secondAttribute="bottom" constant="5" id="9Nf-aM-nvb"/>
+                    <constraint firstItem="Sew-bg-E97" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="WyK-13-t0W"/>
+                    <constraint firstAttribute="trailing" secondItem="Sew-bg-E97" secondAttribute="trailing" constant="5" id="yf3-vx-e8B"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblAmount" destination="s54-7Y-Y35" id="Aio-3b-C9C"/>
+                <outlet property="lblDate" destination="fpQ-uG-QmD" id="ujt-1G-S5U"/>
+                <outlet property="lblText" destination="wUW-3x-02Z" id="oMg-vQ-kAs"/>
+                <outlet property="vwContent" destination="Sew-bg-E97" id="sQV-Rc-9GI"/>
+            </connections>
+            <point key="canvasLocation" x="5.7971014492753632" y="42.1875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

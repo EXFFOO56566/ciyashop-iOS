@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RobotoCondensed-Bold.ttf">
+            <string>RobotoCondensed-Bold</string>
+        </array>
+        <array key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+        </array>
+        <array key="RobotoCondensed-Regular.ttf">
+            <string>RobotoCondensed-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PaymentDetailsItemCell" rowHeight="151" id="KGk-i7-Jjw" customClass="PaymentDetailsItemCell" customModule="CiyaShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v2K-VQ-RTD">
+                        <rect key="frame" x="12" y="24" width="361" height="121"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Price Range 2 Items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9q-jS-n3C">
+                                <rect key="frame" x="12" y="12" width="93.5" height="18.5"/>
+                                <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="12"/>
+                                <color key="textColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="$ 1650.00" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TmA-Ul-xS2">
+                                <rect key="frame" x="300" y="14" width="49" height="14.5"/>
+                                <fontDescription key="fontDescription" name="RobotoCondensed-Bold" family="Roboto Condensed" pointSize="12"/>
+                                <color key="textColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="751" text="Amaount Payable" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0iy-dO-a86">
+                                <rect key="frame" x="12" y="38.5" width="97" height="16.5"/>
+                                <fontDescription key="fontDescription" name="RobotoCondensed-Regular" family="Roboto Condensed" pointSize="14"/>
+                                <color key="textColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="$ 1660.00" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsF-Iw-EUj">
+                                <rect key="frame" x="292" y="38.5" width="57" height="16.5"/>
+                                <fontDescription key="fontDescription" name="RobotoCondensed-Bold" family="Roboto Condensed" pointSize="14"/>
+                                <color key="textColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPP-PN-lPx">
+                                <rect key="frame" x="12" y="73" width="337" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="O6p-K8-CJh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="tintColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                                <state key="normal" title="Continue to Checkout">
+                                    <color key="titleColor" red="0.1137254902" green="0.20392156859999999" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0iy-dO-a86" firstAttribute="leading" secondItem="R9q-jS-n3C" secondAttribute="leading" id="4WG-YO-PrX"/>
+                            <constraint firstAttribute="bottom" secondItem="yPP-PN-lPx" secondAttribute="bottom" constant="12" id="4cZ-ta-Wca"/>
+                            <constraint firstItem="TsF-Iw-EUj" firstAttribute="centerY" secondItem="0iy-dO-a86" secondAttribute="centerY" id="7Pd-ZP-0SE"/>
+                            <constraint firstItem="R9q-jS-n3C" firstAttribute="top" secondItem="v2K-VQ-RTD" secondAttribute="top" constant="12" id="Ma1-OH-SJT"/>
+                            <constraint firstItem="TmA-Ul-xS2" firstAttribute="centerY" secondItem="R9q-jS-n3C" secondAttribute="centerY" id="Rzb-Lx-QZF"/>
+                            <constraint firstItem="0iy-dO-a86" firstAttribute="top" secondItem="R9q-jS-n3C" secondAttribute="bottom" constant="8" id="Ua6-D5-FpR"/>
+                            <constraint firstItem="R9q-jS-n3C" firstAttribute="leading" secondItem="v2K-VQ-RTD" secondAttribute="leading" constant="12" id="VkW-qM-6yK"/>
+                            <constraint firstItem="yPP-PN-lPx" firstAttribute="trailing" secondItem="TsF-Iw-EUj" secondAttribute="trailing" id="Z4n-eH-ntI"/>
+                            <constraint firstAttribute="trailing" secondItem="TmA-Ul-xS2" secondAttribute="trailing" constant="12" id="bxw-5B-ujR"/>
+                            <constraint firstItem="yPP-PN-lPx" firstAttribute="top" secondItem="0iy-dO-a86" secondAttribute="bottom" priority="999" constant="18" id="neu-CO-J93"/>
+                            <constraint firstItem="yPP-PN-lPx" firstAttribute="leading" secondItem="0iy-dO-a86" secondAttribute="leading" id="rlu-5D-EhO"/>
+                            <constraint firstItem="TsF-Iw-EUj" firstAttribute="trailing" secondItem="TmA-Ul-xS2" secondAttribute="trailing" id="udK-k4-Qjm"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="v2K-VQ-RTD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="8dI-IJ-jSn"/>
+                    <constraint firstAttribute="bottom" secondItem="v2K-VQ-RTD" secondAttribute="bottom" constant="8" id="HqU-GR-PbT"/>
+                    <constraint firstItem="v2K-VQ-RTD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="S7l-Ed-mvE"/>
+                    <constraint firstAttribute="trailing" secondItem="v2K-VQ-RTD" secondAttribute="trailing" constant="12" id="poR-Xy-tlg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnContinueCheckout" destination="yPP-PN-lPx" id="cD3-gi-w5t"/>
+                <outlet property="lblSubTotalTitle" destination="R9q-jS-n3C" id="MGA-a9-iNt"/>
+                <outlet property="lblSubTotalValue" destination="TmA-Ul-xS2" id="4qS-Ab-xN6"/>
+                <outlet property="lblTotalAmountTitle" destination="0iy-dO-a86" id="mLi-Nv-ozg"/>
+                <outlet property="lblTotalAmountValue" destination="TsF-Iw-EUj" id="4FB-fr-807"/>
+                <outlet property="vwPaymentDetails" destination="v2K-VQ-RTD" id="DhQ-GN-UcP"/>
+            </connections>
+            <point key="canvasLocation" x="174.63768115942031" y="47.209821428571423"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductImageCollectionViewCell" customModule="CiyaShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bKS-2q-tC0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detail_sample" translatesAutoresizingMaskIntoConstraints="NO" id="1Um-MJ-daJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dc2-hi-1H7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="select-icon" translatesAutoresizingMaskIntoConstraints="NO" id="0al-kw-bF9">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.4372859589041096" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="0al-kw-bF9" firstAttribute="top" secondItem="dc2-hi-1H7" secondAttribute="top" id="5Ae-01-TjJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="0al-kw-bF9" secondAttribute="trailing" id="8ba-us-aZS"/>
+                                    <constraint firstItem="0al-kw-bF9" firstAttribute="leading" secondItem="dc2-hi-1H7" secondAttribute="leading" id="CfT-PT-Cla"/>
+                                    <constraint firstAttribute="bottom" secondItem="0al-kw-bF9" secondAttribute="bottom" id="bWf-kW-yfC"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkF-RD-5cq">
+                                <rect key="frame" x="130" y="195" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="3In-vH-SLb"/>
+                                    <constraint firstAttribute="width" constant="60" id="lez-57-Dvg"/>
+                                </constraints>
+                                <state key="normal" image="play_icon"/>
+                                <state key="selected" image="pause_icon"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1Um-MJ-daJ" secondAttribute="trailing" id="1X0-03-Ies"/>
+                            <constraint firstAttribute="trailing" secondItem="dc2-hi-1H7" secondAttribute="trailing" id="7cN-gA-FQm"/>
+                            <constraint firstItem="1Um-MJ-daJ" firstAttribute="leading" secondItem="bKS-2q-tC0" secondAttribute="leading" id="CPb-Rx-qvu"/>
+                            <constraint firstItem="dc2-hi-1H7" firstAttribute="leading" secondItem="bKS-2q-tC0" secondAttribute="leading" id="L9v-MB-8M7"/>
+                            <constraint firstItem="1Um-MJ-daJ" firstAttribute="top" secondItem="bKS-2q-tC0" secondAttribute="top" id="LZS-FL-OU0"/>
+                            <constraint firstItem="gkF-RD-5cq" firstAttribute="centerY" secondItem="bKS-2q-tC0" secondAttribute="centerY" id="TTq-oI-7Ou"/>
+                            <constraint firstAttribute="bottom" secondItem="1Um-MJ-daJ" secondAttribute="bottom" id="V3A-8K-OJk"/>
+                            <constraint firstItem="gkF-RD-5cq" firstAttribute="centerX" secondItem="bKS-2q-tC0" secondAttribute="centerX" id="bxo-1M-VJF"/>
+                            <constraint firstAttribute="bottom" secondItem="dc2-hi-1H7" secondAttribute="bottom" id="f7f-LS-MjJ"/>
+                            <constraint firstItem="dc2-hi-1H7" firstAttribute="top" secondItem="bKS-2q-tC0" secondAttribute="top" id="mkV-JH-WdK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bKS-2q-tC0" secondAttribute="trailing" id="5yP-2N-DG7"/>
+                <constraint firstAttribute="bottom" secondItem="bKS-2q-tC0" secondAttribute="bottom" id="OBc-HD-oNm"/>
+                <constraint firstItem="bKS-2q-tC0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XpB-99-rUm"/>
+                <constraint firstItem="bKS-2q-tC0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bCq-6B-8GJ"/>
+            </constraints>
+            <size key="customSize" width="73" height="66"/>
+            <connections>
+                <outlet property="btnPlayPause" destination="gkF-RD-5cq" id="K4z-Uy-ntu"/>
+                <outlet property="imgvwProduct" destination="1Um-MJ-daJ" id="usy-Fc-QpX"/>
+                <outlet property="imgvwSelect" destination="0al-kw-bF9" id="XyB-OE-ght"/>
+                <outlet property="vwSelect" destination="dc2-hi-1H7" id="ozw-5D-5DU"/>
+            </connections>
+            <point key="canvasLocation" x="-32.608695652173914" y="50.892857142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="detail_sample" width="375" height="525"/>
+        <image name="pause_icon" width="40" height="40"/>
+        <image name="play_icon" width="40" height="40"/>
+        <image name="select-icon" width="16" height="16"/>
+    </resources>
+</document>

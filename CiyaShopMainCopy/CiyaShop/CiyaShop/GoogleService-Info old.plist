@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>687226334385-m0cmiehhq4ucochtuq6vd47b021d321n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.687226334385-m0cmiehhq4ucochtuq6vd47b021d321n</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>687226334385-q825i3fj2loej8upt7r8kl17gpjtg7iv.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA-fg9-hlnpjemUsP6mQEp8u4GUkCVoBZA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>687226334385</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Example.CiyaShop</string>
+	<key>PROJECT_ID</key>
+	<string>shopynity-265518</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shopynity-265518.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:687226334385:ios:14c0e0904c50d4df340690</string>
+	<key>DATABASE_URL</key>
+	<string>https://shopynity-265518.firebaseio.com</string>
+</dict>
+</plist>

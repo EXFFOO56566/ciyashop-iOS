@@ -1,0 +1,1415 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: PGS Woo Api 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-10-26 14:03+0530\n"
+"PO-Revision-Date: 2021-10-26 14:03+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar_AE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cc/inc/classes/class-pgs-woo-api-support.php:77
+#: cc/inc/classes/class-pgs-woo-api-support.php:80
+msgid "There was an error processing your request, please try again later!"
+msgstr ""
+
+#: cc/inc/classes/class-pgs-wp-autoupdate.php:92
+#, php-format
+msgid "Or goto %s CiyaShop application support %s"
+msgstr ""
+
+#: cc/inc/classes/class-pgs-wp-autoupdate.php:97
+#, php-format
+msgid ""
+"To receive automatic updates license activation is required. Please visit "
+"%sSettings%s to activate your CiyaShop PGS Woo API."
+msgstr ""
+
+#: cc/inc/classes/class-pgs-wp-autoupdate.php:105
+msgid "Getting download link..."
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:57
+msgid ""
+"Current WPML Language URL format settings not compatible with PGS Woo API."
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:59
+#, fuzzy
+#| msgid "Click for check test API."
+msgid "Click here for change settings."
+msgstr "انقر للتحقق من API اختبار."
+
+#: cc/inc/options-pages/option_page.php:69
+msgid "App Settings"
+msgstr "إعدادات التطبيقات"
+
+#: cc/inc/options-pages/option_page.php:82
+#: cc/inc/options-pages/option_page.php:90
+msgid "WelCome"
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:91
+#, fuzzy
+#| msgid "Please enter your name"
+msgid "Please verify your purches key"
+msgstr "من فضلك أدخل إسمك"
+
+#: cc/inc/options-pages/option_page.php:109
+msgid "Filters"
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:116
+msgid "Price"
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:117
+#: cc/inc/options-pages/option_page.php:130
+#: cc/inc/options-pages/option_page.php:139
+msgid "Enable"
+msgstr "مكن"
+
+#: cc/inc/options-pages/option_page.php:118
+#: cc/inc/options-pages/option_page.php:131
+#: cc/inc/options-pages/option_page.php:140
+msgid "Disable"
+msgstr "تعطيل"
+
+#: cc/inc/options-pages/option_page.php:138
+msgid "Average Rating"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:33
+#, fuzzy
+#| msgid "Please enter your password"
+msgid "Please Enter Item Purchase Code"
+msgstr "من فضلك أدخل رقمك السري"
+
+#: cc/inc/support/templates/support-content.php:35
+#, php-format
+msgid ""
+"Thank you for installing %s plugin! Please enter the item purchase code of "
+"%1$s plugin to be able to install demos and get updates of the plugin."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:77
+msgid "Please enter product purchase key to activate plugin."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:84
+#, php-format
+msgid "<p>Click here for Goto <a href=\"%1$s\">API Settings</a>."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:111
+#: cc/inc/support/templates/support-content.php:123
+msgid "Check"
+msgstr "التحقق من"
+
+#: cc/inc/support/templates/support-content.php:128
+msgid "Instructions For Find Purchase Code"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:131
+msgid "01"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:132
+msgid "Log into your Envato Market account."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:135
+msgid "02"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:136
+msgid "Hover the mouse over your username at the top of the screen."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:139
+msgid "03"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:140
+msgid "Click 'Downloads' from the drop down menu."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:143
+msgid "04"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:147
+#, php-format
+msgid ""
+"Click 'License certificate & purchase code' (available as PDF or text file). "
+"For more information <a href=\"%1$s\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: cc/inc/support/templates/support-header.php:8
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: cc/inc/support/templates/support-header.php:17
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: cc/inc/support/templates/support-header.php:21
+msgid ""
+"<strong>CiyaShop Application API</strong> is now ready to activate! "
+"<strong>CiyaShop Application</strong> is the perfect solution for your "
+"shopping business or your client shopping store as an agency or freelancer. "
+"It Engages consumers to constitute Loyalty with sharp design and features "
+"which make sense for the online shop. It is well-suited for retail stores, "
+"marketplaces, fashion shops, cosmetics and household appliances of any size. "
+"The CiyaShop application is the new way of building robust WooCommerce-based "
+"online shops and businesses."
+msgstr ""
+
+#: cc/inc/support/templates/support.php:57
+msgid "License"
+msgstr ""
+
+#: cc/inc/support/templates/support.php:59
+#: cc/template/warning-alert/pgs-woo-api-warning-alert.php:25
+msgid "Support"
+msgstr ""
+
+#: cc/inc/support/templates/support.php:67
+msgid "Please Follow the installation process"
+msgstr ""
+
+#: cc/inc/support/templates/support.php:86
+msgid ""
+"Click on the below button and follow the installation process, the "
+"installation process will update the plugin necessary plugin files and help "
+"to install the required plugins etc."
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:15
+msgid "Are you sure you want to delete this element?"
+msgstr "هل تريد بالتأكيد حذف هذا العنصر؟"
+
+#: cc/inc/woo-api-functions.php:16
+msgid "Choose Image"
+msgstr "اختر صورة"
+
+#: cc/inc/woo-api-functions.php:17
+msgid "Add Image"
+msgstr "إضافة صورة"
+
+#: cc/inc/woo-api-functions.php:39 cc/inc/woo-api-functions.php:55
+msgid "Warning"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:40 cc/inc/woo-api-functions.php:57
+msgid "Cancel"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:56
+msgid "Proceed"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:58
+msgid "Install Plugins"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:59
+msgid ""
+"Importing demo content will import contents, widgets and theme options. "
+"Importing sample data will override current widgets and theme options. It "
+"can take some time to complete the import process."
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:241 cc/inc/woo-api-functions.php:247
+#, fuzzy
+#| msgid "Please enter your name"
+msgid "Please verify your purchase key!"
+msgstr "من فضلك أدخل إسمك"
+
+#: cc/template/warning-alert/pgs-woo-api-warning-alert.php:24
+msgid "Documentation"
+msgstr ""
+
+#: cc/template/warning-alert/pgs-woo-api-warning-alert.php:26
+msgid "Try again"
+msgstr ""
+
+#: pgs-woo-api.php:31
+msgid "PGS Woo API"
+msgstr "PGS Woo API"
+
+#: pgs-woo-api.php:34
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\">App Settings</a> For setup the PGS Woo API plugin."
+msgstr ""
+
+#~ msgid "PGS Woo Api"
+#~ msgstr "بس وو أبي"
+
+#~ msgid "No product found"
+#~ msgstr "لم يتم العثور على أي منتج"
+
+#~ msgid "Sorry, that is not valid input. You missed cart_items parameters"
+#~ msgstr "عذرا، هذا الإدخال غير صالح. لقد فاتتك معلمات cart_items"
+
+#~ msgid "Cart is empty"
+#~ msgstr "البطاقه خاليه"
+
+#~ msgid "Please enter subject"
+#~ msgstr "الرجاء إدخال الموضوع"
+
+#~ msgid "Please enter your email"
+#~ msgstr "رجاءا أدخل بريدك الإلكتروني"
+
+#~ msgid "Please enter valid email address"
+#~ msgstr "الرجاء إدخال عنوان بريد إلكتروني صالح"
+
+#~ msgid "Message can't be blank"
+#~ msgstr "لا يمكن ترك حقل الرسالة فارغا"
+
+#~ msgid "Message from %s contact us form"
+#~ msgstr "رسالة من %s اتصل بنا"
+
+#~ msgid "User Details : "
+#~ msgstr "بيانات المستخدم : "
+
+#~ msgid "The e-mail could not be sent.Please try after some time."
+#~ msgstr "لا يمكن إرسال البريد الإلكتروني. يرجى المحاولة بعد بعض الوقت."
+
+#~ msgid ""
+#~ "Your email was successfully sent. We will contact you as soon as possible"
+#~ msgstr ""
+#~ "تم إرسال البريد الإلكتروني الخاص بك بنجاح. سنتواصل معك بأقرب وقت ممكن"
+
+#~ msgid "Result successfully fetched"
+#~ msgstr "النتيجة التي تم جلبها بنجاح"
+
+#~ msgid "No Coupons found"
+#~ msgstr "لم يتم العثور على كوبونات"
+
+#~ msgid "Coupon scratched successfully."
+#~ msgstr "خدش قسيمة بنجاح."
+
+#~ msgid "Please enter your email and password"
+#~ msgstr "يرجى إدخال البريد الإلكتروني وكلمة المرور"
+
+#~ msgid "Please enter your password"
+#~ msgstr "من فضلك أدخل رقمك السري"
+
+#~ msgid "Please enter valid email or password"
+#~ msgstr "الرجاء إدخال بريد إلكتروني أو كلمة مرور صالحة"
+
+#~ msgid "You are not allowed to do that"
+#~ msgstr "لا يسمح لك بذلك"
+
+#~ msgid "Your account successfully deactivated"
+#~ msgstr "تم إلغاء تنشيط الحساب بنجاح"
+
+#~ msgid "Account disabled"
+#~ msgstr "الحساب معطل"
+
+#~ msgid "Something went wrong!"
+#~ msgstr "هناك خطأ ما!"
+
+#~ msgid "Result not found!"
+#~ msgstr "النتيجة غير موجودة!"
+
+#~ msgid "No data found!"
+#~ msgstr "لاتوجد بيانات!"
+
+#~ msgid "email does not exist"
+#~ msgstr "البريد الإلكتروني غير موجود"
+
+#~ msgid ""
+#~ "You are currently deactivated. Please contact to admin for active account"
+#~ msgstr "تم إلغاء تنشيطك حاليا. يرجى الاتصال بالمسؤول عن الحساب النشط"
+
+#~ msgid "Something went wrong. Please try later"
+#~ msgstr "هناك خطأ ما. الرجاء المحاولة لاحقا"
+
+#~ msgid "Something went wrong. Please try later."
+#~ msgstr "هناك خطأ ما. الرجاء المحاولة لاحقا."
+
+#~ msgid "Email already exists"
+#~ msgstr "البريد الالكتروني موجود بالفعل"
+
+#~ msgid "Password required"
+#~ msgstr "كلمة المرور مطلوبة"
+
+#~ msgid "User logged out successfully"
+#~ msgstr "تم تسجيل خروج المستخدم بنجاح"
+
+#~ msgid "No orders found"
+#~ msgstr "لم يتم العثور على أية طلبات"
+
+#~ msgid "User not logged in"
+#~ msgstr "لم يتم تسجيل دخول المستخدم"
+
+#~ msgid "Your order was shipped via"
+#~ msgstr "تم شحن طلبك عبر"
+
+#~ msgid "Tracking number is"
+#~ msgstr "رقم التتبع هو"
+
+#~ msgid "Order status changed to Cancelled"
+#~ msgstr "تم تغيير حالة الطلب إلى الملغاة"
+
+#~ msgid "fail"
+#~ msgstr "فشل"
+
+#~ msgid "This Order status not is On-Hold or Pending"
+#~ msgstr "حالة الطلب هذه ليست قيد الانتظار أو في انتظار المراجعة"
+
+#~ msgid "Please enter password."
+#~ msgstr "الرجاء إدخال كلمة المرور."
+
+#~ msgid "password reset not allowed!"
+#~ msgstr "إعادة تعيين كلمة المرور غير مسموح بها!"
+
+#~ msgid "An error occurred!"
+#~ msgstr "حدث خطأ!"
+
+#~ msgid "Your password has been reset."
+#~ msgstr "تم إعادة تعيين كلمة المرور الخاصة بك."
+
+#, fuzzy
+#~| msgid "Please enter valid email address"
+#~ msgid "Please enter valid email."
+#~ msgstr "الرجاء إدخال عنوان بريد إلكتروني صالح"
+
+#, fuzzy
+#~| msgid "Please enter valid email address"
+#~ msgid "Please enter valid registered email."
+#~ msgstr "الرجاء إدخال عنوان بريد إلكتروني صالح"
+
+#~ msgid ""
+#~ "Someone requested that the password be reset for the following account:"
+#~ msgstr "طلب أحد الأشخاص إعادة تعيين كلمة المرور للحساب التالي:"
+
+#~ msgid "Username: %s"
+#~ msgstr "اسم المستخدم: %s"
+
+#~ msgid ""
+#~ "If this was a mistake, just ignore this email and nothing will happen."
+#~ msgstr "إذا كان هذا خطأ، فتجاهل هذا البريد الإلكتروني ولن يحدث أي شيء."
+
+#~ msgid ""
+#~ "Key for password reset has been emailed to you. Please check your email."
+#~ msgstr ""
+#~ "تم إرسال رسالة إلكترونية إلى مفتاح إعادة تعيين كلمة المرور. تفقد بريدك "
+#~ "الالكتروني من فضلك."
+
+#~ msgid "Placeholder"
+#~ msgstr "نائب"
+
+#, fuzzy
+#~| msgid "Dimension: "
+#~ msgid "Dimensions"
+#~ msgstr "البعد: "
+
+#~ msgid "Notification added successfully"
+#~ msgstr "تمت إضافة الإشعار بنجاح"
+
+#~ msgid "Something went wrong"
+#~ msgstr "هناك خطأ ما"
+
+#~ msgid "No data found"
+#~ msgstr "لاتوجد بيانات"
+
+#~ msgid "Record deleted successfully"
+#~ msgstr "تم حذف السجل بنجاح"
+
+#~ msgid "Record cannot be deleted. Please try after sometime!"
+#~ msgstr "لا يمكن حذف السجل. يرجى المحاولة بعد مرور بعض الوقت!"
+
+#~ msgid "Notification status updated successfully"
+#~ msgstr "تم تحديث حالة الإشعار بنجاح"
+
+#~ msgid "Please input 1 to 5 in rate star."
+#~ msgstr "يرجى إدخال 1 إلى 5 في نجمة معدل."
+
+#~ msgid "Please type a comment."
+#~ msgstr "يرجى كتابة تعليق."
+
+#~ msgid "Sorry, you must be logged in to comment."
+#~ msgstr "عذرا ، يجب عليك تسجيل الدخول للتعليق."
+
+#~ msgid "Creating a comment requires valid author name and email values."
+#~ msgstr "يتطلب إنشاء تعليق اسم المؤلف الصحيح وقيم البريد الإلكتروني."
+
+#~ msgid "Comment added successfully."
+#~ msgstr "تمت إضافة التعليق بنجاح."
+
+#~ msgid "Products are not allowed to comment."
+#~ msgstr "لا يُسمح للمنتجات بالتعليق."
+
+#~ msgid "External Store URL"
+#~ msgstr "عنوان ورل للمتجر الخارجي"
+
+#~ msgid "Your comment is awaiting approval"
+#~ msgstr "تعليقك ينتظر الموافقة"
+
+#~ msgid "Please provide your name."
+#~ msgstr "يرجى تقديم اسمك."
+
+#~ msgid "Email sent successfully!"
+#~ msgstr "تم إرسال البريد الإلكتروني بنجاح!"
+
+#~ msgid "Something went wrong. Please try after some time."
+#~ msgstr "هناك خطأ ما. يرجى المحاولة بعد مرور بعض الوقت."
+
+#~ msgid "page not set"
+#~ msgstr "الصفحة غير محددة"
+
+#~ msgid "invalid page name"
+#~ msgstr "اسم الصفحة غير صالح"
+
+#~ msgid "Please pass static page name"
+#~ msgstr "الرجاء تمرير اسم الصفحة الثابت"
+
+#~ msgid "Profile image updated successfully"
+#~ msgstr "تم تحديث صورة الملف الشخصي بنجاح"
+
+#~ msgid "Invalid image type"
+#~ msgstr "نوع الصورة غير صالح"
+
+#~ msgid "Please upload image"
+#~ msgstr "الرجاء تحميل الصورة"
+
+#~ msgid "Username already exists"
+#~ msgstr "اسم المستخدم موجود بالفعل"
+
+#~ msgid "User updated successfully"
+#~ msgstr "تم تحديث المستخدم بنجاح"
+
+#~ msgid "Sorry, that is not valid input. You missed user_id parameters"
+#~ msgstr "عذرا، هذا الإدخال غير صالح. لقد فقدت معلمات user_id"
+
+#~ msgid "No data for sync."
+#~ msgstr "لا توجد بيانات للمزامنة."
+
+#~ msgid "No record found."
+#~ msgstr "لا يوجد سجلات."
+
+#~ msgid "An error occurred while adding products to the wishlist."
+#~ msgstr "حدث خطأ أثناء إضافة منتجات إلى قائمة المفضلات."
+
+#~ msgid "Product added!"
+#~ msgstr "تمت إضافة المنتج!"
+
+#~ msgid "An error occurred while adding products to wishlist."
+#~ msgstr "حدث خطأ أثناء إضافة منتجات إلى قائمة المفضلات."
+
+#~ msgid "exists"
+#~ msgstr "موجود"
+
+#~ msgid "Product added successfully"
+#~ msgstr "تمت إضافة المنتج بنجاح"
+
+#~ msgid "You need to login before creating a new wishlist"
+#~ msgstr "تحتاج إلى تسجيل الدخول قبل إنشاء قائمة مفضلة جديدة"
+
+#~ msgid "Product deleted successfully"
+#~ msgstr "تم حذف المنتج بنجاح"
+
+#~ msgid "An error occurred while removing products from the wishlist"
+#~ msgstr "حدث خطأ أثناء إزالة المنتجات من قائمة المفضلات"
+
+#~ msgid "Sorry, that is not valid input. You missed "
+#~ msgstr "عذرا، هذا الإدخال غير صالح. فاتك "
+
+#~ msgid "Cancellation/Return/Exchange Policy"
+#~ msgstr "إلغاء / عودة / سياسة الصرف"
+
+#~ msgid "Refund Policy"
+#~ msgstr "سياسة الاسترجاع"
+
+#~ msgid "Shipping Policy"
+#~ msgstr "سياسة الشحن"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "required"
+#~ msgstr "كلمة المرور مطلوبة"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "Update country"
+#~ msgstr "كلمة المرور مطلوبة"
+
+#~ msgid "Click on below button to start token generation process"
+#~ msgstr "انقر على الزر أدناه لبدء عملية إنشاء الرمز المميز"
+
+#~ msgid "Let's go!"
+#~ msgstr "لنذهب!"
+
+#~ msgid "Verification token"
+#~ msgstr "رمز التحقق"
+
+#~ msgid ""
+#~ "Try to re submit. if still not get final token and token secret then "
+#~ "refresh this page and do it again."
+#~ msgstr ""
+#~ "حاول إعادة إرسال. إذا لم تحصل بعد على الرمز المميز والسرد المميز ، فحدّث "
+#~ "هذه الصفحة وافعلها مرة أخرى."
+
+#~ msgid "Click on below link to get authorization token."
+#~ msgstr "انقر على الرابط أدناه للحصول على رمز مميز."
+
+#~ msgid "Get verification token"
+#~ msgstr "الحصول على رمز التحقق"
+
+#~ msgid ""
+#~ "Onces you click above link, it will redirect you to new tab which will "
+#~ "prompt to authorize API, On clicking \"Authorize\" button, you will get "
+#~ "verification token. Copy that token and paste it to below \"Verification "
+#~ "Token\" input box."
+#~ msgstr ""
+#~ "عندما تنقر فوق الرابط أعلاه ، ستعيد توجيهك إلى علامة تبويب جديدة ستطالب "
+#~ "بتفويض API ، وعند النقر على زر \"تفويض\" ، ستحصل على رمز التحقق. انسخ "
+#~ "الرمز المميز والصقه في مربع إدخال \"رمز التحقق\"."
+
+#~ msgid "Verification Token"
+#~ msgstr "رمز التحقق"
+
+#~ msgid "Continue"
+#~ msgstr "استمر"
+
+#~ msgid "You're ready to call API."
+#~ msgstr "أنت على استعداد للاتصال بـ API."
+
+#~ msgid "Token"
+#~ msgstr "رمز"
+
+#~ msgid "Token Secret"
+#~ msgstr "رمز السر"
+
+#~ msgid "Please enter verification token."
+#~ msgstr "يرجى إدخال رمز التحقق."
+
+#~ msgid "Push notification"
+#~ msgstr "دفع الاخطار"
+
+#~ msgid "Send push notification to all users"
+#~ msgstr "إرسال إعلام دفع لجميع المستخدمين"
+
+#~ msgid "Mobile"
+#~ msgstr "التليفون المحمول"
+
+#~ msgid "Gender"
+#~ msgstr "جنس"
+
+#~ msgid "Male"
+#~ msgstr "الذكر"
+
+#~ msgid "Female"
+#~ msgstr "إناثا"
+
+#~ msgid "DOB"
+#~ msgstr "DOB"
+
+#~ msgid "Deactivate User"
+#~ msgstr "إلغاء تنشيط المستخدم"
+
+#~ msgid "User can't login if deactivate"
+#~ msgstr "لا يمكن للمستخدم تسجيل الدخول إذا إلغاء تنشيط"
+
+#~ msgid "Custom User Profile Image"
+#~ msgstr "صورة الملف الشخصي للمستخدم المخصص"
+
+#~ msgid "Profile Image"
+#~ msgstr "صورة الملف الشخصي"
+
+#~ msgid "Upload"
+#~ msgstr "تحميل"
+
+#~ msgid "Remove"
+#~ msgstr "إزالة"
+
+#~ msgid "Upload a custom image for your user profile"
+#~ msgstr "حمل صورة مخصصة لملفك الشخصي للمستخدم"
+
+#~ msgid "App Category Thumbnail"
+#~ msgstr "أب فئة الصور المصغرة"
+
+#~ msgid "Upload/Add App cat image"
+#~ msgstr "تحميل / إضافة التطبيق صورة القط"
+
+#~ msgid "Remove image"
+#~ msgstr "إزالة الصورة"
+
+#, fuzzy
+#~| msgid "Add mobile application category image"
+#~ msgid "Add mobile application category icon image"
+#~ msgstr "إضافة صورة فئة تطبيقات الجوال"
+
+#~ msgid "Add mobile application category image"
+#~ msgstr "إضافة صورة فئة تطبيقات الجوال"
+
+#~ msgid "App Image"
+#~ msgstr "صورة التطبيق"
+
+#~ msgid "Color Code"
+#~ msgstr "رمز اللون"
+
+#~ msgid "Color"
+#~ msgstr "اللون"
+
+#~ msgid "Geofencing"
+#~ msgstr "Geofencing"
+
+#~ msgid "Add New"
+#~ msgstr "اضف جديد"
+
+#~ msgid "No geofencing found in Trash."
+#~ msgstr "."
+
+#~ msgid "Description."
+#~ msgstr "وصف."
+
+#~ msgid "Settings saved."
+#~ msgstr "تم حفظ الإعدادات."
+
+#~ msgid "The file "
+#~ msgstr "الملف "
+
+#~ msgid " has been uploaded."
+#~ msgstr " تم تحميله."
+
+#~ msgid "Sorry, there was an error uploading your file."
+#~ msgstr "عذرا، حدث خطأ أثناء تحميل ملفك."
+
+#~ msgid "Save Changes"
+#~ msgstr "حفظ التغييرات"
+
+#~ msgid "Primary Logo"
+#~ msgstr "الشعار الأساسي"
+
+#~ msgid "Secondary Logo"
+#~ msgstr "الشعار الثانوي"
+
+#~ msgid "App Color"
+#~ msgstr "لون التطبيق"
+
+#~ msgid "Main Category Menu"
+#~ msgstr "القائمة الرئيسية الفئة"
+
+#~ msgid "Home Slider Banner"
+#~ msgstr "المنزل المتزلج بانر"
+
+#~ msgid "Category Banners"
+#~ msgstr "لافتات الفئة"
+
+#, fuzzy
+#~| msgid "Product added!"
+#~ msgid "Products View"
+#~ msgstr "تمت إضافة المنتج!"
+
+#~ msgid "Banner Ads"
+#~ msgstr "إعلانات البانر"
+
+#~ msgid "Feature Box"
+#~ msgstr "ميزة مربع"
+
+#~ msgid "App Pages"
+#~ msgstr "صفحات التطبيق"
+
+#~ msgid "Checkout Page"
+#~ msgstr "صفحة تشيكوت"
+
+#~ msgid "Social Links"
+#~ msgstr "روابط اجتماعية"
+
+#~ msgid "Contact Info"
+#~ msgstr "معلومات الاتصال"
+
+#~ msgid "Logo display on the header of the app."
+#~ msgstr "عرض شعار على رأس التطبيق."
+
+#~ msgid "IMPORTANT"
+#~ msgstr "مهم"
+
+#~ msgid ""
+#~ "For best performance and image quality in the mobile application, "
+#~ "strictly follow the below standards for logo images:"
+#~ msgstr ""
+#~ "للحصول على أفضل أداء وجودة صورة في تطبيق الجوال ، اتبع بدقة المعايير "
+#~ "التالية لصور الشعار:"
+
+#~ msgid "Dimension: "
+#~ msgstr "البعد: "
+
+#~ msgid "File Type: "
+#~ msgstr "نوع الملف: "
+
+#~ msgid "Edit"
+#~ msgstr "تصحيح"
+
+#~ msgid "Logo display on other app pages like About Us and Contact Us."
+#~ msgstr "عرض الشعار على صفحات التطبيق الأخرى مثل About Us و اتصل بنا."
+
+#~ msgid "You can change app default color and set as per your app design."
+#~ msgstr "يمكنك تغيير لون التطبيق الافتراضي وتعيينه حسب تصميم تطبيقك."
+
+#~ msgid "Header Color"
+#~ msgstr "لون الرأس"
+
+#~ msgid "Primary Color"
+#~ msgstr "لون أصلي"
+
+#~ msgid "Secondary Color"
+#~ msgstr "اللون الثانوي"
+
+#~ msgid "Categories menu items display on the home screen."
+#~ msgstr "يتم عرض عناصر قائمة الفئات على الشاشة الرئيسية."
+
+#~ msgid "Select category menu item"
+#~ msgstr "حدد عنصر قائمة الفئة"
+
+#~ msgid "Select"
+#~ msgstr "تحديد"
+
+#~ msgid "Category Icon Image"
+#~ msgstr "صورة أيقونة أيقونة"
+
+#~ msgid "Add"
+#~ msgstr "إضافة"
+
+#~ msgid "These banners display as a slider on the home screen."
+#~ msgstr "تظهر هذه اللافتات كمنزلق على الشاشة الرئيسية."
+
+#~ msgid ""
+#~ "For best performance and image quality of slider banners in the mobile "
+#~ "application, strictly use <strong>1125 x 633</strong> (WidthxHeight in "
+#~ "px) image for slider banners."
+#~ msgstr ""
+#~ "للحصول على أفضل أداء وجودة صورة لافتات المنزلق في تطبيق الهاتف المحمول ، "
+#~ "استخدمها بشكل صارم<strong> 1125 x 633 </strong>(صورة العرض x ارتفاع في "
+#~ "px) لشعارات المنزلق."
+
+#~ msgid "Slider Image"
+#~ msgstr "صورة المنزلق"
+
+#~ msgid "Select Product Category"
+#~ msgstr "حدد فئة المنتج"
+
+#~ msgid "Banners displayed on the home screen."
+#~ msgstr "لافتات معروضة على الشاشة الرئيسية."
+
+#~ msgid ""
+#~ "For best performance and image quality of category banners in the mobile "
+#~ "application, strictly use <strong>420 x 305</strong> (WidthxHeight in px) "
+#~ "image for category banners."
+#~ msgstr ""
+#~ "للحصول على أفضل أداء وجودة صورة لرايات الفئات في تطبيق الجوال ، استخدمها "
+#~ "بدقة <strong> 420 × 305 </ strong> (صورة WidthxHeight في بكسل) لرايات "
+#~ "الفئة."
+
+#~ msgid "Banner Image"
+#~ msgstr "صورة بانر"
+
+#~ msgid "Banner Title"
+#~ msgstr "بانر العنوان"
+
+#~ msgid "Status"
+#~ msgstr "الحالة"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Used for advertisement or special offers, displayed on Home screen."
+#~ msgstr "تستخدم للإعلان أو العروض الخاصة ، معروضة على الشاشة الرئيسية."
+
+#~ msgid ""
+#~ "For best performance and image quality of Ad banners in the mobile "
+#~ "application, strictly use <strong>1080 x 353</strong> (WidthxHeight in "
+#~ "px) image for banners."
+#~ msgstr ""
+#~ "للحصول على أفضل أداء وجودة صورة لافتات الإعلان في تطبيق الجوال ، استخدمها "
+#~ "بدقة <strong> 1080 × 353 </strong> (صورة العرض × الارتفاع بالبكسل) "
+#~ "للرايات."
+
+#~ msgid "Category for Banner Ad"
+#~ msgstr "فئة إعلان البانر"
+
+#~ msgid "Feature Box Title"
+#~ msgstr "عنوان مربع الميزة"
+
+#~ msgid "Feature Box Icon Image"
+#~ msgstr "ميزة مربع صورة أيقونة"
+
+#~ msgid ""
+#~ "For best performance and image quality, strictly use <strong>150 x 150</"
+#~ "strong> (WidthxHeight in px) image for feature box."
+#~ msgstr ""
+#~ "للحصول على أفضل أداء وجودة صورة ، استخدم بشكل صارم  <strong> 150 × 150 </"
+#~ "strong>(صورة العرض × الارتفاع بالبكسل) لصندوق الميزات."
+
+#~ msgid "Content"
+#~ msgstr "يحتوى"
+
+#~ msgid "App custom pages."
+#~ msgstr "صفحات مخصصة للتطبيق."
+
+#~ msgid "About Us"
+#~ msgstr "معلومات عنا"
+
+#~ msgid "Select page"
+#~ msgstr "حدد الصفحة"
+
+#~ msgid "Terms & Conditions"
+#~ msgstr "البنود و الظروف"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "سياسة الخصوصية"
+
+#~ msgid "Add info Pages"
+#~ msgstr "إضافة صفحات المعلومات"
+
+#~ msgid "Checkout Page Setting"
+#~ msgstr "الخروج من وضع الصفحة"
+
+#~ msgid ""
+#~ "Checkout page in any e-commerce website plays the most crucial part as it "
+#~ "is the online equivalent of a physical checkout counter shown to the "
+#~ "customer during the step by step checkout process. Hence, it needs to be "
+#~ "appealing enough. Ciya shop comes with a feature that you can personalize "
+#~ "this page as well. Although the user is having the default page to use "
+#~ "they can enhance their checkout page according to their choice anytime "
+#~ "they want by going to 'Checkout Page' option in 'App settings' and "
+#~ "selecting the page they have created."
+#~ msgstr ""
+#~ "تلعب صفحة Checkout في أي موقع من مواقع التجارة الإلكترونية الدور الأكثر "
+#~ "أهمية حيث إنها المكافئ عبر الإنترنت لعداد الخروج الفعلي الذي يتم عرضه "
+#~ "للعميل أثناء عملية السحب خطوة بخطوة. ومن ثم ، يجب أن تكون جذابة بما فيه "
+#~ "الكفاية. يأتي متجر Ciya مع ميزة يمكنك من خلالها تخصيص هذه الصفحة أيضًا. "
+#~ "على الرغم من أن المستخدم لديه الصفحة الافتراضية لاستخدامها ، إلا أنه "
+#~ "يمكنه تحسين صفحة الخروج حسب اختياره في أي وقت يريده عن طريق الانتقال إلى "
+#~ "خيار \"صفحة Checkout\" في \"إعدادات التطبيق\" وتحديد الصفحة التي قاموا "
+#~ "بإنشائها."
+
+#~ msgid "Select Checkout Page"
+#~ msgstr "حدد صفحة Checkout"
+
+#~ msgid "Social Media Settings"
+#~ msgstr "إعدادات وسائل الاعلام الاجتماعية"
+
+#~ msgid ""
+#~ "Specify social media URLs, where the user redirected once he/she clicks "
+#~ "on social media icons."
+#~ msgstr ""
+#~ "حدد عناوين URL الخاصة بالوسائط الاجتماعية ، حيث قام المستخدم بإعادة "
+#~ "التوجيه بمجرد نقره على أيقونات الشبكات الاجتماعية."
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Google Plus"
+#~ msgstr "Google Plus"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Address Line 1"
+#~ msgstr "العنوان الأول"
+
+#~ msgid "Address Line 2"
+#~ msgstr "Address Line 2"
+
+#~ msgid "Email"
+#~ msgstr "البريد الإلكتروني"
+
+#~ msgid "Phone"
+#~ msgstr "هاتف"
+
+#~ msgid "API Settings"
+#~ msgstr "إعدادات API"
+
+#~ msgid "Publish"
+#~ msgstr "نشر"
+
+#~ msgid "Update"
+#~ msgstr "تحديث"
+
+#~ msgid "API Keys"
+#~ msgstr "مفاتيح API"
+
+#~ msgid "WooCommerce API"
+#~ msgstr "WooCommerce API"
+
+#~ msgid "Push Notification"
+#~ msgstr "دفع الإخطار"
+
+#~ msgid "App URL"
+#~ msgstr "عنوان ورل للتطبيق"
+
+#~ msgid "Vendor Settings"
+#~ msgstr "إعدادات المورد"
+
+#~ msgid "Test API"
+#~ msgstr "اختبار API"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgid "Emails"
+#~ msgstr "البريد الإلكتروني"
+
+#~ msgid "Credentials Code"
+#~ msgstr "كود الاعتماد"
+
+#~ msgid "OAuth Credentials"
+#~ msgstr "أووث كريدنتيالز"
+
+#~ msgid "These credentials are just for the backup purpose."
+#~ msgstr "أوراق الاعتماد هذه فقط لغرض النسخ الاحتياطي."
+
+#~ msgid "Client Key"
+#~ msgstr "مفتاح العميل"
+
+#~ msgid "Client Secret"
+#~ msgstr "سر العميل"
+
+#~ msgid "Consumer Key"
+#~ msgstr "مفتاح المستهلك"
+
+#~ msgid "Consumer Secret"
+#~ msgstr "سر المستهلك"
+
+#~ msgid "Enable / Disable Push notification"
+#~ msgstr "تمكين / تعطيل إعلام دفع"
+
+#~ msgid "Mode"
+#~ msgstr "الوضع"
+
+#~ msgid "Sandbox"
+#~ msgstr "رمل"
+
+#~ msgid "Live"
+#~ msgstr "حي"
+
+#~ msgid "IOS Push notification mode"
+#~ msgstr "يوس دفع وضع الإخطار"
+
+#~ msgid "Upload Development Pem File"
+#~ msgstr "تحميل تطوير ملف بيم"
+
+#~ msgid "File Upload"
+#~ msgstr "تحميل الملف"
+
+#~ msgid "Upload IOS Push notification Pem File for development"
+#~ msgstr "تحميل يوس إعلام دفع بيم ملف للتنمية"
+
+#~ msgid "Password for Development Pem File"
+#~ msgstr "كلمة السر للتنمية ملف بيم"
+
+#~ msgid "Upload Distribution Pem File"
+#~ msgstr "تحميل توزيع ملف Pem"
+
+#~ msgid "Upload IOS Push notification Pem File for production"
+#~ msgstr "تحميل يوس إعلام دفع بيم ملف للإنتاج"
+
+#~ msgid "Password for Distribution Pem File"
+#~ msgstr "كلمة السر للتوزيع ملف بيم"
+
+#~ msgid "Coupon code notification title"
+#~ msgstr "عنوان إشعار شفرة القسيمة"
+
+#~ msgid "Coupon code notification message"
+#~ msgstr "رسالة إشعار رمز القسيمة"
+
+#~ msgid "{{coupon}} add this code for show in notification"
+#~ msgstr "{{coupon}} أضف هذا الرمز للعرض في الإشعار"
+
+#~ msgid "Order status notification title"
+#~ msgstr "عنوان إشعار حالة الطلب"
+
+#~ msgid "Order status notification message"
+#~ msgstr "رسالة إشعار حالة الطلب"
+
+#~ msgid "{{status}}, {{order_id}} add this code for show in notification"
+#~ msgstr "{{status}}، {{order_id}} إضافة هذا الرمز للعرض في الإشعار"
+
+#~ msgid "IOS App URL"
+#~ msgstr "IOS App URL"
+
+#~ msgid "Dokan"
+#~ msgstr "Dokan"
+
+#~ msgid "WC Marketplace"
+#~ msgstr "WC Marketplace"
+
+#~ msgid "Please select vendor plugin"
+#~ msgstr "الرجاء تحديد المكون الإضافي للبائع"
+
+#~ msgid "Click for check test API."
+#~ msgstr "انقر للتحقق من API اختبار."
+
+#, fuzzy
+#~| msgid "Contact Info"
+#~ msgid "Contact Us"
+#~ msgstr "معلومات الاتصال"
+
+#~ msgid "Note"
+#~ msgstr "ملحوظة"
+
+#~ msgid ""
+#~ "This key used for the geofencing functionality, for initializing google "
+#~ "map using google map API."
+#~ msgstr ""
+#~ "يستخدم هذا المفتاح لوظائف geofencing ، لتهيئة خريطة google باستخدام واجهة "
+#~ "برمجة تطبيقات خريطة جوجل."
+
+#~ msgid ""
+#~ "Click on respected icons for generate the code of OAuth key and url for "
+#~ "Android and iOS application."
+#~ msgstr ""
+#~ "انقر على الرموز المحترمة لإنشاء رمز مفتاح OAuth وعنوان url لتطبيق Android "
+#~ "و iOS."
+
+#~ msgid "is missing"
+#~ msgstr "مفقود"
+
+#, fuzzy
+#~| msgid "Something went wrong. Please try later."
+#~ msgid "Something went wrong or invalid sample selected."
+#~ msgstr "هناك خطأ ما. الرجاء المحاولة لاحقا."
+
+#, fuzzy
+#~| msgid "You are not allowed to do that"
+#~ msgid "You are not allowed to perform this action."
+#~ msgstr "لا يسمح لك بذلك"
+
+#, fuzzy
+#~| msgid "Result successfully fetched"
+#~ msgid "Sample data successfully imported."
+#~ msgstr "النتيجة التي تم جلبها بنجاح"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "Activate"
+#~ msgstr "إلغاء تنشيط المستخدم"
+
+#, fuzzy
+#~| msgid "plugin"
+#~ msgid "Plugins"
+#~ msgstr "توصيل في"
+
+#, fuzzy
+#~| msgid "Result not found!"
+#~ msgid "Post type %s not found."
+#~ msgstr "النتيجة غير موجودة!"
+
+#, fuzzy
+#~| msgid "Let's go!"
+#~ msgid "Let's Go!"
+#~ msgstr "لنذهب!"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "Activate Plugin"
+#~ msgstr "إلغاء تنشيط المستخدم"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "Activation required"
+#~ msgstr "كلمة المرور مطلوبة"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "Update required"
+#~ msgstr "كلمة المرور مطلوبة"
+
+#, fuzzy
+#~| msgid "User Details : "
+#~ msgid "View details"
+#~ msgstr "بيانات المستخدم : "
+
+#, fuzzy
+#~| msgid "No product found"
+#~ msgid "No Slug Found"
+#~ msgstr "لم يتم العثور على أي منتج"
+
+#, fuzzy
+#~| msgid "Content"
+#~ msgid "Default Content"
+#~ msgstr "يحتوى"
+
+#, fuzzy
+#~| msgid "Settings saved."
+#~ msgid "Your Settings are Ready!"
+#~ msgstr "تم حفظ الإعدادات."
+
+#~ msgid "Next Steps"
+#~ msgstr "الخطوات التالية"
+
+#, fuzzy
+#~| msgid "OAuth Credentials"
+#~ msgid "Please configure your OAuth Credentials"
+#~ msgstr "أووث كريدنتيالز"
+
+#, fuzzy
+#~| msgid "Something went wrong"
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "هناك خطأ ما"
+
+#, fuzzy
+#~| msgid "Requires the following plugins to be activated"
+#~ msgid "Please check requires the following plugin: %1$s."
+#~ msgstr "يتطلب تفعيل المكونات الإضافية التالية"
+
+#, fuzzy
+#~| msgid "Coupon scratched successfully."
+#~ msgid "Plugin activated successfully."
+#~ msgstr "خدش قسيمة بنجاح."
+
+#, fuzzy
+#~| msgid "Requires the following plugins to be activated"
+#~ msgid "The following plugin was activated successfully:"
+#~ msgstr "يتطلب تفعيل المكونات الإضافية التالية"
+
+#, fuzzy
+#~| msgid "Sandbox"
+#~ msgid "and"
+#~ msgstr "رمل"
+
+#, fuzzy
+#~| msgid "External Store URL"
+#~ msgid "External Source"
+#~ msgstr "عنوان ورل للمتجر الخارجي"
+
+#, fuzzy
+#~| msgid "install / activate"
+#~ msgid "Installed But Not Activated"
+#~ msgstr "تثبيت / تفعيل"
+
+#, fuzzy
+#~| msgid "plugin"
+#~ msgid "Plugin"
+#~ msgstr "توصيل في"
+
+#, fuzzy
+#~| msgid "Update"
+#~ msgid "Update %2$s"
+#~ msgstr "تحديث"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "Activate %2$s"
+#~ msgstr "إلغاء تنشيط المستخدم"
+
+#, fuzzy
+#~| msgid "An error occurred while adding products to wishlist."
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr "حدث خطأ أثناء إضافة منتجات إلى قائمة المفضلات."
+
+#, fuzzy
+#~| msgid "User updated successfully"
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "تم تحديث المستخدم بنجاح"
+
+#, fuzzy
+#~| msgid "Comment added successfully."
+#~ msgid "%1$s installed successfully."
+#~ msgstr "تمت إضافة التعليق بنجاح."
+
+#, fuzzy
+#~| msgid "User Details : "
+#~ msgid "Hide Details"
+#~ msgstr "بيانات المستخدم : "
+
+#~ msgid "[%s] Password Reset"
+#~ msgstr "[%s] إعادة تعيين كلمة المرور"
+
+#, fuzzy
+#~| msgid "Feature Box"
+#~ msgid "Feature Products"
+#~ msgstr "ميزة مربع"
+
+#, fuzzy
+#~| msgid "Categories menu items display on the home screen."
+#~ msgid "Feature products view display on the home screen."
+#~ msgstr "يتم عرض عناصر قائمة الفئات على الشاشة الرئيسية."
+
+#, fuzzy
+#~| msgid "Banners displayed on the home screen."
+#~ msgid "Recent products view display on the home screen."
+#~ msgstr "لافتات معروضة على الشاشة الرئيسية."
+
+#, fuzzy
+#~| msgid "Categories menu items display on the home screen."
+#~ msgid "Special deal products view display on the home screen."
+#~ msgstr "يتم عرض عناصر قائمة الفئات على الشاشة الرئيسية."
+
+#, fuzzy
+#~| msgid "Banners displayed on the home screen."
+#~ msgid "Popular products view display on the home screen."
+#~ msgstr "لافتات معروضة على الشاشة الرئيسية."
+
+#, fuzzy
+#~| msgid "Feature Box"
+#~ msgid "Top Rated Products"
+#~ msgstr "ميزة مربع"
+
+#, fuzzy
+#~| msgid "Categories menu items display on the home screen."
+#~ msgid "Top Rated products view display on the home screen."
+#~ msgstr "يتم عرض عناصر قائمة الفئات على الشاشة الرئيسية."
+
+#~ msgid "Requires the following plugins to be activated"
+#~ msgstr "يتطلب تفعيل المكونات الإضافية التالية"
+
+#~ msgid "Please"
+#~ msgstr "رجاء"
+
+#~ msgid "install / activate"
+#~ msgstr "تثبيت / تفعيل"
+
+#~ msgid "plugin"
+#~ msgstr "توصيل في"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "activate"
+#~ msgstr "إلغاء تنشيط المستخدم"
+
+#~ msgid "Your cart is empty."
+#~ msgstr "عربة التسوق فارغة."
+
+#~ msgid "Prev"
+#~ msgstr "السابق"
+
+#~ msgid "Next"
+#~ msgstr "التالى"
+
+#, fuzzy
+#~| msgid "Sorry, you must be logged in to comment."
+#~ msgid "You must be logged in to checkout."
+#~ msgstr "عذرا ، يجب عليك تسجيل الدخول للتعليق."
+
+#~ msgid "Your order"
+#~ msgstr "طلبك"
+
+#~ msgid "billing"
+#~ msgstr "الفواتير"
+
+#~ msgid "shipping"
+#~ msgstr "الشحن"
+
+#~ msgid "order"
+#~ msgstr "طلب"
+
+#~ msgid "payment"
+#~ msgstr "دفع"
+
+#, fuzzy
+#~| msgid "Please enter your name"
+#~ msgid "Click here to enter your code"
+#~ msgstr "من فضلك أدخل إسمك"
+
+#, fuzzy
+#~| msgid "No Coupons found"
+#~ msgid "Coupon code"
+#~ msgstr "لم يتم العثور على كوبونات"
+
+#, fuzzy
+#~| msgid "Product added!"
+#~ msgid "Product"
+#~ msgstr "تمت إضافة المنتج!"
+
+#, fuzzy
+#~| msgid "Checkout Page"
+#~ msgid "Checkout Multi-Step"
+#~ msgstr "صفحة تشيكوت"
+
+#, fuzzy
+#~| msgid "Product added!"
+#~ msgid "Products Carousel"
+#~ msgstr "تمت إضافة المنتج!"
+
+#~ msgid "Enter a value for this field"
+#~ msgstr "أدخل قيمة لهذا الحقل"
+
+#~ msgid "Abandoned From"
+#~ msgstr "مهجورة من"
+
+#~ msgid "Abandon cart alert!"
+#~ msgstr "التخلي عن تنبيه السلة!"
+
+#~ msgid "Somthing went wrong!"
+#~ msgstr "هناك خطأ ما!"
+
+#~ msgid "PGS Woo Api working fine"
+#~ msgstr "بس وو أبي تعمل بشكل جيد"
+
+#~ msgid "Click on icon for generate credentials code."
+#~ msgstr "انقر على أيقونة لإنشاء رمز بيانات الاعتماد."
+
+#, fuzzy
+#~| msgid "App URL"
+#~ msgid "App Logo"
+#~ msgstr "عنوان ورل للتطبيق"
+
+#, fuzzy
+#~| msgid "Upload a custom image for your user profile"
+#~ msgid "Upload Logo image for app only"
+#~ msgstr "حمل صورة مخصصة لملفك الشخصي للمستخدم"
+
+#~ msgid ""
+#~ "Upload Light Logo image for app only. if want to use dark and light logo "
+#~ "image."
+#~ msgstr ""
+#~ "حمّل صورة الشعار الخفيفة للتطبيق فقط. إذا كنت تريد استخدام صورة شعار "
+#~ "الظلام والضوء."
+
+#~ msgid "Main Category"
+#~ msgstr "الفئة الرئيسية"
+
+#~ msgid "Select main app menu category"
+#~ msgstr "حدد فئة قائمة التطبيقات الرئيسية"
+
+#~ msgid "Select banner ad category"
+#~ msgstr "حدد فئة إعلان بانر"
+
+#~ msgid "Terms of Use"
+#~ msgstr "تعليمات الاستخدام"
+
+#~ msgid "Enable / Disable Feature Box"
+#~ msgstr "تمكين / تعطيل ميزة مربع"
+
+#~ msgid "Submit"
+#~ msgstr "عرض"
+
+#~ msgid ""
+#~ "This is App Checkout page used in Application checkout process. This page "
+#~ "created by PGS Woo Api plugin. Please do not delete this page"
+#~ msgstr ""
+#~ "هذه هي صفحة التطبيق تشيكوت المستخدمة في عملية الخروج التطبيق. تم إنشاء "
+#~ "هذه الصفحة بواسطة البرنامج المساعد بس وو أبي. الرجاء عدم حذف هذه الصفحة"
+
+#~ msgid "Please enter auth details in setting page"
+#~ msgstr "الرجاء إدخال تفاصيل المصادقة في إعداد الصفحة"
+
+#~ msgid "Info Pages"
+#~ msgstr "صفحات المعلومات"
+
+#~ msgid "Add Info Pages"
+#~ msgstr "إضافة صفحات المعلومات"

@@ -1,0 +1,385 @@
+{
+    "de-DE":  {
+        
+        "SKIP":"ÜBERSPRINGEN",
+        "NEXT":"NÄCHSTER",
+        "DONE":"ERLEDIGT",
+        "AllRigtsReserved" :"© Ciyashop 2022 | Alle Rechte vorbehalten",
+        
+        
+        "Search":"Suche",
+        "Cart":"Wagen",
+        "Account":"Konto",
+        "Wishlist":"Wunschzettel",
+        
+        
+        "shopNow":"Jetzt einkaufen",
+        "viewAll":"Alle ansehen",
+        "OFF":"AUS",
+        "Items":"Artikel",
+        "Remove":"Entfernen",
+        "Edit":"Bearbeiten",
+        "Add":"Hinzufügen",
+        "MovetoBag":"In die Tasche gehen",
+        "OK":"OK",
+        "Yes":"Ja",
+        "No":"Nein",
+        "AllCategory":"Alle Kategorie",
+        
+        
+        "Login":"Einloggen",
+        "SignOut":"Ausloggen",
+        "MyOrders":"meine Bestellungen",
+        "ChooseCurrency":"Währung wählen",
+        "ChooseLanguage":"Sprache wählen",
+        "Download":"Download",
+        "Coupons":"Gutscheine",
+        "MyPoints":"Meine Punkte",
+        "AboutUs":"Über uns",
+        "Accountsettings":"Kontoeinstellungen",
+        "Notification":"Benachrichtigung",
+        "Notifications":"Notifications",
+        
+        "ProductPrice":"Produktpreis",
+        "OtherProductsVendor":"Andere Produkte von diesem Verkäufer",
+        
+        "NoNotificationYet":"Noch keine Benachrichtigung",
+        "RemoveAll":"Alles entfernen",
+        "RemoveAllMessage":"Möchten Sie wirklich alle Benachrichtigungen entfernen?",
+        
+        "RatetheApp":"Bewerten Sie die App",
+        "ClearHistory":"Verlauf löschen",
+        
+        "Clear":"klar",
+        
+        "Expire":"Verfallen : ",
+        "Remaining":"Verbleibend : ",
+        
+        "RecentlyViewedProduct":"ZULETZT ANGESEHENES PRODUKT",
+        
+        "ClearHistoryAlert":"Dadurch wird Ihr Suchverlauf dauerhaft von diesem Gerät gelöscht.",
+        
+        
+        "Setting":"Rahmen",
+        "NotificationPermission":"Erlaubnis zur Benachrichtigung verweigert. Bitte erlauben Sie aus den Einstellungen.",
+        
+        
+        "signoutAlert":"Möchten Sie sich wirklich von Ihrem Konto abmelden?",
+        
+        "Camera":"Kamera",
+        "Gallery":"Galerie",
+        
+        "NoPointsEarned":"Keine Punkte verdient",
+        "PurchaseProductEarnPoints":"Kaufen Sie ein Produkt und sammeln Sie Punkte.",
+        
+        "Event":"Veranstaltung",
+        "Date":"Datum",
+        "Points":"Punkte",
+        
+        "BrowseSomeOtherItem":"Durchsuchen Sie einen anderen Artikel",
+        "NoAnyProductAvailable":"Kein Produkt verfügbar",
+        
+        
+        
+        "Email":"Email",
+        "Password":"Passwort",
+        "OldPassword":"Altes Passwort",
+        "NewPassword":"Neues Kennwort",
+        "RetypePassword":"Passwort erneut eingeben",
+        "ForgotPassword":"Passwort vergessen?",
+        "SignUp":"Anmelden",
+        "OR":"ODER",
+        "SelectCountry":"Wähle ein Land",
+        "Close":"Schließen",
+        
+        "EndOfTheSale":"Ende des Verkaufs",
+        
+        "DontHaveAccount":"Sie haben noch keinen Account? Jetzt registrieren",
+        "SignUpNow":"Jetzt registrieren",
+        
+        "AlreadyHaveAccount":"Sie haben bereits ein Konto? Jetzt einschreiben",
+        "SignInNow":"Jetzt einschreiben",
+        
+        "EnterEmail":"E-Mail Adresse eingeben",
+        "EnterValidEmail":"Geben Sie eine gültige E-Mail-Adresse ein",
+        "EnterPassword":"Passwort eingeben",
+        "EnterConfirmPassword":"Geben Sie Passwort bestätigen ein",
+        "EnterContactNo":"Geben Sie die Kontaktnummer ein",
+        
+        "ConfirmPasswordMatch":"Passwort und Passwort bestätigen stimmt nicht überein",
+        
+        "EnterCurrentPassword":"Gib dein aktuelles Passwort ein",
+        "PasswordNotCorrect":"Ihre E-Mail-Adresse oder Ihr Passwort ist nicht korrekt",
+        
+        "PasswordChangedSuccessfully":"Das Passwort wurde erfolgreich geändert",
+        
+        "ProvideEmailToFacebook":"Geben Sie Ihrem Facebook-Konto eine E-Mail-ID an",
+        
+        "EnterUserName":"Geben Sie den Benutzernamen ein",
+        
+        "NoCurrencyFound": "Keine Währung gefunden",
+        "NoLanguageFound": "Keine Sprachen gefunden",
+        
+        
+        "EmailID":"E-Mail-ID",
+        "UserName":"Nutzername",
+        "ContactNumber":"Kontakt Nummer",
+        "ConfirmPassword":"Kennwort bestätigen",
+        
+        "MyAddresses":"Meine Adressen",
+        "AddAddress":"Neue Adresse hinzufügen",
+        "PleaseAddAddress":"Bitte Adresse hinzufügen",
+        
+        
+        "BillingAddress":"Rechnungsadresse",
+        "ShippingAddress":"Lieferanschrift",
+        
+        "AddBillingAddress":"Rechnungsadresse hinzufügen",
+        "AddShippingAddress":"Lieferadresse hinzufügen",
+        
+        "removeAddresss":"Möchten Sie die Adresse wirklich entfernen?",
+        
+        "Name":"Name",
+        "FirstName":"Vorname",
+        "LastName":"Nachname",
+        "Pincode":"Geheimzahl",
+        "Address1":"Adresse 1",
+        "Address2":"Adresse 2",
+        "CityTown":"Stadt / Gemeinde",
+        "State":"Zustand",
+        "Company":"Unternehmen",
+        "PhoneNumber":"Telefonnummer",
+        
+        "Save":"sparen",
+        "Cancel":"Stornieren",
+        
+        "MyCoupons":"Meine Gutscheine",
+        "ScratchHereCode":"Kratzen Sie hier, um Code zu erhalten",
+        "ScratchHereCouponCode":"Kratzen Sie hier, um den Gutscheincode zu erhalten.",
+        "CouponCode":"Gutscheincode",
+        
+        "CouponCodeCopied":"Der Gutscheincode wird in Ihre Zwischenablage kopiert",
+        
+        "NoRewardsYet":"Noch keine Belohnungen .. !!",
+        
+        "Version":"Ausführung",
+        "TermsCondition":"Allgemeine Geschäftsbedingungen",
+        "PrivacyPolicy":"Privacy Policy",
+        "FollowUs":"Folge uns",
+        "MoreAboutUs":"Mehr über uns",
+        
+        
+        "AccountSetting":"Konto-Einstellung",
+        "DateofBirth":"Geburtsdatum",
+        "Gender":"Geschlecht",
+        "MobileNumber":"Handynummer",
+        "ChangePassword":"Passwort ändern",
+        "DeactivateAccount":"Benutzerkonto deaktivieren",
+        "ConfirmDeactivation":"Deaktivieren Sie die Deaktivierung",
+        
+        
+        "InformationUpdatedSuccess":"Informationen erfolgreich aktualisiert",
+        
+        "DeactivatedSuccess":"Ihr Konto wurde erfolgreich deaktiviert",
+        "ConfirmDeactivate":"Sind Sie sicher, Ihr Profil zu deaktivieren? \n Wenn ja, müssen Sie sich an den Administrator wenden, um Ihr Profil erneut zu aktivieren.",
+        
+        
+        "ContactUs":"Kontaktiere uns",
+        "Subject":"Gegenstand",
+        "Message":"Botschaft",
+        "Send":"Senden",
+        
+        "EnterName":"Gib deinen Namen ein",
+        "EnterSubject":"Betreff eingeben",
+        "EnterMessage":"Bitte Nachricht eingeben",
+        "MessageSent":"Nachricht gesendet",
+        
+        "OrderId":"Auftragsnummer:",
+        "TotalAmount":"Gesamtsumme:",
+        "Quantity":"Menge:",
+        "Details":"Einzelheiten",
+        "Retry":"Wiederholen",
+        
+        "OrderDetails":"Bestelldetails",
+        "CancelOrder":"Bestellung stornieren",
+        
+        
+        "NoOrderYet":"Noch keine Bestellung",
+        "NoOrderDescription":"Einfach durchsuchen, eine Wunschliste erstellen oder einen Kauf tätigen.",
+        "TrackingNumberIs":"Tracking-Nummer ist",
+        
+        "DeliveredSoon":"Bald geliefert",
+        "OrderPendingState":"Bestellung ist im ausstehenden Zustand",
+        "OrderUnderProcessing":"Bestellung wird bearbeitet",
+        "OrderOnHold":"Bestellung wird gehalten",
+        "Delivered":"Geliefert",
+        "DeliveredOn":"Geliefert am",
+        "OrderCancelled":"Bestellung wird storniert",
+        "RefundedOrder":"Sie erhalten eine Rückerstattung für diese Bestellung",
+        "OrderFailed":"Bestellung ist fehlgeschlagen",
+        "DeliverSoon":"Ihre Bestellung wird in Kürze geliefert",
+        
+        
+        "Order":"Auftrag",
+        "WasPlaced":"wurde aufgelegt",
+        "AndCurrently":"und derzeit",
+        
+        "OrderCancelledSuccess":"Bestellung erfolgreich storniert.",
+        
+        "THANKYOU":"VIELEN DANK",
+        "OrderPlacedSuccess":"Ihre Bestellung wurde erfolgreich aufgegeben.",
+        "NotifyInFewMoments":"Sie werden in wenigen Augenblicken benachrichtigen.",
+        
+        
+        "ShoppingBag":"Einkaufstasche",
+        "ContinueShopping":"MIT DEM EINKAUFEN FORTFAHREN",
+        
+        "addToCartMessage":"Einfach durchsuchen und Artikel in den Warenkorb legen.",
+        "addToWishlistMessage":"Einfach durchsuchen und Artikel zur Wunschliste hinzufügen.",
+        
+        "ItemAlreadyInCart":"Artikel bereits im Warenkorb",
+        "CartIsEmpty":"Einkaufswagen ist leer",
+        "NoproductFound":"Kein Produkt gefunden",
+        "Delete":"Löschen",
+        "ContinueToCheckout":"Weiter zur Kasse",
+        
+        
+        "SearchListEmpty":"Suchliste ist leer",
+        "BrowseOurStore":"Stöbern Sie in unserem Shop und sehen Sie sich andere Artikel an, die Sie kaufen können.",
+        
+        "SearchHere":"Suche hier...",
+        
+        "ResetYourWorld":"Setzen Sie Ihre Welt zurück",
+        "ResetPasswordDescription":"Es wird oft vergessen, dass Passwort Dinge. Geben Sie unten Ihre E-Mail-Adresse ein und klicken Sie auf die Schaltfläche 'Passwort zurücksetzen'. Wir werden uns mit Ihnen in Verbindung setzen!",
+        "RequestPasswordReset":"FORDERE PASSWORT-RESET AN",
+        
+        "ResetYourPassword":"Setze dein Passwort zurück",
+        "EnterPIN":"Geben Sie die PIN, die wir Ihnen gesendet haben, in Ihre registrierte E-Mail-Adresse ein.",
+        "EnterNewPassword":"Jetzt können Sie ein neues Passwort eingeben.",
+        "SetNewPassword":"NEUES PASSWORT EINSTELLEN",
+        
+        "PINIncorrect":"Die eingegebene PIN ist nicht korrekt",
+        "EntereNewPassword":"Gib dein neues Passwort ein",
+        "PasswordNotMatch":"Passwort und Passwort bestätigen stimmt nicht überein",
+
+        "Pin":"Stift",
+        
+        "VerificationCode":"Verifizierungs-Schlüssel",
+        "VerificationCodeDescription":"Der Bestätigungscode wird an die Handynummer gesendet. Bitte geben Sie den Bestätigungscode ein.",
+        "ValidateOTP":"Überprüfen Sie OTP",
+        "ResendOTP":"Senden Sie OTP erneut",
+        "EnterVerificationCode":"Bestätigungscode eingeben",
+        "OTPSentAgain":"OTP wird erneut gesendet",
+        
+        
+        "PasswordUpdateSuccess":"Ihr Passwort wurde erfolgreich aktualisiert",
+        
+        "YouHavePoints":"Sie haben Punkte",
+        
+        "SubTotal":"Zwischensumme",
+        "Shipping":"Versand",
+        "AmountPayable":"Bezahlbarer Betrag",
+        
+        "PaymentMethod":"Zahlungsmethode:",
+        "PaymentDetails":"Zahlungsdetails",
+        "SortBy":"Sortieren nach",
+        "Filter":"Filter",
+        "Color" : "Farbe",
+        "Size":"Größe",
+        "PriceRange":"Preisklasse",
+        "SelectAll":"Select All",
+        "Category":"Kategorie",
+        "Brand":"Marke",
+        "Rating":"Bewertung",
+        "ClearFilter":"Filter löschen",
+        "Availability":"Verfügbarkeit",
+        "OutOfStock":"Nicht vorrättig",
+        "InStock":"Auf Lager",
+        
+        "NewestFirst":"Das neuste zuerst",
+        "Popularity":"Popularität",
+        "PriceLowToHigh":"Preis - Niedrig bis hoch",
+        "PriceHighToLow":"Preis - Absteigend",
+        
+        "BuyNow":"Kaufe jetzt",
+        "AddToCart":"in den Warenkorb legen",
+        "Info":"Die Info",
+        "DeliveryOptions":"Lieferoptionen",
+        "EnterYourPinCode":"Geben Sie Ihren PIN-Code ein",
+        "Check":"Prüfen",
+        "SoldBy":"Verkauft durch",
+        "SellerInformation":"Angaben zum Verkäufer",
+        "ContactSeller":"Verkäufer kontaktieren",
+        "ViewStore":"Store anzeigen",
+        "QuickOverview":"Schneller Überblick",
+        "ProductDetails":"Produktdetails",
+        "More":"Mehr...",
+        "RatingsNReviews":"Bewertungen & Bewertungen",
+        "Ratings":"Bewertungen",
+        "Reviews":"Bewertungen",
+        "Review":"Rezension",
+        "RateNWriteReview":"Bewerten und schreiben Bewertung",
+        "ViewAllReviews":"Alle Bewertungen anzeigen",
+        
+        "RateProduct":"Produkt bewerten",
+        "Comment":"Kommentar",
+        "Submit":"einreichen",
+        "Image":"Bild",
+        "Quick":"Schnell",
+
+        "RemoveFromCart":"Möchten Sie sicher aus dem Warenkorb entfernen?",
+        "RemoveFromWishlist":"Möchten Sie sicher von der Wunschliste entfernen?",
+        
+        "ItemAddedWishList":"Artikel zu Ihrer Wunschliste hinzugefügt.",
+        "ItemRemovedWishList":"Artikel von Ihrer Wunschliste entfernt.",
+        
+        "ItemAddedCart":"Artikel erfolgreich in den Warenkorb gelegt",
+        "CombinationNotExists":"Diese Kombination existiert nicht. Wählen Sie eine andere Variante.",
+        
+        
+        "GoToCart":"Zum Einkaufskorb gehen",
+        
+        
+        "RelatedProducts":"Verwandte Produkte",
+        
+        "GiveRating":"Bitte geben Sie Ihre Bewertungen",
+
+        
+        "AvailableAt":"Verfügbar um",
+        "Available":"Verfügbar",
+        "CashOnDelivery":"Barzahlung bei Lieferung",
+        "NotAvailable":"Nicht verfügbar",
+        "DeliveryDataHelpText":"Lieferdatum Hilfetext",
+        "PincodeNotBlank":"Der Pincode sollte nicht leer sein.",
+        "EnterValidPincode":"Bitte geben Sie einen gültigen Pincode ein",
+        "EnterYourPincode":"Geben Sie Ihren Pincode ein",
+        
+        "InvalidContactNo":"Ungültige Kontaktnummer",
+        "WhatsappNotInstalled":"WhatsApp ist nicht auf Ihrem Gerät installiert.",
+        
+        "RatingURLNotAvailable":"Bewertungslink nicht gesetzt",
+        "GeoFenceMessage":"Sie haben sich in unserer Shop-Region eingetragen",
+        "WebSiteNotValid":"Website ist nicht gültig",
+
+        
+        "WalletBalance":"Wallet-Guthaben",
+        "Wallet":"Brieftasche",
+        "Wallet Transaction History":"Wallet-Transaktionsverlauf",
+        
+        "OrderPlacedFailure" : "BESTELLUNG STORNIERT",
+        "OrderPlacedFailureSubMessage" : "Leider kann Ihre Bestellung nicht bearbeitet werden, da die ursprüngliche Bank/der Händler Ihre Transaktion abgelehnt hat.",
+        
+        
+        "technicalIssue":"Es gibt ein technisches Problem. Bitte versuchen Sie es nach einiger Zeit.",
+        "NoRatingURL" : "Es ist keine Bewertungs-URL festgelegt",
+        
+        "EnterFirstName":"Bitte geben Sie den Vornamen ein",
+        "EnterLastName":"Bitte geben Sie den Nachnamen ein",
+        "EnterPinCode":"Bitte geben Sie den PIN-Code ein",
+        "EnterAddress1":"Bitte Adresse1 eingeben",
+        "EnterAddress2":"Bitte Adresse eingeben2",
+        "EnterPhoneNumber":"Bitte Telefonnummer eingeben",
+        "EnterCompany":"Bitte Firma eingeben"
+
+    }
+}

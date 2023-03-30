@@ -1,0 +1,1572 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-10-26 14:03+0530\n"
+"PO-Revision-Date: 2021-10-26 14:03+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: cc/inc/classes/class-pgs-woo-api-support.php:77
+#: cc/inc/classes/class-pgs-woo-api-support.php:80
+msgid "There was an error processing your request, please try again later!"
+msgstr ""
+
+#: cc/inc/classes/class-pgs-wp-autoupdate.php:92
+#, php-format
+msgid "Or goto %s CiyaShop application support %s"
+msgstr ""
+
+#: cc/inc/classes/class-pgs-wp-autoupdate.php:97
+#, php-format
+msgid ""
+"To receive automatic updates license activation is required. Please visit "
+"%sSettings%s to activate your CiyaShop PGS Woo API."
+msgstr ""
+
+#: cc/inc/classes/class-pgs-wp-autoupdate.php:105
+msgid "Getting download link..."
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:57
+msgid ""
+"Current WPML Language URL format settings not compatible with PGS Woo API."
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:59
+#, fuzzy
+#| msgid "Click for check test API."
+msgid "Click here for change settings."
+msgstr "Haga clic para verificar API de prueba."
+
+#: cc/inc/options-pages/option_page.php:69
+#, fuzzy
+#| msgid "Settings"
+msgid "App Settings"
+msgstr "Paramètres"
+
+#: cc/inc/options-pages/option_page.php:82
+#: cc/inc/options-pages/option_page.php:90
+msgid "WelCome"
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:91
+#, fuzzy
+#| msgid "Please enter your name"
+msgid "Please verify your purches key"
+msgstr "S'il vous plaît entrez votre nom"
+
+#: cc/inc/options-pages/option_page.php:109
+msgid "Filters"
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:116
+msgid "Price"
+msgstr ""
+
+#: cc/inc/options-pages/option_page.php:117
+#: cc/inc/options-pages/option_page.php:130
+#: cc/inc/options-pages/option_page.php:139
+msgid "Enable"
+msgstr "Activer"
+
+#: cc/inc/options-pages/option_page.php:118
+#: cc/inc/options-pages/option_page.php:131
+#: cc/inc/options-pages/option_page.php:140
+msgid "Disable"
+msgstr "Désactiver"
+
+#: cc/inc/options-pages/option_page.php:138
+msgid "Average Rating"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:33
+#, fuzzy
+#| msgid "Please enter your password"
+msgid "Please Enter Item Purchase Code"
+msgstr "S'il vous plait entrez votre mot de passe"
+
+#: cc/inc/support/templates/support-content.php:35
+#, php-format
+msgid ""
+"Thank you for installing %s plugin! Please enter the item purchase code of "
+"%1$s plugin to be able to install demos and get updates of the plugin."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:77
+msgid "Please enter product purchase key to activate plugin."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:84
+#, php-format
+msgid "<p>Click here for Goto <a href=\"%1$s\">API Settings</a>."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:111
+#: cc/inc/support/templates/support-content.php:123
+msgid "Check"
+msgstr "Comprobar"
+
+#: cc/inc/support/templates/support-content.php:128
+msgid "Instructions For Find Purchase Code"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:131
+msgid "01"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:132
+msgid "Log into your Envato Market account."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:135
+msgid "02"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:136
+msgid "Hover the mouse over your username at the top of the screen."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:139
+msgid "03"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:140
+msgid "Click 'Downloads' from the drop down menu."
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:143
+msgid "04"
+msgstr ""
+
+#: cc/inc/support/templates/support-content.php:147
+#, php-format
+msgid ""
+"Click 'License certificate & purchase code' (available as PDF or text file). "
+"For more information <a href=\"%1$s\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: cc/inc/support/templates/support-header.php:8
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: cc/inc/support/templates/support-header.php:17
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: cc/inc/support/templates/support-header.php:21
+msgid ""
+"<strong>CiyaShop Application API</strong> is now ready to activate! "
+"<strong>CiyaShop Application</strong> is the perfect solution for your "
+"shopping business or your client shopping store as an agency or freelancer. "
+"It Engages consumers to constitute Loyalty with sharp design and features "
+"which make sense for the online shop. It is well-suited for retail stores, "
+"marketplaces, fashion shops, cosmetics and household appliances of any size. "
+"The CiyaShop application is the new way of building robust WooCommerce-based "
+"online shops and businesses."
+msgstr ""
+
+#: cc/inc/support/templates/support.php:57
+msgid "License"
+msgstr ""
+
+#: cc/inc/support/templates/support.php:59
+#: cc/template/warning-alert/pgs-woo-api-warning-alert.php:25
+msgid "Support"
+msgstr ""
+
+#: cc/inc/support/templates/support.php:67
+msgid "Please Follow the installation process"
+msgstr ""
+
+#: cc/inc/support/templates/support.php:86
+msgid ""
+"Click on the below button and follow the installation process, the "
+"installation process will update the plugin necessary plugin files and help "
+"to install the required plugins etc."
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:15
+msgid "Are you sure you want to delete this element?"
+msgstr "Êtes-vous sûr de vouloir supprimer cet élément?"
+
+#: cc/inc/woo-api-functions.php:16
+msgid "Choose Image"
+msgstr "Choisir une image"
+
+#: cc/inc/woo-api-functions.php:17
+#, fuzzy
+#| msgid "App Image"
+msgid "Add Image"
+msgstr "Image de l'application"
+
+#: cc/inc/woo-api-functions.php:39 cc/inc/woo-api-functions.php:55
+msgid "Warning"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:40 cc/inc/woo-api-functions.php:57
+msgid "Cancel"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:56
+msgid "Proceed"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:58
+msgid "Install Plugins"
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:59
+msgid ""
+"Importing demo content will import contents, widgets and theme options. "
+"Importing sample data will override current widgets and theme options. It "
+"can take some time to complete the import process."
+msgstr ""
+
+#: cc/inc/woo-api-functions.php:241 cc/inc/woo-api-functions.php:247
+#, fuzzy
+#| msgid "Please enter your name"
+msgid "Please verify your purchase key!"
+msgstr "S'il vous plaît entrez votre nom"
+
+#: cc/template/warning-alert/pgs-woo-api-warning-alert.php:24
+msgid "Documentation"
+msgstr ""
+
+#: cc/template/warning-alert/pgs-woo-api-warning-alert.php:26
+msgid "Try again"
+msgstr ""
+
+#: pgs-woo-api.php:31
+msgid "PGS Woo API"
+msgstr "PGS Woo API"
+
+#: pgs-woo-api.php:34
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\">App Settings</a> For setup the PGS Woo API plugin."
+msgstr ""
+
+#~ msgid "PGS Woo Api"
+#~ msgstr "PGS Woo Api"
+
+#~ msgid "No product found"
+#~ msgstr "Aucun produit trouvé"
+
+#~ msgid "Sorry, that is not valid input. You missed cart_items parameters"
+#~ msgstr ""
+#~ "Désolé, cette entrée n'est pas valide. Vous avez manqué les paramètres de "
+#~ "cart_items"
+
+#~ msgid "Cart is empty"
+#~ msgstr "Le panier est vide"
+
+#~ msgid "Please enter subject"
+#~ msgstr "S'il vous plaît entrer le sujet"
+
+#~ msgid "Please enter your email"
+#~ msgstr "Please enter your email"
+
+#~ msgid "Please enter valid email address"
+#~ msgstr "Veuillez entrer une adresse email valide"
+
+#~ msgid "Message can't be blank"
+#~ msgstr "Le message ne peut pas être vide"
+
+#, fuzzy
+#~| msgid "Username: %s"
+#~ msgid "Name : %s"
+#~ msgstr "Nom d'utilisateur: %s"
+
+#~ msgid "The e-mail could not be sent.Please try after some time."
+#~ msgstr ""
+#~ "L'e-mail n'a pas pu être envoyé.S'il vous plaît essayer après un certain "
+#~ "temps."
+
+#~ msgid ""
+#~ "Your email was successfully sent. We will contact you as soon as possible"
+#~ msgstr ""
+#~ "Votre email a été envoyé avec succès. nous vous contacterons dès que "
+#~ "possible"
+
+#, fuzzy
+#~| msgid "Record deleted successfully"
+#~ msgid "Result successfully fetched"
+#~ msgstr "Enregistrement supprimé avec succès"
+
+#, fuzzy
+#~| msgid "No orders found"
+#~ msgid "No Coupons found"
+#~ msgstr "Aucune commande trouvée"
+
+#, fuzzy
+#~| msgid "User updated successfully"
+#~ msgid "Coupon scratched successfully."
+#~ msgstr "Utilisateur mis à jour avec succès"
+
+#~ msgid "Please enter your email and password"
+#~ msgstr "Veuillez entrer votre email et votre mot de passe"
+
+#~ msgid "Please enter your password"
+#~ msgstr "S'il vous plait entrez votre mot de passe"
+
+#~ msgid "Please enter valid email or password"
+#~ msgstr "Veuillez entrer un e-mail ou un mot de passe valide"
+
+#~ msgid "You are not allowed to do that"
+#~ msgstr "Vous n'êtes pas autorisé à le faire"
+
+#~ msgid "Your account successfully deactivated"
+#~ msgstr "Votre compte a été désactivé avec succès"
+
+#~ msgid "Account disabled"
+#~ msgstr "Compte désactivé"
+
+#~ msgid "Something went wrong!"
+#~ msgstr "Quelque chose s'est mal passé!"
+
+#~ msgid "Result not found!"
+#~ msgstr "Resultado no encontrado!"
+
+#~ msgid "No data found!"
+#~ msgstr "Aucune donnée disponible!"
+
+#~ msgid "email does not exist"
+#~ msgstr "l'email n'existe pas"
+
+#~ msgid ""
+#~ "You are currently deactivated. Please contact to admin for active account"
+#~ msgstr ""
+#~ "Vous êtes actuellement désactivé. S'il vous plaît contacter à admin pour "
+#~ "compte actif"
+
+#~ msgid "Something went wrong. Please try later"
+#~ msgstr "Quelque chose s'est mal passé. Merci d'essayer plus tard"
+
+#~ msgid "Something went wrong. Please try later."
+#~ msgstr "Quelque chose s'est mal passé. Merci d'essayer plus tard."
+
+#~ msgid "Email already exists"
+#~ msgstr "L'email existe déjà"
+
+#~ msgid "Password required"
+#~ msgstr "Mot de passe requis"
+
+#~ msgid "User logged out successfully"
+#~ msgstr "L'utilisateur s'est déconnecté avec succès"
+
+#~ msgid "No orders found"
+#~ msgstr "Aucune commande trouvée"
+
+#~ msgid "User not logged in"
+#~ msgstr "Utilisateur non connecté"
+
+#~ msgid "Your order was shipped via"
+#~ msgstr "Su pedido fue enviado a través de"
+
+#~ msgid "Tracking number is"
+#~ msgstr "El número de seguimiento es"
+
+#~ msgid "Order status changed to Cancelled"
+#~ msgstr "Le statut de la commande a changé pour Annulé"
+
+#~ msgid "fail"
+#~ msgstr "échouer"
+
+#~ msgid "This Order status not is On-Hold or Pending"
+#~ msgstr "Le statut de cette commande n'est pas en attente ou en attente"
+
+#~ msgid "Please enter password."
+#~ msgstr "Veuillez entrer le mot de passe."
+
+#~ msgid "password reset not allowed!"
+#~ msgstr "La réinitialisation du mot de passe n'est pas autorisée!"
+
+#~ msgid "An error occurred!"
+#~ msgstr "Une erreur est survenue!"
+
+#~ msgid "Your password has been reset."
+#~ msgstr "Votre mot de passe a été réinitialisé."
+
+#, fuzzy
+#~| msgid "Please enter valid email address"
+#~ msgid "Please enter valid email."
+#~ msgstr "Veuillez entrer une adresse email valide"
+
+#, fuzzy
+#~| msgid "Please enter valid email address"
+#~ msgid "Please enter valid registered email."
+#~ msgstr "Veuillez entrer une adresse email valide"
+
+#~ msgid ""
+#~ "Someone requested that the password be reset for the following account:"
+#~ msgstr ""
+#~ "Quelqu'un a demandé que le mot de passe soit réinitialisé pour le compte "
+#~ "suivant:"
+
+#~ msgid "Username: %s"
+#~ msgstr "Nom d'utilisateur: %s"
+
+#~ msgid ""
+#~ "If this was a mistake, just ignore this email and nothing will happen."
+#~ msgstr ""
+#~ "Si c'était une erreur, ignorez simplement cet email et rien n'arrivera."
+
+#~ msgid ""
+#~ "Key for password reset has been emailed to you. Please check your email."
+#~ msgstr ""
+#~ "La clé pour la réinitialisation du mot de passe vous a été envoyée par "
+#~ "courrier électronique. Merci de consulter vos emails."
+
+#~ msgid "Placeholder"
+#~ msgstr "Espace réservé"
+
+#, fuzzy
+#~| msgid "Dimension: "
+#~ msgid "Dimensions"
+#~ msgstr "Dimensión:"
+
+#~ msgid "Notification added successfully"
+#~ msgstr "Notification ajoutée avec succès"
+
+#~ msgid "Something went wrong"
+#~ msgstr "Quelque chose s'est mal passé"
+
+#~ msgid "No data found"
+#~ msgstr "Aucune donnée disponible"
+
+#~ msgid "Record deleted successfully"
+#~ msgstr "Enregistrement supprimé avec succès"
+
+#~ msgid "Record cannot be deleted. Please try after sometime!"
+#~ msgstr ""
+#~ "L'enregistrement ne peut pas être supprimé. S'il vous plaît essayer après "
+#~ "un certain temps!"
+
+#, fuzzy
+#~| msgid "Notification added successfully"
+#~ msgid "Notification status updated successfully"
+#~ msgstr "Notification ajoutée avec succès"
+
+#, fuzzy
+#~| msgid "Please input 1 to 5 in ratestar."
+#~ msgid "Please input 1 to 5 in rate star."
+#~ msgstr "Ingrese 1 a 5 en la estrella de velocidad."
+
+#~ msgid "Please type a comment."
+#~ msgstr "Por favor escriba un comentario."
+
+#~ msgid "Sorry, you must be logged in to comment."
+#~ msgstr "Lo sentimos, debes iniciar sesión para comentar."
+
+#~ msgid "Creating a comment requires valid author name and email values."
+#~ msgstr ""
+#~ "Crear un comentario requiere un nombre de autor y valores de correo "
+#~ "electrónico válidos."
+
+#, fuzzy
+#~| msgid "Product added successfully"
+#~ msgid "Comment added successfully."
+#~ msgstr "Produit ajouté avec succès"
+
+#, fuzzy
+#~| msgid "You are not allowed to do that"
+#~ msgid "Products are not allowed to comment."
+#~ msgstr "Vous n'êtes pas autorisé à le faire"
+
+#~ msgid "External Store URL"
+#~ msgstr "URL du magasin externe"
+
+#~ msgid "Your comment is awaiting approval"
+#~ msgstr "Votre commentaire est en attente de validation"
+
+#~ msgid "Please provide your name."
+#~ msgstr "Merci d'indiquer votre nom"
+
+#~ msgid "Email sent successfully!"
+#~ msgstr "E-mail envoyé avec succès!"
+
+#~ msgid "Customer support alert form %s"
+#~ msgstr "Formulario de alerta de atención al cliente %s"
+
+#~ msgid "Something went wrong. Please try after some time."
+#~ msgstr ""
+#~ "Quelque chose s'est mal passé. S'il vous plaît essayez après un certain "
+#~ "temps."
+
+#~ msgid "page not set"
+#~ msgstr "page non définie"
+
+#~ msgid "invalid page name"
+#~ msgstr "nom de la page non valide"
+
+#~ msgid "Please pass static page name"
+#~ msgstr "Veuillez passer le nom de la page statique"
+
+#~ msgid "Profile image updated successfully"
+#~ msgstr "Image de profil mise à jour avec succès"
+
+#~ msgid "Invalid image type"
+#~ msgstr "Type d'image incorrect"
+
+#~ msgid "Please upload image"
+#~ msgstr "S'il vous plaît télécharger l'image"
+
+#~ msgid "Username already exists"
+#~ msgstr "Ce nom d'utilisateur existe déjà"
+
+#~ msgid "User updated successfully"
+#~ msgstr "Utilisateur mis à jour avec succès"
+
+#~ msgid "Sorry, that is not valid input. You missed user_id parameters"
+#~ msgstr ""
+#~ "Désolé, cette entrée n'est pas valide. Vous avez manqué les paramètres "
+#~ "user_id"
+
+#~ msgid "No data for sync."
+#~ msgstr "Aucune donnée pour la synchronisation."
+
+#~ msgid "No record found."
+#~ msgstr "Aucun Enregistrement Trouvé."
+
+#~ msgid "An error occurred while adding products to the wishlist."
+#~ msgstr ""
+#~ "Une erreur s'est produite lors de l'ajout de produits à la liste de "
+#~ "souhaits."
+
+#~ msgid "Product added!"
+#~ msgstr "Produit ajouté!"
+
+#~ msgid "An error occurred while adding products to wishlist."
+#~ msgstr ""
+#~ "Une erreur s'est produite lors de l'ajout de produits à la liste de "
+#~ "souhaits."
+
+#~ msgid "exists"
+#~ msgstr "existe"
+
+#~ msgid "Product added successfully"
+#~ msgstr "Produit ajouté avec succès"
+
+#~ msgid "You need to login before creating a new wishlist"
+#~ msgstr ""
+#~ "Vous devez vous connecter avant de créer une nouvelle liste de souhaits"
+
+#~ msgid "Product deleted successfully"
+#~ msgstr "Produit supprimé avec succès"
+
+#~ msgid "An error occurred while removing products from the wishlist"
+#~ msgstr ""
+#~ "Une erreur s'est produite lors de la suppression des produits de la liste "
+#~ "de souhaits"
+
+#~ msgid "Sorry, that is not valid input. You missed "
+#~ msgstr "Désolé, cette entrée n'est pas valide. Vous avez raté "
+
+#~ msgid "Cancellation/Return/Exchange Policy"
+#~ msgstr "Annulation / Retour / Politique d'échange"
+
+#~ msgid "Refund Policy"
+#~ msgstr "Politique de remboursement"
+
+#~ msgid "Shipping Policy"
+#~ msgstr "Politique d'expédition"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "required"
+#~ msgstr "Mot de passe requis"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "Update country"
+#~ msgstr "Mot de passe requis"
+
+#~ msgid "Click on below button to start token generation process"
+#~ msgstr ""
+#~ "Haga clic en el botón a continuación para iniciar el proceso de "
+#~ "generación de tokens"
+
+#~ msgid "Let's go!"
+#~ msgstr "¡Vamonos!"
+
+#~ msgid "Verification token"
+#~ msgstr "Ficha de verificación"
+
+#~ msgid ""
+#~ "Try to re submit. if still not get final token and token secret then "
+#~ "refresh this page and do it again."
+#~ msgstr ""
+#~ "Intenta volver a enviar. si todavía no obtienes el token y el token "
+#~ "finales secretos, actualiza esta página y vuelve a hacerlo."
+
+#~ msgid "Click on below link to get authorization token."
+#~ msgstr ""
+#~ "Haga clic en el enlace a continuación para obtener el token de "
+#~ "autorización."
+
+#~ msgid "Get verification token"
+#~ msgstr "Obtener token de verificación"
+
+#~ msgid ""
+#~ "Onces you click above link, it will redirect you to new tab which will "
+#~ "prompt to authorize API, On clicking \"Authorize\" button, you will get "
+#~ "verification token. Copy that token and paste it to below \"Verification "
+#~ "Token\" input box."
+#~ msgstr ""
+#~ "Cuando haga clic en el enlace de arriba, lo redireccionará a una nueva "
+#~ "pestaña que le pedirá que autorice la API. Al hacer clic en el botón "
+#~ "\"Autorizar\", recibirá el token de verificación. Copie ese token y "
+#~ "péguelo debajo del cuadro de entrada \"Token de verificación\"."
+
+#~ msgid "Verification Token"
+#~ msgstr "Ficha de verificación"
+
+#, fuzzy
+#~| msgid "Content"
+#~ msgid "Continue"
+#~ msgstr "Contenu"
+
+#~ msgid "You're ready to call API."
+#~ msgstr "Estás listo para llamar a API."
+
+#~ msgid "Token"
+#~ msgstr "Jeton"
+
+#~ msgid "Token Secret"
+#~ msgstr "Secret de jeton"
+
+#, fuzzy
+#~| msgid "Please enter subject"
+#~ msgid "Please enter verification token."
+#~ msgstr "S'il vous plaît entrer le sujet"
+
+#~ msgid "Push notification"
+#~ msgstr "Notification push"
+
+#~ msgid "Send push notification to all users"
+#~ msgstr "Envoyer une notification push à tous les utilisateurs"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobile"
+
+#~ msgid "Gender"
+#~ msgstr "Le genre"
+
+#~ msgid "Male"
+#~ msgstr "Mâle"
+
+#~ msgid "Female"
+#~ msgstr "Femelle"
+
+#~ msgid "DOB"
+#~ msgstr "DOB"
+
+#~ msgid "Deactivate User"
+#~ msgstr "Désactiver l'utilisateur"
+
+#~ msgid "User can't login if deactivate"
+#~ msgstr "L'utilisateur ne peut pas se connecter s'il est désactivé"
+
+#~ msgid "Custom User Profile Image"
+#~ msgstr "Image du profil de Custom"
+
+#~ msgid "Profile Image"
+#~ msgstr "Photo de profil"
+
+#~ msgid "Upload"
+#~ msgstr "Télécharger"
+
+#~ msgid "Remove"
+#~ msgstr "Retirer"
+
+#~ msgid "Upload a custom image for your user profile"
+#~ msgstr "Importer une image personnalisée pour votre profil utilisateur"
+
+#~ msgid "App Category Thumbnail"
+#~ msgstr "Catégorie de l'application Thumbnail"
+
+#~ msgid "Upload/Add App cat image"
+#~ msgstr "Télécharger / Ajouter une image de chat"
+
+#~ msgid "Remove image"
+#~ msgstr "Supprimer l'image"
+
+#, fuzzy
+#~| msgid "Add mobile application category image"
+#~ msgid "Add mobile application category icon image"
+#~ msgstr "Ajouter une catégorie d'application mobile"
+
+#~ msgid "Add mobile application category image"
+#~ msgstr "Ajouter une catégorie d'application mobile"
+
+#~ msgid "App Image"
+#~ msgstr "Image de l'application"
+
+#~ msgid "Color Code"
+#~ msgstr "Code couleur"
+
+#~ msgid "Color"
+#~ msgstr "Couleur"
+
+#, fuzzy
+#~| msgid "No record found."
+#~ msgid "Geofencing"
+#~ msgstr "Aucun Enregistrement Trouvé."
+
+#, fuzzy
+#~| msgid "App Image"
+#~ msgid "Add New"
+#~ msgstr "Image de l'application"
+
+#, fuzzy
+#~| msgid "No record found."
+#~ msgid "New Geofencing"
+#~ msgstr "Aucun Enregistrement Trouvé."
+
+#, fuzzy
+#~| msgid "No record found."
+#~ msgid "No geofencing found."
+#~ msgstr "Aucun Enregistrement Trouvé."
+
+#, fuzzy
+#~| msgid "No record found."
+#~ msgid "No geofencing found in Trash."
+#~ msgstr "Aucun Enregistrement Trouvé."
+
+#~ msgid "Description."
+#~ msgstr "Descripción."
+
+#~ msgid "Settings saved."
+#~ msgstr "Paramètres sauvegardés"
+
+#~ msgid "The file "
+#~ msgstr "Le fichier "
+
+#~ msgid " has been uploaded."
+#~ msgstr "a été téléchargé."
+
+#~ msgid "Sorry, there was an error uploading your file."
+#~ msgstr ""
+#~ "Désolé, une erreur s'est produite lors du téléchargement de votre fichier."
+
+#~ msgid "Save Changes"
+#~ msgstr "Guardar cambios"
+
+#~ msgid "Primary Logo"
+#~ msgstr "Logotipo principal"
+
+#~ msgid "Secondary Logo"
+#~ msgstr "Logotipo secundario"
+
+#, fuzzy
+#~| msgid "Color"
+#~ msgid "App Color"
+#~ msgstr "Couleur"
+
+#~ msgid "Main Category Menu"
+#~ msgstr "Menu principal de la catégorie"
+
+#, fuzzy
+#~| msgid "Main Slider"
+#~ msgid "Home Slider Banner"
+#~ msgstr "Curseur principal"
+
+#~ msgid "Category Banners"
+#~ msgstr "Bannières de catégorie"
+
+#, fuzzy
+#~| msgid "Product added!"
+#~ msgid "Products View"
+#~ msgstr "Produit ajouté!"
+
+#~ msgid "Banner Ads"
+#~ msgstr "Bannière publicitaire"
+
+#~ msgid "Feature Box"
+#~ msgstr "Boîte de caractéristiques"
+
+#, fuzzy
+#~| msgid "App Image"
+#~ msgid "App Pages"
+#~ msgstr "Image de l'application"
+
+#~ msgid "Checkout Page"
+#~ msgstr "Page de paiement"
+
+#~ msgid "Social Links"
+#~ msgstr "Liens sociaux"
+
+#~ msgid "Contact Info"
+#~ msgstr "Datos de contacto"
+
+#~ msgid "Logo display on the header of the app."
+#~ msgstr "Logotipo en el encabezado de la aplicación."
+
+#~ msgid "IMPORTANT"
+#~ msgstr "IMPORTANTE"
+
+#~ msgid ""
+#~ "For best performance and image quality in the mobile application, "
+#~ "strictly follow the below standards for logo images:"
+#~ msgstr ""
+#~ "Para obtener el mejor rendimiento y calidad de imagen en la aplicación "
+#~ "móvil, siga estrictamente los siguientes estándares para imágenes de "
+#~ "logotipo:"
+
+#~ msgid "Dimension: "
+#~ msgstr "Dimensión:"
+
+#~ msgid "File Type: "
+#~ msgstr "Tipo de archivo:"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Logo display on other app pages like About Us and Contact Us."
+#~ msgstr ""
+#~ "Visualización del logotipo en otras páginas de la aplicación como Acerca "
+#~ "de nosotros y contáctenos."
+
+#~ msgid "You can change app default color and set as per your app design."
+#~ msgstr ""
+#~ "Puede cambiar el color predeterminado de la aplicación y establecerlo "
+#~ "según el diseño de su aplicación."
+
+#~ msgid "Header Color"
+#~ msgstr "Color del encabezado"
+
+#~ msgid "Primary Color"
+#~ msgstr "Color primario"
+
+#~ msgid "Secondary Color"
+#~ msgstr "Color secundario"
+
+#~ msgid "Categories menu items display on the home screen."
+#~ msgstr ""
+#~ "Los elementos del menú de categorías se muestran en la pantalla de inicio."
+
+#, fuzzy
+#~| msgid "Select Product Category"
+#~ msgid "Select category menu item"
+#~ msgstr "Sélectionnez la catégorie de produit"
+
+#~ msgid "Select"
+#~ msgstr "Sélectionner"
+
+#, fuzzy
+#~| msgid "Category Banners"
+#~ msgid "Category Icon Image"
+#~ msgstr "Bannières de catégorie"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "These banners display as a slider on the home screen."
+#~ msgstr ""
+#~ "Estos banners se muestran como un control deslizante en la pantalla de "
+#~ "inicio."
+
+#~ msgid ""
+#~ "For best performance and image quality of slider banners in the mobile "
+#~ "application, strictly use <strong>1125 x 633</strong> (WidthxHeight in "
+#~ "px) image for slider banners."
+#~ msgstr ""
+#~ "Para obtener el mejor rendimiento y calidad de imagen de los banners "
+#~ "deslizantes en la aplicación móvil, use estrictamente la imagen <strong> "
+#~ "1125 x 633 </ strong> (Ancho x Altura en px) para los banners deslizantes."
+
+#, fuzzy
+#~| msgid "Banner Title"
+#~ msgid "Slider Image"
+#~ msgstr "Titre de la bannière"
+
+#~ msgid "Select Product Category"
+#~ msgstr "Sélectionnez la catégorie de produit"
+
+#~ msgid "Banners displayed on the home screen."
+#~ msgstr "Banners que se muestran en la pantalla de inicio."
+
+#~ msgid ""
+#~ "For best performance and image quality of category banners in the mobile "
+#~ "application, strictly use <strong>420 x 305</strong> (WidthxHeight in px) "
+#~ "image for category banners."
+#~ msgstr ""
+#~ "Para obtener el mejor rendimiento y calidad de imagen de los banners de "
+#~ "categoría en la aplicación móvil, use estrictamente la imagen <strong> "
+#~ "420 x 305 </ strong> (ancho x alto en px) para los banners de categoría."
+
+#, fuzzy
+#~| msgid "Banner Title"
+#~ msgid "Banner Image"
+#~ msgstr "Titre de la bannière"
+
+#~ msgid "Banner Title"
+#~ msgstr "Titre de la bannière"
+
+#~ msgid "Status"
+#~ msgstr "Statut"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#~ msgid "Used for advertisement or special offers, displayed on Home screen."
+#~ msgstr ""
+#~ "Se utiliza para publicidad u ofertas especiales, que se muestran en la "
+#~ "pantalla de inicio."
+
+#~ msgid ""
+#~ "For best performance and image quality of Ad banners in the mobile "
+#~ "application, strictly use <strong>1080 x 353</strong> (WidthxHeight in "
+#~ "px) image for banners."
+#~ msgstr ""
+#~ "Para obtener el mejor rendimiento y calidad de imagen de los banners de "
+#~ "anuncios en la aplicación móvil, use estrictamente la imagen <strong> "
+#~ "1080 x 353 </ strong> (ancho x alto en px) para banners."
+
+#, fuzzy
+#~| msgid "Category Banners"
+#~ msgid "Category for Banner Ad"
+#~ msgstr "Bannières de catégorie"
+
+#~ msgid "Feature Box Title"
+#~ msgstr "Titre de la boîte de fonction"
+
+#, fuzzy
+#~| msgid "Feature Box Title"
+#~ msgid "Feature Box Icon Image"
+#~ msgstr "Titre de la boîte de fonction"
+
+#~ msgid ""
+#~ "For best performance and image quality, strictly use <strong>150 x 150</"
+#~ "strong> (WidthxHeight in px) image for feature box."
+#~ msgstr ""
+#~ "Para obtener el mejor rendimiento y calidad de imagen, use estrictamente "
+#~ "la imagen <strong> 150 x 150 </ strong> (WidthxHeight en px) para el "
+#~ "cuadro de características."
+
+#~ msgid "Content"
+#~ msgstr "Contenu"
+
+#, fuzzy
+#~| msgid "App Image"
+#~ msgid "App custom pages."
+#~ msgstr "Image de l'application"
+
+#~ msgid "About Us"
+#~ msgstr "À propos de nous"
+
+#~ msgid "Select page"
+#~ msgstr "Sélectionner une page"
+
+#~ msgid "Terms & Conditions"
+#~ msgstr "Términos y condiciones"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Politique de confidentialité"
+
+#~ msgid "Add info Pages"
+#~ msgstr "Ajouter des informations Pages"
+
+#, fuzzy
+#~| msgid "Checkout Page Settings"
+#~ msgid "Checkout Page Setting"
+#~ msgstr "Paramètres de la page de paiement"
+
+#~ msgid ""
+#~ "Checkout page in any e-commerce website plays the most crucial part as it "
+#~ "is the online equivalent of a physical checkout counter shown to the "
+#~ "customer during the step by step checkout process. Hence, it needs to be "
+#~ "appealing enough. Ciya shop comes with a feature that you can personalize "
+#~ "this page as well. Although the user is having the default page to use "
+#~ "they can enhance their checkout page according to their choice anytime "
+#~ "they want by going to 'Checkout Page' option in 'App settings' and "
+#~ "selecting the page they have created."
+#~ msgstr ""
+#~ "La página de pago en cualquier sitio web de comercio electrónico juega la "
+#~ "parte más crucial, ya que es el equivalente en línea de un mostrador de "
+#~ "pago físico que se muestra al cliente durante el proceso de pago paso a "
+#~ "paso. Por lo tanto, debe ser lo suficientemente atractivo. La tienda Ciya "
+#~ "viene con una función que le permite personalizar esta página también. "
+#~ "Aunque el usuario tiene la página predeterminada para usar, puede mejorar "
+#~ "su página de pago de acuerdo con su elección en cualquier momento que "
+#~ "desee yendo a la opción 'Pagar página' en 'Configuración de la "
+#~ "aplicación' y seleccionando la página que han creado."
+
+#, fuzzy
+#~| msgid "Select Checkout Page."
+#~ msgid "Select Checkout Page"
+#~ msgstr "Sélectionner la page de paiement."
+
+#, fuzzy
+#~| msgid "Social Page Settings"
+#~ msgid "Social Media Settings"
+#~ msgstr "Paramètres de page sociale"
+
+#~ msgid ""
+#~ "Specify social media URLs, where the user redirected once he/she clicks "
+#~ "on social media icons."
+#~ msgstr ""
+#~ "Especifique las URL de redes sociales, donde el usuario redirigirá una "
+#~ "vez que haga clic en los iconos de redes sociales."
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#, fuzzy
+#~| msgid "linkedin"
+#~ msgid "LinkedIn"
+#~ msgstr "linkedin"
+
+#~ msgid "Google Plus"
+#~ msgstr "Google Plus"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Address Line 1"
+#~ msgstr "Dirección Línea 1"
+
+#~ msgid "Address Line 2"
+#~ msgstr "Dirección Línea 2"
+
+#~ msgid "Phone"
+#~ msgstr "Teléfono"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "API Settings"
+#~ msgstr "Paramètres"
+
+#~ msgid "Publish"
+#~ msgstr "Publier"
+
+#~ msgid "Update"
+#~ msgstr "Mettre à jour"
+
+#~ msgid "API Keys"
+#~ msgstr "Claves de API"
+
+#~ msgid "WooCommerce API"
+#~ msgstr "WooCommerce API"
+
+#, fuzzy
+#~| msgid "Google Plus"
+#~ msgid "Google Maps API"
+#~ msgstr "Google Plus"
+
+#~ msgid "Push Notification"
+#~ msgstr "Notification push"
+
+#~ msgid "App URL"
+#~ msgstr "App URL"
+
+#~ msgid "Vendor Settings"
+#~ msgstr "Paramètres du fournisseur"
+
+#~ msgid "Test API"
+#~ msgstr "API de test"
+
+#, fuzzy
+#~| msgid "OAuth Credentials"
+#~ msgid "Credentials Code"
+#~ msgstr "Références OAuth"
+
+#~ msgid "OAuth Credentials"
+#~ msgstr "Références OAuth"
+
+#, fuzzy
+#~| msgid "This credentials just for backup purpose"
+#~ msgid "These credentials are just for the backup purpose."
+#~ msgstr ""
+#~ "Ces informations d'identification uniquement à des fins de sauvegarde"
+
+#~ msgid "Client Key"
+#~ msgstr "Clé client"
+
+#~ msgid "Client Secret"
+#~ msgstr "Secret client"
+
+#~ msgid "Consumer Key"
+#~ msgstr "La clé du consommateur"
+
+#, fuzzy
+#~| msgid "Token Secret"
+#~ msgid "Consumer Secret"
+#~ msgstr "Secret de jeton"
+
+#~ msgid "Enable / Disable Push notification"
+#~ msgstr "Activer / Désactiver la notification Push"
+
+#~ msgid "Mode"
+#~ msgstr "Mode"
+
+#~ msgid "Sandbox"
+#~ msgstr "bac à sable"
+
+#~ msgid "Live"
+#~ msgstr "Vivre"
+
+#~ msgid "IOS Push notification mode"
+#~ msgstr "Mode de notification Push IOS"
+
+#, fuzzy
+#~| msgid "Upload Dev Pem File"
+#~ msgid "Upload Development Pem File"
+#~ msgstr "Télécharger le fichier Dev Pem"
+
+#~ msgid "File Upload"
+#~ msgstr "Téléchargement de fichiers"
+
+#~ msgid "Upload IOS Push notification Pem File for development"
+#~ msgstr "Télécharger IOS Push notification fichier Pem pour le développement"
+
+#~ msgid "Password for Development Pem File"
+#~ msgstr "Contraseña para el archivo de desarrollo Pem"
+
+#, fuzzy
+#~| msgid "Upload Dist Pem File"
+#~ msgid "Upload Distribution Pem File"
+#~ msgstr "Télécharger le fichier Dist Pem"
+
+#~ msgid "Upload IOS Push notification Pem File for production"
+#~ msgstr ""
+#~ "Télécharger le fichier Pem de notification Push IOS pour la production"
+
+#~ msgid "Password for Distribution Pem File"
+#~ msgstr "Contraseña para el archivo de distribución de Pem"
+
+#~ msgid "Coupon code notification title"
+#~ msgstr "Titre de notification de code de coupon"
+
+#~ msgid "Coupon code notification message"
+#~ msgstr "Message de notification de code de coupon"
+
+#~ msgid "{{coupon}} add this code for show in notification"
+#~ msgstr "{{coupon}} ajoutez ce code pour afficher dans la notification"
+
+#~ msgid "Order status notification title"
+#~ msgstr "Titre de la notification de statut"
+
+#~ msgid "Order status notification message"
+#~ msgstr "Message de notification d'état de la commande"
+
+#~ msgid "{{status}}, {{order_id}} add this code for show in notification"
+#~ msgstr ""
+#~ "{{status}}, {{order_id}} ajoutez ce code pour afficher dans la "
+#~ "notification"
+
+#~ msgid "IOS App URL"
+#~ msgstr "IOS App URL"
+
+#~ msgid "Dokan"
+#~ msgstr "Dokan"
+
+#~ msgid "WC Marketplace"
+#~ msgstr "WC Marketplace"
+
+#~ msgid "Please select vendor plugin"
+#~ msgstr "Veuillez sélectionner le plugin fournisseur"
+
+#~ msgid "Click for check test API."
+#~ msgstr "Haga clic para verificar API de prueba."
+
+#, fuzzy
+#~| msgid "Contact Info"
+#~ msgid "Contact Us"
+#~ msgstr "Datos de contacto"
+
+#, fuzzy
+#~| msgid "Google Plus"
+#~ msgid "Google Map API"
+#~ msgstr "Google Plus"
+
+#~ msgid ""
+#~ "You can get a Google Maps API from <a href=\"%1$s\" target=\"_blank"
+#~ "\">here.</a>"
+#~ msgstr ""
+#~ "Puede obtener una API de Google Maps desde <a href=\"%1$s\" target="
+#~ "\"_blank\"> aquí. </a>"
+
+#~ msgid "Note"
+#~ msgstr "Nota"
+
+#~ msgid ""
+#~ "This key used for the geofencing functionality, for initializing google "
+#~ "map using google map API."
+#~ msgstr ""
+#~ "Esta clave se usa para la funcionalidad de geofencing, para inicializar "
+#~ "el mapa de google usando la API de Google Map."
+
+#, fuzzy
+#~| msgid ""
+#~| "Click on respected icon for generate the code of OAuth key and url for "
+#~| "Android and iOS application."
+#~ msgid ""
+#~ "Click on respected icons for generate the code of OAuth key and url for "
+#~ "Android and iOS application."
+#~ msgstr ""
+#~ "Cliquez sur l'icône respectée pour générer le code de la clé OAuth et "
+#~ "l'URL pour Android et iOS."
+
+#~ msgid "is missing"
+#~ msgstr "est manquant"
+
+#, fuzzy
+#~| msgid "Something went wrong. Please try later."
+#~ msgid "Something went wrong or invalid sample selected."
+#~ msgstr "Quelque chose s'est mal passé. Merci d'essayer plus tard."
+
+#, fuzzy
+#~| msgid "You are not allowed to do that"
+#~ msgid "You are not allowed to perform this action."
+#~ msgstr "Vous n'êtes pas autorisé à le faire"
+
+#, fuzzy
+#~| msgid "Record deleted successfully"
+#~ msgid "Sample data successfully imported."
+#~ msgstr "Enregistrement supprimé avec succès"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "Activate"
+#~ msgstr "Désactiver l'utilisateur"
+
+#, fuzzy
+#~| msgid "plugin"
+#~ msgid "Plugins"
+#~ msgstr "brancher"
+
+#, fuzzy
+#~| msgid "Result not found!"
+#~ msgid "Post type %s not found."
+#~ msgstr "Resultado no encontrado!"
+
+#, fuzzy
+#~| msgid "Let's go!"
+#~ msgid "Let's Go!"
+#~ msgstr "¡Vamonos!"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "Activate Plugin"
+#~ msgstr "Désactiver l'utilisateur"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "Activation required"
+#~ msgstr "Mot de passe requis"
+
+#, fuzzy
+#~| msgid "Password required"
+#~ msgid "Update required"
+#~ msgstr "Mot de passe requis"
+
+#, fuzzy
+#~| msgid "No product found"
+#~ msgid "No Slug Found"
+#~ msgstr "Aucun produit trouvé"
+
+#, fuzzy
+#~| msgid "Content"
+#~ msgid "Default Content"
+#~ msgstr "Contenu"
+
+#, fuzzy
+#~| msgid "Settings saved."
+#~ msgid "Your Settings are Ready!"
+#~ msgstr "Paramètres sauvegardés"
+
+#, fuzzy
+#~| msgid "OAuth Credentials"
+#~ msgid "Please configure your OAuth Credentials"
+#~ msgstr "Références OAuth"
+
+#, fuzzy
+#~| msgid "Something went wrong"
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "Quelque chose s'est mal passé"
+
+#, fuzzy
+#~| msgid "Requires the following plugins to be activated"
+#~ msgid "Please check requires the following plugin: %1$s."
+#~ msgstr "Nécessite les plugins suivants à activer"
+
+#, fuzzy
+#~| msgid "User updated successfully"
+#~ msgid "Plugin activated successfully."
+#~ msgstr "Utilisateur mis à jour avec succès"
+
+#, fuzzy
+#~| msgid "Requires the following plugins to be activated"
+#~ msgid "The following plugin was activated successfully:"
+#~ msgstr "Nécessite les plugins suivants à activer"
+
+#, fuzzy
+#~| msgid "Sandbox"
+#~ msgid "and"
+#~ msgstr "bac à sable"
+
+#, fuzzy
+#~| msgid "External Store URL"
+#~ msgid "External Source"
+#~ msgstr "URL du magasin externe"
+
+#, fuzzy
+#~| msgid "install / activate"
+#~ msgid "Installed But Not Activated"
+#~ msgstr "installer / activer"
+
+#, fuzzy
+#~| msgid "plugin"
+#~ msgid "Plugin"
+#~ msgstr "brancher"
+
+#, fuzzy
+#~| msgid "Update"
+#~ msgid "Update %2$s"
+#~ msgstr "Mettre à jour"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "Activate %2$s"
+#~ msgstr "Désactiver l'utilisateur"
+
+#, fuzzy
+#~| msgid "An error occurred while adding products to wishlist."
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr ""
+#~ "Une erreur s'est produite lors de l'ajout de produits à la liste de "
+#~ "souhaits."
+
+#, fuzzy
+#~| msgid "User updated successfully"
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "Utilisateur mis à jour avec succès"
+
+#, fuzzy
+#~| msgid "Product added successfully"
+#~ msgid "%1$s installed successfully."
+#~ msgstr "Produit ajouté avec succès"
+
+#~ msgid "Please enter client key, client secret from Users -> Applications"
+#~ msgstr ""
+#~ "Ingrese la clave del cliente, el secreto del cliente de los usuarios -> "
+#~ "Aplicaciones"
+
+#~ msgid "[%s] Password Reset"
+#~ msgstr "[%s] Réinitialisation du mot de passe"
+
+#, fuzzy
+#~| msgid ""
+#~| "You can get a Google Maps API from <a href=\"%1$s\" target=\"_blank"
+#~| "\">here.</a>"
+#~ msgid ""
+#~ "How to create featured product <a href=\"%s\" target=\"_blank\">click "
+#~ "here</a>."
+#~ msgstr ""
+#~ "Puede obtener una API de Google Maps desde <a href=\"%1$s\" target="
+#~ "\"_blank\"> aquí. </a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "You can get a Google Maps API from <a href=\"%1$s\" target=\"_blank"
+#~| "\">here.</a>"
+#~ msgid ""
+#~ "How to create special deal products <a href=\"%s\" target=\"_blank"
+#~ "\">click here</a>."
+#~ msgstr ""
+#~ "Puede obtener una API de Google Maps desde <a href=\"%1$s\" target="
+#~ "\"_blank\"> aquí. </a>"
+
+#, fuzzy
+#~| msgid "Feature Box"
+#~ msgid "Feature Products"
+#~ msgstr "Boîte de caractéristiques"
+
+#, fuzzy
+#~| msgid "Categories menu items display on the home screen."
+#~ msgid "Feature products view display on the home screen."
+#~ msgstr ""
+#~ "Los elementos del menú de categorías se muestran en la pantalla de inicio."
+
+#, fuzzy
+#~| msgid "Banners displayed on the home screen."
+#~ msgid "Recent products view display on the home screen."
+#~ msgstr "Banners que se muestran en la pantalla de inicio."
+
+#, fuzzy
+#~| msgid "Categories menu items display on the home screen."
+#~ msgid "Special deal products view display on the home screen."
+#~ msgstr ""
+#~ "Los elementos del menú de categorías se muestran en la pantalla de inicio."
+
+#, fuzzy
+#~| msgid "Banners displayed on the home screen."
+#~ msgid "Popular products view display on the home screen."
+#~ msgstr "Banners que se muestran en la pantalla de inicio."
+
+#, fuzzy
+#~| msgid "Feature Box"
+#~ msgid "Top Rated Products"
+#~ msgstr "Boîte de caractéristiques"
+
+#, fuzzy
+#~| msgid "Categories menu items display on the home screen."
+#~ msgid "Top Rated products view display on the home screen."
+#~ msgstr ""
+#~ "Los elementos del menú de categorías se muestran en la pantalla de inicio."
+
+#~ msgid "Requires the following plugins to be activated"
+#~ msgstr "Nécessite les plugins suivants à activer"
+
+#~ msgid "Please"
+#~ msgstr "S'il vous plaît"
+
+#~ msgid "install / activate"
+#~ msgstr "installer / activer"
+
+#~ msgid "plugin"
+#~ msgstr "brancher"
+
+#, fuzzy
+#~| msgid "Deactivate User"
+#~ msgid "activate"
+#~ msgstr "Désactiver l'utilisateur"
+
+#~ msgid "Your cart is empty."
+#~ msgstr "Votre panier est vide."
+
+#, fuzzy
+#~| msgid "Sorry, you must be logged in to comment."
+#~ msgid "You must be logged in to checkout."
+#~ msgstr "Lo sentimos, debes iniciar sesión para comentar."
+
+#~ msgid "Your order"
+#~ msgstr "Votre commande"
+
+#~ msgid "billing"
+#~ msgstr "facturation"
+
+#~ msgid "shipping"
+#~ msgstr "livraison"
+
+#~ msgid "order"
+#~ msgstr "ordre"
+
+#~ msgid "payment"
+#~ msgstr "Paiement"
+
+#, fuzzy
+#~| msgid "Please enter your name"
+#~ msgid "Click here to enter your code"
+#~ msgstr "S'il vous plaît entrez votre nom"
+
+#, fuzzy
+#~| msgid "No orders found"
+#~ msgid "Coupon code"
+#~ msgstr "Aucune commande trouvée"
+
+#, fuzzy
+#~| msgid "Product added!"
+#~ msgid "Product"
+#~ msgstr "Produit ajouté!"
+
+#, fuzzy
+#~| msgid "Checkout Page"
+#~ msgid "Checkout Multi-Step"
+#~ msgstr "Page de paiement"
+
+#, fuzzy
+#~| msgid "Product added!"
+#~ msgid "Products Carousel"
+#~ msgstr "Produit ajouté!"
+
+#~ msgid "Enter a value for this field"
+#~ msgstr "Entrez une valeur pour ce champ"
+
+#~ msgid "Abandoned From"
+#~ msgstr "Abandonado de"
+
+#~ msgid "Abandon cart alert!"
+#~ msgstr "¡Abandonar alerta de carrito!"
+
+#, fuzzy
+#~| msgid "Something went wrong!"
+#~ msgid "Somthing went wrong!"
+#~ msgstr "Quelque chose s'est mal passé!"
+
+#~ msgid "PGS Woo Api working fine"
+#~ msgstr "PGS Woo Api fonctionne bien"
+
+#~ msgid "Click on icon for generate credentials code."
+#~ msgstr "Cliquez sur l'icône pour générer le code d'identification."
+
+#, fuzzy
+#~| msgid "App URL"
+#~ msgid "App Logo"
+#~ msgstr "App URL"
+
+#, fuzzy
+#~| msgid "Upload a custom image for your user profile"
+#~ msgid "Upload Logo image for app only"
+#~ msgstr "Importer une image personnalisée pour votre profil utilisateur"
+
+#~ msgid ""
+#~ "Upload Light Logo image for app only. if want to use dark and light logo "
+#~ "image."
+#~ msgstr ""
+#~ "Télécharger l'image du logo Light pour l'application uniquement. si vous "
+#~ "voulez utiliser l'image du logo sombre et léger."
+
+#~ msgid "Main Category"
+#~ msgstr "Catégorie principale"
+
+#~ msgid "Select main app menu category"
+#~ msgstr "Sélectionnez la catégorie de menu principale de l'application"
+
+#~ msgid "Select banner ad category"
+#~ msgstr "Sélectionner une bannière publicitaire"
+
+#~ msgid "Terms of Use"
+#~ msgstr "Conditions d'utilisation"
+
+#~ msgid "Enable / Disable Feature Box"
+#~ msgstr "Activer / Désactiver la boîte de fonction"
+
+#~ msgid "Submit"
+#~ msgstr "Soumettre"
+
+#~ msgid ""
+#~ "This is App Checkout page used in Application checkout process. This page "
+#~ "created by PGS Woo Api plugin. Please do not delete this page"
+#~ msgstr ""
+#~ "Il s'agit de la page de validation de l'application utilisée dans le "
+#~ "processus de paiement de l'application. Cette page est créée par PGS Woo "
+#~ "Api plugin. S'il vous plaît ne pas supprimer cette page"
+
+#~ msgid "Please enter auth details in setting page"
+#~ msgstr ""
+#~ "Veuillez entrer les détails d'authentification dans la page de "
+#~ "configuration"
+
+#~ msgid "Info Pages"
+#~ msgstr "Pages d'informations"
+
+#~ msgid "Add Info Pages"
+#~ msgstr "Ajouter des pages d'informations"
+
+#~ msgid "An error occured! "
+#~ msgstr "Une erreur est survenue! "
